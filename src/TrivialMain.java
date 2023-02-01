@@ -5,6 +5,8 @@ public class TrivialMain {
 		TrivialClass trivial = new TrivialClass();
 		trivial.setVisible(true);
 
+		
+		
 	}
 
 }
