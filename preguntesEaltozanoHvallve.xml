@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preguntas>
+    <pregunta>
+      <texto>¿Qué año murió la Reina Isabel II?</texto>
+      <respuestas>
+        <correcta>2022</correcta>
+        <incorrecta>1939</incorrecta>
+        <incorrecta>2021</incorrecta>
+        <incorrecta>No ha muerto, es un reptiliano</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Donde está ubicado el instituto Jaume Huguet?</texto>
+      <respuestas>
+        <correcta>Valls</correcta>
+        <incorrecta>Tarragona</incorrecta>
+        <incorrecta>Afganistan</incorrecta>
+        <incorrecta>Alcover</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cuál es el videojuego más vendido de la historia?</texto>
+      <respuestas>
+        <correcta>Minecraft</correcta>
+        <incorrecta>Tetris</incorrecta>
+        <incorrecta>Grand Theft Auto V</incorrecta>
+        <incorrecta>Wii Sports</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Qué elemento de la tabla periódica tiene como símbolo He?</texto>
+      <respuestas>
+        <correcta>Helio</correcta>
+        <incorrecta>Oxígeno</incorrecta>
+        <incorrecta>Oro</incorrecta>
+        <incorrecta>Ese elemento no existe</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cuál es el órgano más grande del ser humano?</texto>
+      <respuestas>
+        <correcta>La piel</correcta>
+        <incorrecta>El hígado</incorrecta>
+        <incorrecta>El cerebro</incorrecta>
+        <incorrecta>El intestino delgado</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Qué significa "Google"?</texto>
+      <respuestas>
+        <correcta>es el número 10 elevado a la potencia de 100</correcta>
+        <incorrecta>Se refiere a la palabra gafas</incorrecta>
+        <incorrecta>No tiene significado</incorrecta>
+        <incorrecta>En honor a su creador</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cual es el país mas endeudado de Europa?</texto>
+      <respuestas>
+        <correcta>España</correcta>
+        <incorrecta>Italia</incorrecta>
+        <incorrecta>Alemania</incorrecta>
+        <incorrecta>Países Bajos</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cuantas combinaciones se puede hacer con un cubo de rubik de 3x3?</texto>
+      <respuestas>
+        <correcta>43.252.003.274.489.856.000</correcta>
+        <incorrecta>324.234</incorrecta>
+        <incorrecta>564.345.312.006</incorrecta>
+        <incorrecta>10</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿En que año salio Android?</texto>
+      <respuestas>
+        <correcta>2003</correcta>
+        <incorrecta>2069</incorrecta>
+        <incorrecta>2011</incorrecta>
+        <incorrecta>1680</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Quien fundó Twitter?</texto>
+      <respuestas>
+        <correcta>Jack Dorsey</correcta>
+        <incorrecta>Elon Musk</incorrecta>
+        <incorrecta>Steve Jobs</incorrecta>
+        <incorrecta>Jeff Bezos</incorrecta>
+      </respuestas>
+    </pregunta>
+</preguntas>
