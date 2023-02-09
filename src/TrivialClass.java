@@ -1,3 +1,4 @@
+import java.awt.Button;
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -37,6 +38,11 @@ public class TrivialClass extends JFrame {
 
 		tablero.setLayout(new GridLayout(2, 1));
 		panel.setLayout(new GridBagLayout());
+		
+		GridBagConstraints posicionBoton = new GridBagConstraints();
+		posicionBoton.gridx = 0;
+		posicionBoton.gridy = 0;
+		posicionBoton.insets = new Insets(0, 0, -200, 0);
 
 		GridBagConstraints tableroConstraint = new GridBagConstraints();
 		tableroConstraint.gridx = 0;
@@ -93,7 +99,7 @@ public class TrivialClass extends JFrame {
 			jugador1 = ImageIO.read(new File("caballo.PNG"));
 			jugador2 = ImageIO.read(new File("caballo2.PNG"));
 			pasto = ImageIO.read(new File("pasto.jpg"));
-			meta = ImageIO.read(new File("pasto.jpg"));
+			meta = ImageIO.read(new File("meta.jpg"));
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -121,12 +127,20 @@ public class TrivialClass extends JFrame {
 		imagenesJugador1[0] = new JLabel(new ImageIcon(jugador1));
 		imagenesJugador2[0] = new JLabel(new ImageIcon(jugador2));
 
-		for (int i = 1; i < imagenesJugador1.length; i++) {
+		for (int i = 1; i < (imagenesJugador1.length - 1) ; i++) {
 
 			imagenesJugador1[i] = new JLabel(new ImageIcon(pasto));
 			imagenesJugador2[i] = new JLabel(new ImageIcon(pasto));
 
 		}
+		imagenesJugador1[7] = new JLabel(new ImageIcon(meta));
+		imagenesJugador2[7] = new JLabel(new ImageIcon(meta));
+		
+		
+		Button botonPregunta = new Button("Preguntas");
+		botonPregunta.setPreferredSize(new Dimension(10, 10));
+		botonPregunta.setBackground(Color.decode("#CDFA4A"));
+		botonPregunta.setFont(new Font("Sans-Serif", Font.BOLD, 18));
 
 		for (int i = 0; i < imagenesJugador1.length; i++) {
 			imagenesJugador1[i].setPreferredSize(new Dimension(100, 40));
@@ -136,6 +150,7 @@ public class TrivialClass extends JFrame {
 			imagenesJugador2[i].setPreferredSize(new Dimension(100, 40));
 			tablero.add(imagenesJugador2[i], tableroConstraint);
 		}
+		panel.add(botonPregunta, posicionBoton);
 		tablero.setBorder(bordeTablero);
 		tablero.setPreferredSize(new Dimension(100, 100));
 
@@ -148,6 +163,7 @@ public class TrivialClass extends JFrame {
 		cp.add(panelTextoPuntuacion, posicionPuntuacion);
 		cp.add(panelTextoTurno, posicionTurno);
 		cp.add(tablero, posicionTablero);
+		cp.add(botonPregunta, posicionBoton);
 
 	}
 
