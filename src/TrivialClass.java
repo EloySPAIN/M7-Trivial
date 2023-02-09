@@ -1,6 +1,7 @@
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.GridLayout;
@@ -67,11 +68,18 @@ public class TrivialClass extends JFrame {
 		posicionPanel.gridy = 0;
 		posicionPanel.insets = new Insets(0, 0, 320, 150);
 
+		int turno = 0, puntuacionJugador1 = 0, puntuacionJugador2 = 0;
 		JLabel textoJugador = new JLabel(" Jugador: asdasd ");
-		JLabel textoTurno = new JLabel("Turno: ");
-		JLabel textoPuntuacion = new JLabel("Puntuacion: ");
+		JLabel textoTurno = new JLabel("Turno: " + turno);
+		JLabel textoPuntuacion = new JLabel("Puntuacion: Jugador1 " + puntuacionJugador1 + " Jugador2 " + puntuacionJugador2);
+
+		textoJugador.setFont(new Font("Sans-Serif", Font.BOLD, 18));
+		textoTurno.setFont(new Font("Sans-Serif", Font.BOLD, 18));
+		textoPuntuacion.setFont(new Font("Sans-Serif", Font.BOLD, 18));
 
 		JPanel panelTextoJugador = new JPanel();
+		panelTextoJugador.setBackground(Color.decode("#CDFA4A"));
+
 		Border borde = BorderFactory.createLineBorder(Color.black);
 		panelTextoJugador.setLayout(new GridBagLayout());
 		panelTextoJugador.setBorder(borde);
@@ -93,14 +101,14 @@ public class TrivialClass extends JFrame {
 		}
 
 		JPanel panelTextoTurno = new JPanel();
-
-		panelTextoTurno.setBackground(Color.decode("#EEF9CD"));
+		
+		panelTextoTurno.setBackground(Color.decode("#CDFA4A"));
 		panelTextoTurno.setBorder(borde);
 		panelTextoTurno.add(textoTurno);
 
 		JPanel panelTextoPuntuacion = new JPanel();
 
-		panelTextoPuntuacion.setBackground(Color.decode("#EEF9CD"));
+		panelTextoPuntuacion.setBackground(Color.decode("#CDFA4A"));
 		panelTextoPuntuacion.setBorder(borde);
 		panelTextoPuntuacion.add(textoPuntuacion);
 
