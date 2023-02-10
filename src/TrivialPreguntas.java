@@ -1,4 +1,3 @@
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -6,10 +5,11 @@ import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.awt.GridLayout;
 import java.awt.Insets;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -29,11 +29,9 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import javafx.scene.layout.BorderWidths;
-
 @SuppressWarnings("serial")
 public class TrivialPreguntas extends JFrame {
-	private int time = 60;
+	private int time = 60, eRand;
 	private JPanel panel = new JPanel();
 	private JPanel subPanel = new JPanel();
 	private JPanel respuestasPanel = new JPanel();
@@ -46,11 +44,10 @@ public class TrivialPreguntas extends JFrame {
 	private JButton respuesta4 = new JButton("hola4");
 	private JButton enviar = new JButton("Enviar respuesta");
 	private JLabel mensajeAcierto_Falso = new JLabel("acierto");
-	private String[] respuestas = new String[4];
-	private String res1;
-	private String res2;
-	private String res3;
-	private String res4;
+	private ArrayList<String> respuestas = new ArrayList<String>();
+	private ArrayList<String> respuestasOrdSorted = new ArrayList<String>();
+	Random random = new Random();
+	boolean encontrado = true;
 
 
 	TrivialPreguntas() throws ParserConfigurationException, SAXException, IOException {
@@ -207,21 +204,42 @@ public class TrivialPreguntas extends JFrame {
 		
 		NodeList pregNodo = document.getElementsByTagName("pregunta");
 		
-		if(pregNodo.item(7).getNodeType() == Node.ELEMENT_NODE){
-            Element elm = (Element)pregNodo.item(7);
+		if(pregNodo.item(0).getNodeType() == Node.ELEMENT_NODE){
+            Element elm = (Element)pregNodo.item(0);
             String pregXml = getNodo("texto", elm);
             pregunta.setText(pregXml);
             
-            res1 = elm.getElementsByTagName("correcta").item(0).getTextContent();
-            res2 = elm.getElementsByTagName("incorrecta").item(0).getTextContent();
-            res3 = elm.getElementsByTagName("incorrecta").item(1).getTextContent();
-            res4 = elm.getElementsByTagName("incorrecta").item(2).getTextContent();
+            respuestas.add(elm.getElementsByTagName("correcta").item(0).getTextContent());
+            respuestas.add(elm.getElementsByTagName("incorrecta").item(0).getTextContent());
+            respuestas.add(elm.getElementsByTagName("incorrecta").item(1).getTextContent());
+            respuestas.add(elm.getElementsByTagName("incorrecta").item(2).getTextContent());
             
-            respuesta1.setText(elm.getElementsByTagName("correcta").item(0).getTextContent());
-            respuesta2.setText(elm.getElementsByTagName("incorrecta").item(0).getTextContent());
-            respuesta3.setText(elm.getElementsByTagName("incorrecta").item(1).getTextContent());
-            respuesta4.setText(elm.getElementsByTagName("incorrecta").item(2).getTextContent());
+            System.out.println(respuestas);
             
+            
+            
+            for(int i = 0; i<respuestas.size(); i++) {
+            	eRand = random.nextInt(respuestas.size());
+                String target = respuestas.get(eRand);
+                
+                while(encontrado) {
+	                if(!respuestasOrdSorted.contains(target)) {
+	                	respuestasOrdSorted.add(target);
+	                	encontrado = false;
+	                	break;
+	                }else {
+	                	encontrado = true;
+	                }
+                }
+                encontrado = true;
+            }
+            
+            System.out.println(respuestasOrdSorted);
+            
+            respuesta1.setText(respuestasOrdSorted.get(0));
+            respuesta2.setText(respuestasOrdSorted.get(1));
+            respuesta3.setText(respuestasOrdSorted.get(2));
+//            respuesta4.setText(respuestasOrdSorted.get(3)); 
 		}
 		
 
