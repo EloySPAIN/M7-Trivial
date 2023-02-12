@@ -6,18 +6,23 @@ import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import javax.swing.AbstractButton;
 import javax.swing.BorderFactory;
-import javax.swing.JButton;
+import javax.swing.ButtonGroup;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JToggleButton;
 import javax.swing.border.Border;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -31,19 +36,22 @@ import org.xml.sax.SAXException;
 
 @SuppressWarnings("serial")
 public class TrivialPreguntas extends JFrame {
-	private int time = 60, eRand, cont = 0;
+	private int time = 30, eRand;
+	private boolean selected = false;
+	private AbstractButton btn;
 	private JPanel panel = new JPanel();
 	private JPanel subPanel = new JPanel();
 	private JPanel respuestasPanel = new JPanel();
 	private JPanel tiempo = new JPanel();
 	private JLabel pregunta = new JLabel();
 	private JLabel tiempoLabel = new JLabel();
-	private JButton respuesta1 = new JButton("holaa");
-	private JButton respuesta2 = new JButton("hola2");
-	private JButton respuesta3 = new JButton("hola3");
-	private JButton respuesta4 = new JButton("hola4");
-	private JButton enviar = new JButton("Enviar respuesta");
-	private JLabel mensajeAcierto_Falso = new JLabel("acierto");
+	private JToggleButton respuesta1 = new JToggleButton("holaa");
+	private JToggleButton respuesta2 = new JToggleButton("hola2");
+	private JToggleButton respuesta3 = new JToggleButton("hola3");
+	private JToggleButton respuesta4 = new JToggleButton("hola4");
+	ButtonGroup grupoBtn = new ButtonGroup();
+	private JToggleButton enviar = new JToggleButton("Enviar respuesta");
+	private JLabel mensajeAcierto_Falso = new JLabel("");
 	private ArrayList<String> respuestas = new ArrayList<String>();
 	private ArrayList<String> respuestasOrdSorted = new ArrayList<String>();
 
@@ -137,26 +145,35 @@ public class TrivialPreguntas extends JFrame {
 				tiempoLabel.setText("" + time);
 				time--;
 
+				if (time < 0 && selected != true) {
+					for (Enumeration<AbstractButton> buttons = grupoBtn.getElements(); buttons.hasMoreElements();) {
+			            btn = buttons.nextElement();
+			            if(btn.getText().equals(respuestas.get(0))) {
+			            	btn.setBackground(Color.GREEN);
+			            } else {
+			            	btn.setBackground(Color.decode("#F2A181"));
+			            }
+					}
+					deshabilitar();
+					clear();
+					timer.cancel();
+					mensajeAcierto_Falso.setForeground(Color.RED);
+        			mensajeAcierto_Falso.setText("Tiempo acabado, la respuesta correcta era: " + respuestas.get(0));
+					tiempoLabel.setText("0");
+				}
+				
+				if(selected == true) {
+					timer.cancel();
+				}
+				
 				if (time < 0) {
 					timer.cancel();
-					tiempoLabel.setText("0");
 				}
 
 			}
 		}, 0, 1000);
 
-		// Se utilizara mas adelante
 
-//		timer.scheduleAtFixedRate(new TimerTask() {
-//			public void run() {
-//				if(time < 0) {
-//					timer.cancel();
-//					System.out.println("hoa");
-//					tiempoLabel.setText("0");
-//				}
-//				
-//			}
-//		}, 0, 1000);
 
 		subPanel.add(pregunta);
 
@@ -180,7 +197,6 @@ public class TrivialPreguntas extends JFrame {
 		respuesta4.setPreferredSize(new Dimension(400, 40));
 		respuesta4.setBackground(Color.decode("#EEF9CD"));
 
-		mensajeAcierto_Falso.setForeground(Color.decode("#00BB08"));
 		enviar.setBackground(Color.decode("#CDFA4A"));
 
 		tiempoLabel.setFont(new Font("Sans-Serif", Font.BOLD, 18));
@@ -216,26 +232,38 @@ public class TrivialPreguntas extends JFrame {
 
 			System.out.println(respuestas);
 				
-			// Ordena las preguntas aleatoriamente
+			// Ordena las preguntas aleatoriamente al array de respuestasOrdSorted cogiendolo del array de respuestas
 				for (int i = 0; i < respuestas.size(); i++) {
 					eRand = random.nextInt(respuestas.size());
-					String target = respuestas.get(eRand);
-					if(!respuestasOrdSorted.contains(target)) {
-						respuestasOrdSorted.add(target);
+					String res = respuestas.get(eRand);
+					if(!respuestasOrdSorted.contains(res)) {
+						respuestasOrdSorted.add(res);
 	                }else {
 	                	i--;
 	                }
 				}
 			
-
 			System.out.println(respuestasOrdSorted);
 
+			// Sete
             respuesta1.setText(respuestasOrdSorted.get(0));
             respuesta2.setText(respuestasOrdSorted.get(1));
             respuesta3.setText(respuestasOrdSorted.get(2));
-            respuesta4.setText(respuestasOrdSorted.get(3)); 
+            respuesta4.setText(respuestasOrdSorted.get(3));
 
 		}
+		
+		grupoBtn.add(respuesta1);
+		grupoBtn.add(respuesta2);
+		grupoBtn.add(respuesta3);
+		grupoBtn.add(respuesta4);
+		
+		
+		respuesta1.addItemListener(actionListener);
+		respuesta2.addItemListener(actionListener);
+		respuesta3.addItemListener(actionListener);
+		respuesta4.addItemListener(actionListener);
+		enviar.addItemListener(actionListener);
 
 		cp.add(subPanel, espacioSubPanel);
 		cp.add(panel, espacioPregunta);
@@ -249,6 +277,57 @@ public class TrivialPreguntas extends JFrame {
 		repaint();
 
 	}
+	
+	
+	ItemListener actionListener = new ItemListener() {
+		@Override
+		public void itemStateChanged(ItemEvent ev) {
+
+			// Recorre cada elemento del grupo indicado y se le asigna al boton abstracto
+			for (Enumeration<AbstractButton> buttons = grupoBtn.getElements(); buttons.hasMoreElements();) {
+	            btn = buttons.nextElement();
+
+	            // Coge el boton selecionado y comprueba si es el correcto
+	            if (ev.getSource()==enviar) {
+	            	if(btn.isSelected()) {
+	            		if(btn.getText().equals(respuestas.get(0))) {
+	            			mensajeAcierto_Falso.setForeground(Color.decode("#00BB08"));
+	            			mensajeAcierto_Falso.setText("Correcto");
+	            			selected = true;
+	            		} else {
+	            			mensajeAcierto_Falso.setForeground(Color.RED);
+	            			mensajeAcierto_Falso.setText("Fallo");
+	            			selected = true;
+	            		}
+	            		if(!btn.getText().equals(respuestas.get(0))) {
+		 	            	btn.setBackground(Color.decode("#F2A181"));
+		 	            }
+	            		clear();
+	    			}
+	            	
+	            	if(!btn.isSelected()) {
+	            		if(btn.getText().equals(respuestas.get(0))) {
+	            			btn.setBackground(Color.GREEN);
+		 	            } 
+	            	}
+	            	
+	            	deshabilitar();
+	            }
+	           
+	        }
+		}
+	};
+	
+	private void clear() {
+		grupoBtn.clearSelection();
+		enviar.setSelected(false);
+	}
+	
+	private void deshabilitar() {
+		btn.setEnabled(false);
+		enviar.setEnabled(false);
+	}
+	
 
 	private static String getNodo(String etiqueta, Element elem) {
 		NodeList nodo = elem.getElementsByTagName(etiqueta).item(0).getChildNodes();
