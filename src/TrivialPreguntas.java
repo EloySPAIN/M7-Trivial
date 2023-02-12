@@ -31,7 +31,7 @@ import org.xml.sax.SAXException;
 
 @SuppressWarnings("serial")
 public class TrivialPreguntas extends JFrame {
-	private int time = 60, eRand;
+	private int time = 60, eRand, cont = 0;
 	private JPanel panel = new JPanel();
 	private JPanel subPanel = new JPanel();
 	private JPanel respuestasPanel = new JPanel();
@@ -46,9 +46,11 @@ public class TrivialPreguntas extends JFrame {
 	private JLabel mensajeAcierto_Falso = new JLabel("acierto");
 	private ArrayList<String> respuestas = new ArrayList<String>();
 	private ArrayList<String> respuestasOrdSorted = new ArrayList<String>();
+
+//	private String[] respuestas = new String[4];
+//	private String[] respuestasOrdSorted = new String[4];
 	Random random = new Random();
 	boolean encontrado = true;
-
 
 	TrivialPreguntas() throws ParserConfigurationException, SAXException, IOException {
 		super("Pregunta");
@@ -64,9 +66,8 @@ public class TrivialPreguntas extends JFrame {
 
 		panel.setLayout(new GridBagLayout());
 		tiempo.setLayout(new GridBagLayout());
-		subPanel.setLayout(new FlowLayout(FlowLayout.LEFT,7,15));
+		subPanel.setLayout(new FlowLayout(FlowLayout.LEFT, 7, 15));
 		respuestasPanel.setLayout(new GridBagLayout());
-
 
 		GridBagConstraints espacioRespuestas = new GridBagConstraints();
 		espacioRespuestas.gridx = 0;
@@ -157,7 +158,6 @@ public class TrivialPreguntas extends JFrame {
 //			}
 //		}, 0, 1000);
 
-
 		subPanel.add(pregunta);
 
 		respuestasPanel.setBorder(blackline);
@@ -179,10 +179,10 @@ public class TrivialPreguntas extends JFrame {
 		respuestasPanel.add(respuesta4, pr4);
 		respuesta4.setPreferredSize(new Dimension(400, 40));
 		respuesta4.setBackground(Color.decode("#EEF9CD"));
-		
+
 		mensajeAcierto_Falso.setForeground(Color.decode("#00BB08"));
 		enviar.setBackground(Color.decode("#CDFA4A"));
-		
+
 		tiempoLabel.setFont(new Font("Sans-Serif", Font.BOLD, 18));
 		mensajeAcierto_Falso.setFont(new Font("Sans-Serif", Font.BOLD, 14));
 		enviar.setFont(new Font("Sans-Serif", Font.BOLD, 14));
@@ -191,57 +191,51 @@ public class TrivialPreguntas extends JFrame {
 		respuesta2.setFont(new Font("Sans-Serif", Font.BOLD, 14));
 		respuesta3.setFont(new Font("Sans-Serif", Font.BOLD, 14));
 		respuesta4.setFont(new Font("Sans-Serif", Font.BOLD, 14));
-		
+
 		enviar.setFocusPainted(false);
 		respuesta1.setFocusPainted(false);
 		respuesta2.setFocusPainted(false);
 		respuesta3.setFocusPainted(false);
 		respuesta4.setFocusPainted(false);
-		
+
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
 		Document document = builder.parse(new File("preguntesEaltozanoHvallve.xml"));
-		
+
 		NodeList pregNodo = document.getElementsByTagName("pregunta");
-		
-		if(pregNodo.item(0).getNodeType() == Node.ELEMENT_NODE){
-            Element elm = (Element)pregNodo.item(0);
-            String pregXml = getNodo("texto", elm);
-            pregunta.setText(pregXml);
-            
+
+		if (pregNodo.item(0).getNodeType() == Node.ELEMENT_NODE) {
+			Element elm = (Element) pregNodo.item(0);
+			String pregXml = getNodo("texto", elm);
+			pregunta.setText(pregXml);
+
             respuestas.add(elm.getElementsByTagName("correcta").item(0).getTextContent());
             respuestas.add(elm.getElementsByTagName("incorrecta").item(0).getTextContent());
             respuestas.add(elm.getElementsByTagName("incorrecta").item(1).getTextContent());
             respuestas.add(elm.getElementsByTagName("incorrecta").item(2).getTextContent());
-            
-            System.out.println(respuestas);
-            
-            
-            
-            for(int i = 0; i<respuestas.size(); i++) {
-            	eRand = random.nextInt(respuestas.size());
-                String target = respuestas.get(eRand);
-                
-                while(encontrado) {
-	                if(!respuestasOrdSorted.contains(target)) {
-	                	respuestasOrdSorted.add(target);
-	                	encontrado = false;
-	                	break;
+
+			System.out.println(respuestas);
+				
+			// Ordena las preguntas aleatoriamente
+				for (int i = 0; i < respuestas.size(); i++) {
+					eRand = random.nextInt(respuestas.size());
+					String target = respuestas.get(eRand);
+					if(!respuestasOrdSorted.contains(target)) {
+						respuestasOrdSorted.add(target);
 	                }else {
-	                	encontrado = true;
+	                	i--;
 	                }
-                }
-                encontrado = true;
-            }
-            
-            System.out.println(respuestasOrdSorted);
-            
+				}
+			
+
+			System.out.println(respuestasOrdSorted);
+
             respuesta1.setText(respuestasOrdSorted.get(0));
             respuesta2.setText(respuestasOrdSorted.get(1));
             respuesta3.setText(respuestasOrdSorted.get(2));
-//            respuesta4.setText(respuestasOrdSorted.get(3)); 
+            respuesta4.setText(respuestasOrdSorted.get(3)); 
+
 		}
-		
 
 		cp.add(subPanel, espacioSubPanel);
 		cp.add(panel, espacioPregunta);
@@ -255,13 +249,11 @@ public class TrivialPreguntas extends JFrame {
 		repaint();
 
 	}
-	
-	private static String getNodo (String etiqueta, Element elem) {
+
+	private static String getNodo(String etiqueta, Element elem) {
 		NodeList nodo = elem.getElementsByTagName(etiqueta).item(0).getChildNodes();
 		Node valNodo = (Node) nodo.item(0);
 		return valNodo.getNodeValue();
 	}
-	
-	
 
 }
