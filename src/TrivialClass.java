@@ -201,14 +201,15 @@ public class TrivialClass extends JFrame {
 
 			}
 			if (posicionJugador1 == 7) {
-
 				imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugadorMeta1));
-				FiDeJoc fiDeJoc = new FiDeJoc("Hector");
+				FiDeJoc fiDeJoc = new FiDeJoc();
+				fiDeJoc.setText(nombreJugador1);
 				fiDeJoc.setVisible(true);
 			}
 			if(posicionJugador2 == 7) {
 				imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
-				FiDeJoc fiDeJoc = new FiDeJoc("Hector");
+				FiDeJoc fiDeJoc = new FiDeJoc();
+				fiDeJoc.setText(nombreJugador2);
 				fiDeJoc.setVisible(true);
 			}
 			turno++;
