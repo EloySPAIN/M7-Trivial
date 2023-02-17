@@ -35,8 +35,8 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 @SuppressWarnings("serial")
-public class TrivialPreguntas extends JFrame {
-	private int time = 30, eRand;
+public class TrivialPreguntas {
+	private int time = 30, eRand, numPregunta=0;
 	private boolean selected = false;
 	private AbstractButton btn;
 	private JPanel panel = new JPanel();
@@ -54,21 +54,35 @@ public class TrivialPreguntas extends JFrame {
 	private JLabel mensajeAcierto_Falso = new JLabel("");
 	private ArrayList<String> respuestas = new ArrayList<String>();
 	private ArrayList<String> respuestasOrdSorted = new ArrayList<String>();
+	private ArrayList<Integer> preguntas = new ArrayList<Integer>();
+	private ArrayList<Integer> preguntasRespondidas = new ArrayList<Integer>();
+	TrivialClass trivialClass = new TrivialClass();
+	
+	
+//	private ArrayList<PreguntasRespondidas> preguntasRespondidas = new ArrayList<PreguntasRespondidas>();
 
-//	private String[] respuestas = new String[4];
-//	private String[] respuestasOrdSorted = new String[4];
 	Random random = new Random();
 	boolean encontrado = true;
-
+	JFrame frame = new JFrame("Class");
+	
+	@SuppressWarnings("unlikely-arg-type")
 	TrivialPreguntas() throws ParserConfigurationException, SAXException, IOException {
-		super("Pregunta");
-		setSize(1200, 600);
-		setLocationRelativeTo(null);
-		setVisible(true);
-		setResizable(false);
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		super("Pregunta");
+//		setSize(1200, 600);
+//		setLocationRelativeTo(null);
+//		setVisible(true);
+//		setResizable(false);
+////		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		setDefaultCloseOperation(HIDE_ON_CLOSE);
+		
+		frame.setSize(1200, 600);
+		frame.setLocationRelativeTo(null);
+		frame.setVisible(true);
+		
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		Container cp = getContentPane();
+
+		Container cp = frame.getContentPane();
 		cp.setLayout(new GridBagLayout());
 		cp.setBackground(Color.decode("#EEF9CD"));
 
@@ -219,9 +233,34 @@ public class TrivialPreguntas extends JFrame {
 		Document document = builder.parse(new File("preguntesEaltozanoHvallve.xml"));
 
 		NodeList pregNodo = document.getElementsByTagName("pregunta");
+		for(int i = 0; i < pregNodo.getLength(); i++) {
+			preguntas.add(i);
+		}
+		
+		
+		eRand = random.nextInt(preguntas.size());
+		if(!preguntasRespondidas.contains(eRand)) {
+			preguntasRespondidas.add(eRand);
+			numPregunta = preguntas.get(eRand);
+			trivialClass.setId(eRand);
+//			trivialClass.dispose();
+        }
+//		System.out.println(preguntasRespondidas);
+		
+		
+//		eRand = random.nextInt(preguntas.size());
+//		if(!preguntasRespondidas.contains(eRand)) {
+////			for(int i = 0; i<preguntasRespondidas.size();i++) {
+//				preguntasRespondidas.add(new PreguntasRespondidas(eRand));
+//				numPregunta = preguntas.get(eRand);
+//				TrivialClass trivialClass = new TrivialClass();
+//				
+////	        }
+////			System.out.println(preguntasRespondidas.get(i).getCont());
+//		}
 
-		if (pregNodo.item(0).getNodeType() == Node.ELEMENT_NODE) {
-			Element elm = (Element) pregNodo.item(0);
+		if (pregNodo.item(numPregunta).getNodeType() == Node.ELEMENT_NODE) {
+			Element elm = (Element) pregNodo.item(numPregunta);
 			String pregXml = getNodo("texto", elm);
 			pregunta.setText(pregXml);
 
@@ -273,8 +312,8 @@ public class TrivialPreguntas extends JFrame {
 		cp.add(mensajeAcierto_Falso, espacioMessage);
 
 		// Recarga los jpanel (se utiliza para eliminar fallos de visualizacion)
-		revalidate();
-		repaint();
+		frame.revalidate();
+		frame.repaint();
 
 	}
 	
@@ -296,7 +335,7 @@ public class TrivialPreguntas extends JFrame {
 	            			selected = true;
 	            		} else {
 	            			mensajeAcierto_Falso.setForeground(Color.RED);
-	            			mensajeAcierto_Falso.setText("Fallo");
+	            			mensajeAcierto_Falso.setText("Fallo, la respuesta correcta es: " + respuestas.get(0));
 	            			selected = true;
 	            		}
 	            		if(!btn.getText().equals(respuestas.get(0))) {
@@ -312,8 +351,8 @@ public class TrivialPreguntas extends JFrame {
 	            	}
 	            	
 	            	deshabilitar();
+	            	dormir();
 	            }
-	           
 	        }
 		}
 	};
@@ -328,11 +367,43 @@ public class TrivialPreguntas extends JFrame {
 		enviar.setEnabled(false);
 	}
 	
+	private void dormir() {
+//		Timer timer = new Timer();
+//		time = 5;
+//
+//		timer.scheduleAtFixedRate(new TimerTask() {
+//			public void run() {
+//				time--;
+//				if (time < 0) {
+//					timer.cancel();
+//				}
+//
+//			}
+//		}, 0, 1000);
+//		this.dispose();
+		
+//		frame.setVisible(false);
+		
+		frame.dispose();
+
+	}
+	
+	public void getIds(int array[]) {
+		
+//		for(int i = 0; i <array.size(); i++) {
+//			preguntasRespondidas.add(array.get(i));	
+//		}
+		for(int i = 0; i <array.length; i++) {
+			System.out.println(array);
+			preguntasRespondidas.add(array[i]);	
+		}
+	}
 
 	private static String getNodo(String etiqueta, Element elem) {
 		NodeList nodo = elem.getElementsByTagName(etiqueta).item(0).getChildNodes();
 		Node valNodo = (Node) nodo.item(0);
 		return valNodo.getNodeValue();
 	}
+	
 
 }
