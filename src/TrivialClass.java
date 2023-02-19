@@ -13,6 +13,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Random;
 
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
@@ -26,7 +27,9 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
 
 public class TrivialClass extends JFrame {
-	private int turno = 0, posicionJugador1 = 0, posicionJugador2 = 0, puntuacionJugador1 = 0, puntuacionJugador2 = 0;
+	private int idPreguntas[] = new int[10];
+	private static int turno = 0, posicionJugador1 = 0, posicionJugador2 = 0, puntuacionJugador1 = 0,
+			puntuacionJugador2 = 0;
 	private String nombreJugador1 = "Hector", nombreJugador2 = "Eloy";
 	private JPanel tablero = new JPanel();
 	private BufferedImage jugador1 = null;
@@ -35,10 +38,10 @@ public class TrivialClass extends JFrame {
 	private BufferedImage jugadorMeta2 = null;
 	private BufferedImage pasto = null;
 	private BufferedImage meta = null;
+	Random random = new Random();
 
-	private ArrayList<Jugadores> infoJugadores = new ArrayList<>();
-	private JLabel imagenesJugador1[] = new JLabel[8];
-	private JLabel imagenesJugador2[] = new JLabel[8];
+	private static JLabel imagenesJugador1[] = new JLabel[8];
+	private static JLabel imagenesJugador2[] = new JLabel[8];
 
 	private JLabel textoJugador = new JLabel(" Jugador: " + nombreJugador1);
 	private JLabel textoTurno = new JLabel("Turno: " + turno);
@@ -185,26 +188,96 @@ public class TrivialClass extends JFrame {
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			synchronized (this) {
-			
+			crearPreguntas();
+//			try {
+//				TrivialPreguntas preguntas = new TrivialPreguntas();
+//
+//				preguntas.getIds(idPreguntas);
+//				if (turno % 2 == 1) {
+//
+//					System.out.println(preguntas.isAcierto());
+//					if (preguntas.isAcierto()) {
+//						if (posicionJugador1 <= 6) {
+//							imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(pasto));
+//							posicionJugador1++;
+//							imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugador1));
+//							puntuacionJugador1++;
+//						}else {
+//							posicionJugador1++;
+//						}
+//
+//					}
+//					textoJugador.setText("Jugador: " + nombreJugador2);
+//
+//				} else {
+//					System.out.println(preguntas.isAcierto());
+//					if (preguntas.isAcierto()) {
+//						imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(pasto));
+//						posicionJugador2++;
+//						imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugador2));
+//
+//						puntuacionJugador2++;
+//					}
+//					textoJugador.setText("Jugador: " + nombreJugador1);
+//
+//				}
+//			} catch (ParserConfigurationException | SAXException | IOException e2) {
+//				// TODO Auto-generated catch block
+//				e2.printStackTrace();
+//			}
+//			textoPuntuacion.setText("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
+//					+ nombreJugador2 + ": " + puntuacionJugador2);
+//
+//			if (posicionJugador1 == 7) {
+//				imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugadorMeta1));
+//			}
+//
+//			if (posicionJugador2 == 7) {
+//				imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
+//			}
+//			
+//			if(posicionJugador1 == 7 && posicionJugador2 == 7) {
+//				FiDeJoc fiDeJoc = new FiDeJoc();
+//				fiDeJoc.setText("EMPATE");
+//				fiDeJoc.setVisible(true);
+//			}
+//			if (posicionJugador1 > 8) {
+//				FiDeJoc fiDeJoc = new FiDeJoc();
+//				fiDeJoc.setText(nombreJugador1);
+//				fiDeJoc.setVisible(true);
+//			}
+//			if (posicionJugador2 > 8) {
+//				FiDeJoc fiDeJoc = new FiDeJoc();
+//				fiDeJoc.setText(nombreJugador2);
+//				fiDeJoc.setVisible(true);
+//			}
+//			turno++;
+//			textoTurno.setText("Turno: " + Integer.toString(turno));
+//		}
+		}
+
+		public void crearPreguntas() {
 			try {
 				TrivialPreguntas preguntas = new TrivialPreguntas();
-				
-				if (turno % 2 == 0) {
 
-					wait(30000);
+				preguntas.getIds(idPreguntas);
+				if (turno % 2 == 1) {
+
 					System.out.println(preguntas.isAcierto());
 					if (preguntas.isAcierto()) {
-						imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(pasto));
-						posicionJugador1++;
-						imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugador1));
-						puntuacionJugador1++;
+						if (posicionJugador1 <= 6) {
+							imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(pasto));
+							posicionJugador1++;
+							imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugador1));
+							puntuacionJugador1++;
+						} else {
+							posicionJugador1++;
+						}
 
 					}
 					textoJugador.setText("Jugador: " + nombreJugador2);
 
 				} else {
-//					TrivialPreguntas preguntas = new TrivialPreguntas();
 					System.out.println(preguntas.isAcierto());
 					if (preguntas.isAcierto()) {
 						imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(pasto));
@@ -216,7 +289,7 @@ public class TrivialClass extends JFrame {
 					textoJugador.setText("Jugador: " + nombreJugador1);
 
 				}
-			} catch (ParserConfigurationException | SAXException | IOException | InterruptedException e2) {
+			} catch (ParserConfigurationException | SAXException | IOException e2) {
 				// TODO Auto-generated catch block
 				e2.printStackTrace();
 			}
@@ -225,19 +298,48 @@ public class TrivialClass extends JFrame {
 
 			if (posicionJugador1 == 7) {
 				imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugadorMeta1));
+			}
+
+			if (posicionJugador2 == 7) {
+				imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
+			}
+
+			if (posicionJugador1 == 7 && posicionJugador2 == 7) {
+				FiDeJoc fiDeJoc = new FiDeJoc();
+				fiDeJoc.setText("EMPATE");
+				fiDeJoc.setVisible(true);
+			}
+			if (posicionJugador1 > 8) {
 				FiDeJoc fiDeJoc = new FiDeJoc();
 				fiDeJoc.setText(nombreJugador1);
 				fiDeJoc.setVisible(true);
 			}
-			if (posicionJugador2 == 7) {
-				imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
+			if (posicionJugador2 > 8) {
 				FiDeJoc fiDeJoc = new FiDeJoc();
 				fiDeJoc.setText(nombreJugador2);
 				fiDeJoc.setVisible(true);
 			}
 			turno++;
 			textoTurno.setText("Turno: " + Integer.toString(turno));
-			}
 		}
 	}
+
+	public void setId(int id) {
+//		idPreguntas.add(id);
+		for (int i = 0; i < idPreguntas.length; i++) {
+			if (i == id) {
+				idPreguntas[i] = id;
+			}
+			System.out.println(idPreguntas[i]);
+		}
+	}
+
+	public int[] getIdPreguntas() {
+		return idPreguntas;
+	}
+
+	public void setIdPreguntas(int[] idPreguntas) {
+		this.idPreguntas = idPreguntas;
+	}
+
 }
