@@ -8,13 +8,7 @@ public class TrivialMain {
 
 	public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
 		TrivialClass trivial = new TrivialClass();
-		
-//		trivial.setVisible(true);
-		
-		
-		
-//		TrivialPreguntas pregunta = new TrivialPreguntas();
-//		pregunta.setVisible(true);
+		trivial.setVisible(true);
 	}
-
+  
 }
