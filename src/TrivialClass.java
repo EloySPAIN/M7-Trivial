@@ -28,7 +28,7 @@ import org.xml.sax.SAXException;
 
 public class TrivialClass extends JFrame {
 	private int idPreguntas[] = new int[10];
-	private static int turno = 0, posicionJugador1 = 0, posicionJugador2 = 0, puntuacionJugador1 = 0,
+	private int turno = 0, posicionJugador1 = 0, posicionJugador2 = 0, puntuacionJugador1 = 0,
 			puntuacionJugador2 = 0;
 	private String nombreJugador1 = "Hector", nombreJugador2 = "Eloy";
 	private JPanel tablero = new JPanel();
@@ -40,8 +40,8 @@ public class TrivialClass extends JFrame {
 	private BufferedImage meta = null;
 	Random random = new Random();
 
-	private static JLabel imagenesJugador1[] = new JLabel[8];
-	private static JLabel imagenesJugador2[] = new JLabel[8];
+	private JLabel imagenesJugador1[] = new JLabel[8];
+	private JLabel imagenesJugador2[] = new JLabel[8];
 
 	private JLabel textoJugador = new JLabel(" Jugador: " + nombreJugador1);
 	private JLabel textoTurno = new JLabel("Turno: " + turno);
@@ -155,7 +155,7 @@ public class TrivialClass extends JFrame {
 		botonPregunta.setPreferredSize(new Dimension(10, 10));
 		botonPregunta.setBackground(Color.decode("#CDFA4A"));
 		botonPregunta.setFont(new Font("Sans-Serif", Font.BOLD, 18));
-		botonPregunta.addActionListener(new EventAumentarPosicioJugador());
+//		botonPregunta.addActionListener(new EventAumentarPosicioJugador());
 
 		for (int i = 0; i < imagenesJugador1.length; i++) {
 			imagenesJugador1[i].setPreferredSize(new Dimension(100, 40));
@@ -179,148 +179,104 @@ public class TrivialClass extends JFrame {
 		cp.add(panelTextoTurno, posicionTurno);
 		cp.add(tablero, posicionTablero);
 		cp.add(botonPregunta, posicionBoton);
-
+		
+		botonPregunta.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				crearPreguntas();
+			}
+		});
 	}
+	
+	public void crearPreguntas() {
+		try {
+			TrivialPreguntas preguntas = new TrivialPreguntas();
 
-	// Recoger
-	class EventAumentarPosicioJugador implements ActionListener {
-		boolean acierto = false;
+			preguntas.getIds(idPreguntas);
+			if (turno % 2 == 1) {
 
-		@Override
-		public void actionPerformed(ActionEvent e) {
-			crearPreguntas();
-//			try {
-//				TrivialPreguntas preguntas = new TrivialPreguntas();
-//
-//				preguntas.getIds(idPreguntas);
-//				if (turno % 2 == 1) {
-//
-//					System.out.println(preguntas.isAcierto());
-//					if (preguntas.isAcierto()) {
-//						if (posicionJugador1 <= 6) {
-//							imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(pasto));
-//							posicionJugador1++;
-//							imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugador1));
-//							puntuacionJugador1++;
-//						}else {
-//							posicionJugador1++;
-//						}
-//
-//					}
-//					textoJugador.setText("Jugador: " + nombreJugador2);
-//
-//				} else {
-//					System.out.println(preguntas.isAcierto());
-//					if (preguntas.isAcierto()) {
-//						imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(pasto));
-//						posicionJugador2++;
-//						imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugador2));
-//
-//						puntuacionJugador2++;
-//					}
-//					textoJugador.setText("Jugador: " + nombreJugador1);
-//
-//				}
-//			} catch (ParserConfigurationException | SAXException | IOException e2) {
-//				// TODO Auto-generated catch block
-//				e2.printStackTrace();
-//			}
-//			textoPuntuacion.setText("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
-//					+ nombreJugador2 + ": " + puntuacionJugador2);
-//
-//			if (posicionJugador1 == 7) {
-//				imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugadorMeta1));
-//			}
-//
-//			if (posicionJugador2 == 7) {
-//				imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
-//			}
-//			
-//			if(posicionJugador1 == 7 && posicionJugador2 == 7) {
-//				FiDeJoc fiDeJoc = new FiDeJoc();
-//				fiDeJoc.setText("EMPATE");
-//				fiDeJoc.setVisible(true);
-//			}
-//			if (posicionJugador1 > 8) {
-//				FiDeJoc fiDeJoc = new FiDeJoc();
-//				fiDeJoc.setText(nombreJugador1);
-//				fiDeJoc.setVisible(true);
-//			}
-//			if (posicionJugador2 > 8) {
-//				FiDeJoc fiDeJoc = new FiDeJoc();
-//				fiDeJoc.setText(nombreJugador2);
-//				fiDeJoc.setVisible(true);
-//			}
-//			turno++;
-//			textoTurno.setText("Turno: " + Integer.toString(turno));
-//		}
+				System.out.println(preguntas.isAcierto());
+				if (preguntas.isAcierto()) {
+					moveP1();
+				}
+				textoJugador.setText("Jugador: " + nombreJugador2);
+
+			} else {
+				System.out.println(preguntas.isAcierto());
+				if (preguntas.isAcierto()) {
+					moveP2();
+				}
+				textoJugador.setText("Jugador: " + nombreJugador1);
+
+			}
+		} catch (ParserConfigurationException | SAXException | IOException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		textoPuntuacion.setText("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
+				+ nombreJugador2 + ": " + puntuacionJugador2);
+
+		if (posicionJugador1 == 7) {
+			imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugadorMeta1));
 		}
 
-		public void crearPreguntas() {
-			try {
-				TrivialPreguntas preguntas = new TrivialPreguntas();
+		if (posicionJugador2 == 7) {
+			imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
+		}
 
-				preguntas.getIds(idPreguntas);
-				if (turno % 2 == 1) {
+		if (posicionJugador1 >= 7 && posicionJugador2 >= 7) {
+			FiDeJoc fiDeJoc = new FiDeJoc();
+			fiDeJoc.setText("EMPATE");
+			fiDeJoc.setVisible(true);
+		}
+		if (posicionJugador1 > 8) {
+			FiDeJoc fiDeJoc = new FiDeJoc();
+			fiDeJoc.setText(nombreJugador1);
+			fiDeJoc.setVisible(true);
+		}
+		if (posicionJugador2 > 8) {
+			FiDeJoc fiDeJoc = new FiDeJoc();
+			fiDeJoc.setText(nombreJugador2);
+			fiDeJoc.setVisible(true);
+		}
+		turno++;
+		textoTurno.setText("Turno: " + Integer.toString(turno));
+	}
 
-					System.out.println(preguntas.isAcierto());
-					if (preguntas.isAcierto()) {
-						if (posicionJugador1 <= 6) {
-							imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(pasto));
-							posicionJugador1++;
-							imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugador1));
-							puntuacionJugador1++;
-						} else {
-							posicionJugador1++;
-						}
+	
+	// Recoger
+//	class EventAumentarPosicioJugador implements ActionListener {
+//		boolean acierto = false;
+//
+//		@Override
+//		public void actionPerformed(ActionEvent e) {
+//			crearPreguntas();
+//		}
+//
+//		
+//	}
+	
+	
 
-					}
-					textoJugador.setText("Jugador: " + nombreJugador2);
+	public void moveP1() {
+		if (posicionJugador1 <= 6) {
+			imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(pasto));
+			posicionJugador1++;
+			imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugador1));
+			puntuacionJugador1++;
+		} else {
+			posicionJugador1++;
+		}
+	}
 
-				} else {
-					System.out.println(preguntas.isAcierto());
-					if (preguntas.isAcierto()) {
-						imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(pasto));
-						posicionJugador2++;
-						imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugador2));
-
-						puntuacionJugador2++;
-					}
-					textoJugador.setText("Jugador: " + nombreJugador1);
-
-				}
-			} catch (ParserConfigurationException | SAXException | IOException e2) {
-				// TODO Auto-generated catch block
-				e2.printStackTrace();
-			}
-			textoPuntuacion.setText("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
-					+ nombreJugador2 + ": " + puntuacionJugador2);
-
-			if (posicionJugador1 == 7) {
-				imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugadorMeta1));
-			}
-
-			if (posicionJugador2 == 7) {
-				imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
-			}
-
-			if (posicionJugador1 == 7 && posicionJugador2 == 7) {
-				FiDeJoc fiDeJoc = new FiDeJoc();
-				fiDeJoc.setText("EMPATE");
-				fiDeJoc.setVisible(true);
-			}
-			if (posicionJugador1 > 8) {
-				FiDeJoc fiDeJoc = new FiDeJoc();
-				fiDeJoc.setText(nombreJugador1);
-				fiDeJoc.setVisible(true);
-			}
-			if (posicionJugador2 > 8) {
-				FiDeJoc fiDeJoc = new FiDeJoc();
-				fiDeJoc.setText(nombreJugador2);
-				fiDeJoc.setVisible(true);
-			}
-			turno++;
-			textoTurno.setText("Turno: " + Integer.toString(turno));
+	public void moveP2() {
+		if (posicionJugador2 <= 6) {
+			imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(pasto));
+			posicionJugador2++;
+			imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugador2));
+			puntuacionJugador2++;
+		} else {
+			puntuacionJugador2++;
 		}
 	}
 
@@ -341,5 +297,4 @@ public class TrivialClass extends JFrame {
 	public void setIdPreguntas(int[] idPreguntas) {
 		this.idPreguntas = idPreguntas;
 	}
-
 }

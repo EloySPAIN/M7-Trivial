@@ -67,14 +67,6 @@ public class TrivialPreguntas {
 	JFrame frame = new JFrame("Class");
 
 	TrivialPreguntas() throws ParserConfigurationException, SAXException, IOException {
-//		super("Pregunta");
-//		setSize(1200, 600);
-//		setLocationRelativeTo(null);
-//		setVisible(true);
-//		setResizable(false);
-////		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//		setDefaultCloseOperation(HIDE_ON_CLOSE);
-
 		frame.setSize(1200, 600);
 		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
@@ -365,7 +357,6 @@ public class TrivialPreguntas {
 	            	}
 	            	
 	            	deshabilitar();
-//	            	dormir();
 	            }
 	        }
 		}
