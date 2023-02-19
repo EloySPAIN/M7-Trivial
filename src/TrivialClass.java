@@ -9,6 +9,7 @@ import java.awt.GridLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ItemListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -20,11 +21,13 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JTextField;
 import javax.swing.border.Border;
 
 public class TrivialClass extends JFrame {
 	private int turno = 0, posicionJugador1 = 0, posicionJugador2 = 0, puntuacionJugador1 = 0, puntuacionJugador2 = 0;
-	private String nombreJugador1 = "Hector", nombreJugador2 = "Eloy";
+	private String nombreJugador1 = "", nombreJugador2 = "";
+	private JLabel labelNombre1 = new JLabel(nombreJugador2);
 	private JPanel tablero = new JPanel();
 	private BufferedImage jugador1 = null;
 	private BufferedImage jugador2 = null;
@@ -32,16 +35,15 @@ public class TrivialClass extends JFrame {
 	private BufferedImage jugadorMeta2 = null;
 	private BufferedImage pasto = null;
 	private BufferedImage meta = null;
+	private static final PantallaInicio pantalla = new PantallaInicio();
 
-	private ArrayList<Jugadores> infoJugadores = new ArrayList<>();
 	private JLabel imagenesJugador1[] = new JLabel[8];
 	private JLabel imagenesJugador2[] = new JLabel[8];
-	
-	
-	
-	private JLabel textoJugador = new JLabel(" Jugador: " + nombreJugador1);
+
+	private JLabel textoJugador = new JLabel(" Jugador: " + labelNombre1.getText().toString());
 	private JLabel textoTurno = new JLabel("Turno: " + turno);
-	private JLabel textoPuntuacion = new JLabel("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs " + nombreJugador2 + ": " + puntuacionJugador2);
+	private JLabel textoPuntuacion = new JLabel("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
+			+ nombreJugador2 + ": " + puntuacionJugador2);
 
 	public TrivialClass() {
 
@@ -52,14 +54,14 @@ public class TrivialClass extends JFrame {
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		JPanel panel = new JPanel();
 		Container cp = getContentPane();
-
+		textoJugador.setText("Jugador: " + nombreJugador1);
+		
+		
 		cp.setLayout(new GridBagLayout());
 		cp.setBackground(Color.decode("#E2F99D"));
 
 		tablero.setLayout(new GridLayout(2, 1));
-		panel.setLayout(new GridBagLayout());
 
 		GridBagConstraints posicionBoton = new GridBagConstraints();
 		posicionBoton.gridx = 0;
@@ -95,13 +97,14 @@ public class TrivialClass extends JFrame {
 		posicionPanel.gridx = 0;
 		posicionPanel.gridy = 0;
 		posicionPanel.insets = new Insets(0, 0, 320, 150);
-		
+
 		textoJugador.setFont(new Font("Sans-Serif", Font.BOLD, 18));
 		textoTurno.setFont(new Font("Sans-Serif", Font.BOLD, 18));
 		textoPuntuacion.setFont(new Font("Sans-Serif", Font.BOLD, 18));
 
 		JPanel panelTextoJugador = new JPanel();
 		panelTextoJugador.setBackground(Color.decode("#CDFA4A"));
+		panelTextoJugador.repaint();
 
 		Border borde = BorderFactory.createLineBorder(Color.black);
 		panelTextoJugador.setLayout(new GridBagLayout());
@@ -114,7 +117,6 @@ public class TrivialClass extends JFrame {
 			jugadorMeta2 = ImageIO.read(new File("caballoMeta2.PNG"));
 			pasto = ImageIO.read(new File("pasto.jpg"));
 			meta = ImageIO.read(new File("meta.jpg"));
-			
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -151,7 +153,6 @@ public class TrivialClass extends JFrame {
 		botonPregunta.setPreferredSize(new Dimension(10, 10));
 		botonPregunta.setBackground(Color.decode("#CDFA4A"));
 		botonPregunta.setFont(new Font("Sans-Serif", Font.BOLD, 18));
-		botonPregunta.addActionListener(new EventAumentarPosicioJugador());
 
 		for (int i = 0; i < imagenesJugador1.length; i++) {
 			imagenesJugador1[i].setPreferredSize(new Dimension(100, 40));
@@ -161,14 +162,11 @@ public class TrivialClass extends JFrame {
 			imagenesJugador2[i].setPreferredSize(new Dimension(100, 40));
 			tablero.add(imagenesJugador2[i], tableroConstraint);
 		}
-		panel.add(botonPregunta, posicionBoton);
+
 		tablero.setBorder(bordeTablero);
 		tablero.setPreferredSize(new Dimension(100, 100));
 
 		panelTextoJugador.add(textoJugador);
-		panel.add(panelTextoTurno, posicionTurno);
-		panel.add(panelTextoJugador, posicionJugador);
-		panel.add(panelTextoPuntuacion, posicionPuntuacion);
 
 		cp.add(panelTextoJugador, posicionJugador);
 		cp.add(panelTextoPuntuacion, posicionPuntuacion);
@@ -176,12 +174,17 @@ public class TrivialClass extends JFrame {
 		cp.add(tablero, posicionTablero);
 		cp.add(botonPregunta, posicionBoton);
 
+		botonPregunta.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				test();
+			}
+		});
+
 	}
 
-	// Recoger
-	class EventAumentarPosicioJugador implements ActionListener {
-		@Override
-		public void actionPerformed(ActionEvent e) {
+		public void test() {
 			if (turno % 2 == 0) {
 				imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(pasto));
 				posicionJugador1++;
@@ -218,8 +221,13 @@ public class TrivialClass extends JFrame {
 
 		}
 
-	}
+		public void setText1(String nombre) {
+			nombreJugador1 = nombre;
+		}
+		public void setText2(String nombre) {
+			nombreJugador2 = nombre;
+		}
+
 	
+
 }
-
-

@@ -242,7 +242,7 @@ public class TrivialPreguntas {
 		if(!preguntasRespondidas.contains(eRand)) {
 			preguntasRespondidas.add(eRand);
 			numPregunta = preguntas.get(eRand);
-			trivialClass.setId(eRand);
+//			trivialClass.setId(eRand);
 //			trivialClass.dispose();
         }
 //		System.out.println(preguntasRespondidas);
