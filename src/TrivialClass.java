@@ -21,6 +21,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.Border;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.xml.sax.SAXException;
 
 public class TrivialClass extends JFrame {
 	private int turno = 0, posicionJugador1 = 0, posicionJugador2 = 0, puntuacionJugador1 = 0, puntuacionJugador2 = 0;
@@ -36,12 +39,11 @@ public class TrivialClass extends JFrame {
 	private ArrayList<Jugadores> infoJugadores = new ArrayList<>();
 	private JLabel imagenesJugador1[] = new JLabel[8];
 	private JLabel imagenesJugador2[] = new JLabel[8];
-	
-	
-	
+
 	private JLabel textoJugador = new JLabel(" Jugador: " + nombreJugador1);
 	private JLabel textoTurno = new JLabel("Turno: " + turno);
-	private JLabel textoPuntuacion = new JLabel("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs " + nombreJugador2 + ": " + puntuacionJugador2);
+	private JLabel textoPuntuacion = new JLabel("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
+			+ nombreJugador2 + ": " + puntuacionJugador2);
 
 	public TrivialClass() {
 
@@ -95,7 +97,7 @@ public class TrivialClass extends JFrame {
 		posicionPanel.gridx = 0;
 		posicionPanel.gridy = 0;
 		posicionPanel.insets = new Insets(0, 0, 320, 150);
-		
+
 		textoJugador.setFont(new Font("Sans-Serif", Font.BOLD, 18));
 		textoTurno.setFont(new Font("Sans-Serif", Font.BOLD, 18));
 		textoPuntuacion.setFont(new Font("Sans-Serif", Font.BOLD, 18));
@@ -114,7 +116,6 @@ public class TrivialClass extends JFrame {
 			jugadorMeta2 = ImageIO.read(new File("caballoMeta2.PNG"));
 			pasto = ImageIO.read(new File("pasto.jpg"));
 			meta = ImageIO.read(new File("meta.jpg"));
-			
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -180,46 +181,63 @@ public class TrivialClass extends JFrame {
 
 	// Recoger
 	class EventAumentarPosicioJugador implements ActionListener {
+		boolean acierto = false;
+
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			if (turno % 2 == 0) {
-				imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(pasto));
-				posicionJugador1++;
-				imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugador1));
-				System.out.println(posicionJugador1);
-				textoJugador.setText("Jugador: " + nombreJugador2);
-				puntuacionJugador1++;
-				textoPuntuacion.setText("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs " + nombreJugador2 + ": " + puntuacionJugador2);
-			} else {
-				imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(pasto));
-				posicionJugador2++;
-				imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugador2));
-				System.out.println(posicionJugador2);
-				textoJugador.setText("Jugador: " + nombreJugador1);
-				puntuacionJugador2++;
-				textoPuntuacion.setText("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs " + nombreJugador2 + ": " + puntuacionJugador2);
+			synchronized (this) {
+			
+			try {
+				TrivialPreguntas preguntas = new TrivialPreguntas();
+				
+				if (turno % 2 == 0) {
 
+					wait(30000);
+					System.out.println(preguntas.isAcierto());
+					if (preguntas.isAcierto()) {
+						imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(pasto));
+						posicionJugador1++;
+						imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugador1));
+						puntuacionJugador1++;
+
+					}
+					textoJugador.setText("Jugador: " + nombreJugador2);
+
+				} else {
+//					TrivialPreguntas preguntas = new TrivialPreguntas();
+					System.out.println(preguntas.isAcierto());
+					if (preguntas.isAcierto()) {
+						imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(pasto));
+						posicionJugador2++;
+						imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugador2));
+
+						puntuacionJugador2++;
+					}
+					textoJugador.setText("Jugador: " + nombreJugador1);
+
+				}
+			} catch (ParserConfigurationException | SAXException | IOException | InterruptedException e2) {
+				// TODO Auto-generated catch block
+				e2.printStackTrace();
 			}
+			textoPuntuacion.setText("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
+					+ nombreJugador2 + ": " + puntuacionJugador2);
+
 			if (posicionJugador1 == 7) {
 				imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugadorMeta1));
 				FiDeJoc fiDeJoc = new FiDeJoc();
 				fiDeJoc.setText(nombreJugador1);
 				fiDeJoc.setVisible(true);
 			}
-			if(posicionJugador2 == 7) {
+			if (posicionJugador2 == 7) {
 				imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
 				FiDeJoc fiDeJoc = new FiDeJoc();
 				fiDeJoc.setText(nombreJugador2);
 				fiDeJoc.setVisible(true);
 			}
 			turno++;
-			
 			textoTurno.setText("Turno: " + Integer.toString(turno));
-
+			}
 		}
-
 	}
-	
 }
-
-

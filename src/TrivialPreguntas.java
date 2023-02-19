@@ -35,9 +35,10 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 @SuppressWarnings("serial")
-public class TrivialPreguntas {
+public class TrivialPreguntas{
 	private int time = 30, eRand, numPregunta=0;
 	private boolean selected = false;
+	private static boolean acierto = false;
 	private AbstractButton btn;
 	private JPanel panel = new JPanel();
 	private JPanel subPanel = new JPanel();
@@ -56,7 +57,7 @@ public class TrivialPreguntas {
 	private ArrayList<String> respuestasOrdSorted = new ArrayList<String>();
 	private ArrayList<Integer> preguntas = new ArrayList<Integer>();
 	private ArrayList<Integer> preguntasRespondidas = new ArrayList<Integer>();
-	TrivialClass trivialClass = new TrivialClass();
+//	TrivialClass trivialClass = new TrivialClass();
 	
 	
 //	private ArrayList<PreguntasRespondidas> preguntasRespondidas = new ArrayList<PreguntasRespondidas>();
@@ -242,7 +243,7 @@ public class TrivialPreguntas {
 		if(!preguntasRespondidas.contains(eRand)) {
 			preguntasRespondidas.add(eRand);
 			numPregunta = preguntas.get(eRand);
-			trivialClass.setId(eRand);
+//			trivialClass.setId(eRand);
 //			trivialClass.dispose();
         }
 //		System.out.println(preguntasRespondidas);
@@ -317,43 +318,54 @@ public class TrivialPreguntas {
 
 	}
 	
-	
+
 	ItemListener actionListener = new ItemListener() {
 		@Override
 		public void itemStateChanged(ItemEvent ev) {
+			synchronized (this) {
+				// Recorre cada elemento del grupo indicado y se le asigna al boton abstracto
+				for (Enumeration<AbstractButton> buttons = grupoBtn.getElements(); buttons.hasMoreElements();) {
+		            btn = buttons.nextElement();
 
-			// Recorre cada elemento del grupo indicado y se le asigna al boton abstracto
-			for (Enumeration<AbstractButton> buttons = grupoBtn.getElements(); buttons.hasMoreElements();) {
-	            btn = buttons.nextElement();
+		            // Coge el boton selecionado y comprueba si es el correcto
+		            if (ev.getSource()==enviar) {
+		            	if(btn.isSelected()) {
+		            		if(btn.getText().equals(respuestas.get(0))) {
+		            			
+		            			mensajeAcierto_Falso.setForeground(Color.decode("#00BB08"));
+		            			mensajeAcierto_Falso.setText("Correcto");
+		            			selected = true;
+		            			acierto = true;
+		            			
+		            			
+		            		} else {
+		            			mensajeAcierto_Falso.setForeground(Color.RED);
+		            			mensajeAcierto_Falso.setText("Fallo, la respuesta correcta es: " + respuestas.get(0));
+		            			selected = true;
+		            			acierto = false;
 
-	            // Coge el boton selecionado y comprueba si es el correcto
-	            if (ev.getSource()==enviar) {
-	            	if(btn.isSelected()) {
-	            		if(btn.getText().equals(respuestas.get(0))) {
-	            			mensajeAcierto_Falso.setForeground(Color.decode("#00BB08"));
-	            			mensajeAcierto_Falso.setText("Correcto");
-	            			selected = true;
-	            		} else {
-	            			mensajeAcierto_Falso.setForeground(Color.RED);
-	            			mensajeAcierto_Falso.setText("Fallo, la respuesta correcta es: " + respuestas.get(0));
-	            			selected = true;
-	            		}
-	            		if(!btn.getText().equals(respuestas.get(0))) {
-		 	            	btn.setBackground(Color.decode("#F2A181"));
-		 	            }
-	            		clear();
-	    			}
-	            	
-	            	if(!btn.isSelected()) {
-	            		if(btn.getText().equals(respuestas.get(0))) {
-	            			btn.setBackground(Color.GREEN);
-		 	            } 
-	            	}
-	            	
-	            	deshabilitar();
-	            	dormir();
-	            }
-	        }
+		            		}
+	            			
+
+		            		if(!btn.getText().equals(respuestas.get(0))) {
+			 	            	btn.setBackground(Color.decode("#F2A181"));
+			 	            }
+		            		clear();
+		    			}
+		            	
+		            	if(!btn.isSelected()) {
+		            		if(btn.getText().equals(respuestas.get(0))) {
+		            			btn.setBackground(Color.GREEN);
+			 	            } 
+		            	}
+		            	
+		            	deshabilitar();
+		            	dormir();
+		            	notify();
+		            }
+		        }
+			}
+			
 		}
 	};
 	
@@ -404,6 +416,18 @@ public class TrivialPreguntas {
 		Node valNodo = (Node) nodo.item(0);
 		return valNodo.getNodeValue();
 	}
+
+	public boolean isAcierto() {
+		return acierto;
+	}
+
+	public void setAcierto(boolean acierto) {
+		this.acierto = acierto;
+	}
 	
 
+	
+	
+	
+	
 }
