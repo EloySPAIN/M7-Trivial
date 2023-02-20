@@ -9,6 +9,7 @@ import java.awt.GridLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ItemListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -21,6 +22,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JTextField;
 import javax.swing.border.Border;
 import javax.xml.parsers.ParserConfigurationException;
 
@@ -42,7 +44,6 @@ public class TrivialClass extends JFrame {
 
 	private JLabel imagenesJugador1[] = new JLabel[8];
 	private JLabel imagenesJugador2[] = new JLabel[8];
-
 	private JLabel textoJugador = new JLabel(" Jugador: " + nombreJugador1);
 	private JLabel textoTurno = new JLabel("Turno: " + turno);
 	private JLabel textoPuntuacion = new JLabel("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
@@ -57,14 +58,14 @@ public class TrivialClass extends JFrame {
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		JPanel panel = new JPanel();
 		Container cp = getContentPane();
-
+		textoJugador.setText("Jugador: " + nombreJugador1);
+		
+		
 		cp.setLayout(new GridBagLayout());
 		cp.setBackground(Color.decode("#E2F99D"));
 
 		tablero.setLayout(new GridLayout(2, 1));
-		panel.setLayout(new GridBagLayout());
 
 		GridBagConstraints posicionBoton = new GridBagConstraints();
 		posicionBoton.gridx = 0;
@@ -107,6 +108,7 @@ public class TrivialClass extends JFrame {
 
 		JPanel panelTextoJugador = new JPanel();
 		panelTextoJugador.setBackground(Color.decode("#CDFA4A"));
+		panelTextoJugador.repaint();
 
 		Border borde = BorderFactory.createLineBorder(Color.black);
 		panelTextoJugador.setLayout(new GridBagLayout());
@@ -165,21 +167,17 @@ public class TrivialClass extends JFrame {
 			imagenesJugador2[i].setPreferredSize(new Dimension(100, 40));
 			tablero.add(imagenesJugador2[i], tableroConstraint);
 		}
-		panel.add(botonPregunta, posicionBoton);
+
 		tablero.setBorder(bordeTablero);
 		tablero.setPreferredSize(new Dimension(100, 100));
 
 		panelTextoJugador.add(textoJugador);
-		panel.add(panelTextoTurno, posicionTurno);
-		panel.add(panelTextoJugador, posicionJugador);
-		panel.add(panelTextoPuntuacion, posicionPuntuacion);
 
 		cp.add(panelTextoJugador, posicionJugador);
 		cp.add(panelTextoPuntuacion, posicionPuntuacion);
 		cp.add(panelTextoTurno, posicionTurno);
 		cp.add(tablero, posicionTablero);
 		cp.add(botonPregunta, posicionBoton);
-		
 		botonPregunta.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
@@ -191,7 +189,6 @@ public class TrivialClass extends JFrame {
 	public void crearPreguntas() {
 		try {
 			TrivialPreguntas preguntas = new TrivialPreguntas();
-
 			preguntas.getIds(idPreguntas);
 			if (turno % 2 == 1) {
 
@@ -223,7 +220,6 @@ public class TrivialClass extends JFrame {
 		if (posicionJugador2 == 7) {
 			imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
 		}
-
 		if (posicionJugador1 >= 7 && posicionJugador2 >= 7) {
 			FiDeJoc fiDeJoc = new FiDeJoc();
 			fiDeJoc.setText("EMPATE");
