@@ -167,6 +167,7 @@ public class TrivialClass extends JFrame {
 		botonPregunta.setPreferredSize(new Dimension(10, 10));
 		botonPregunta.setBackground(Color.decode("#CDFA4A"));
 		botonPregunta.setFont(new Font("Sans-Serif", Font.BOLD, 18));
+		botonPregunta.setFocusable(false);
 //		botonPregunta.addActionListener(new EventAumentarPosicioJugador());
 
 		for (int i = 0; i < imagenesJugador1.length; i++) {

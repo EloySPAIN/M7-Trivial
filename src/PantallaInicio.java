@@ -103,6 +103,7 @@ public class PantallaInicio extends JFrame {
 		boton.setPreferredSize(new Dimension(200, 50));
 		boton.setBackground(Color.decode("#CDFA4A"));
 		boton.setFont(new Font("Sans-Serif", Font.BOLD, 18));
+		boton.setFocusable(false);
 		
 
 		panelTituloJugador1.add(tituloJugador1);

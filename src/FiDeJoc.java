@@ -18,7 +18,7 @@ public class FiDeJoc extends JFrame {
 	
 	private JLabel ganador = new JLabel("Nombre");
 	private JLabel textoGanador = new JLabel("El ganador del Trivial es...");
-	private JLabel titulo = new JLabel("Â¡FIN DEL JUEGO!");
+	private JLabel titulo = new JLabel("¡FIN DEL JUEGO!");
 	
 	
 		public FiDeJoc() {

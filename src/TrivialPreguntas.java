@@ -165,8 +165,6 @@ public class TrivialPreguntas {
 						} else {
 							btn.setBackground(Color.decode("#F2A181"));
 						}
-						musica.player.play();
-						frame.dispose();
 					}
 					deshabilitar();
 					clear();
