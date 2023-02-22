@@ -7,7 +7,10 @@ import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -122,14 +125,18 @@ public class PantallaInicio extends JFrame {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				test2();		
+				try {
+					test2();
+				} catch (UnsupportedAudioFileException | IOException e1) {
+					e1.printStackTrace();
+				}		
 			}
 		});
 
 	}
 	
 
-		public void test2() {
+		public void test2() throws UnsupportedAudioFileException, IOException {
 			TrivialClass trivial = new TrivialClass();
 			trivial.setText1(nombre1.getText().toString());
 			trivial.setText2(nombre2.getText().toString());
