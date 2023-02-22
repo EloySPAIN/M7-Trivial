@@ -22,6 +22,7 @@ import javax.swing.ButtonGroup;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JTextArea;
 import javax.swing.JToggleButton;
 import javax.swing.border.Border;
 import javax.xml.parsers.DocumentBuilder;
@@ -34,10 +35,11 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-@SuppressWarnings("serial")
 public class TrivialPreguntas {
-	private int time = 30, eRand, numPregunta=0;
-	private boolean selected = false;
+	private static final TrivialClass TrivialClass = null;
+	private int time = 30, eRand = 0, numPregunta = 0, timeStop = 6;
+	private boolean selected = false, numArray = true, noResponse=false;
+	private static boolean acierto;
 	private AbstractButton btn;
 	private JPanel panel = new JPanel();
 	private JPanel subPanel = new JPanel();
@@ -51,36 +53,25 @@ public class TrivialPreguntas {
 	private JToggleButton respuesta4 = new JToggleButton("hola4");
 	ButtonGroup grupoBtn = new ButtonGroup();
 	private JToggleButton enviar = new JToggleButton("Enviar respuesta");
-	private JLabel mensajeAcierto_Falso = new JLabel("");
+	private JTextArea mensajeAcierto_Falso = new JTextArea("");
 	private ArrayList<String> respuestas = new ArrayList<String>();
 	private ArrayList<String> respuestasOrdSorted = new ArrayList<String>();
 	private ArrayList<Integer> preguntas = new ArrayList<Integer>();
 	private ArrayList<Integer> preguntasRespondidas = new ArrayList<Integer>();
-	TrivialClass trivialClass = new TrivialClass();
-	
-	
+	TrivialClass trivial = TrivialClass;
+
 //	private ArrayList<PreguntasRespondidas> preguntasRespondidas = new ArrayList<PreguntasRespondidas>();
 
 	Random random = new Random();
 	boolean encontrado = true;
 	JFrame frame = new JFrame("Class");
-	
-	@SuppressWarnings("unlikely-arg-type")
+
 	TrivialPreguntas() throws ParserConfigurationException, SAXException, IOException {
-//		super("Pregunta");
-//		setSize(1200, 600);
-//		setLocationRelativeTo(null);
-//		setVisible(true);
-//		setResizable(false);
-////		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//		setDefaultCloseOperation(HIDE_ON_CLOSE);
-		
 		frame.setSize(1200, 600);
 		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
-		
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
 		Container cp = frame.getContentPane();
 		cp.setLayout(new GridBagLayout());
@@ -151,6 +142,8 @@ public class TrivialPreguntas {
 		tiempo.setPreferredSize(new Dimension(60, 60));
 		tiempo.setBackground(Color.decode("#E2F99D"));
 		tiempo.add(tiempoLabel);
+		
+		mensajeAcierto_Falso.setBackground(Color.decode("#EEF9CD"));
 
 		Timer timer = new Timer();
 
@@ -161,33 +154,39 @@ public class TrivialPreguntas {
 
 				if (time < 0 && selected != true) {
 					for (Enumeration<AbstractButton> buttons = grupoBtn.getElements(); buttons.hasMoreElements();) {
-			            btn = buttons.nextElement();
-			            if(btn.getText().equals(respuestas.get(0))) {
-			            	btn.setBackground(Color.GREEN);
-			            } else {
-			            	btn.setBackground(Color.decode("#F2A181"));
-			            }
+						btn = buttons.nextElement();
+						if (btn.getText().equals(respuestas.get(0))) {
+							btn.setBackground(Color.GREEN);
+						} else {
+							btn.setBackground(Color.decode("#F2A181"));
+						}
+						
 					}
 					deshabilitar();
 					clear();
 					timer.cancel();
 					mensajeAcierto_Falso.setForeground(Color.RED);
-        			mensajeAcierto_Falso.setText("Tiempo acabado, la respuesta correcta era: " + respuestas.get(0));
+					mensajeAcierto_Falso.setText("Tiempo acabado, la respuesta correcta era: " + respuestas.get(0));
 					tiempoLabel.setText("0");
 				}
-				
-				if(selected == true) {
-					timer.cancel();
+
+				if (selected == true) {
+					time++;
+					tiempoLabel.setText("" + time);
+					timeStop--;
+					mensajeAcierto_Falso.setText("Tiempo acabado, la respuesta correcta era: " + respuestas.get(0)+"\n La ventana se cierra en: " + timeStop);
+					if(timeStop <= 0) {
+						timer.cancel();
+						frame.dispose();
+					}
 				}
-				
+
 				if (time < 0) {
 					timer.cancel();
 				}
 
 			}
 		}, 0, 1000);
-
-
 
 		subPanel.add(pregunta);
 
@@ -233,30 +232,29 @@ public class TrivialPreguntas {
 		Document document = builder.parse(new File("preguntesEaltozanoHvallve.xml"));
 
 		NodeList pregNodo = document.getElementsByTagName("pregunta");
-		for(int i = 0; i < pregNodo.getLength(); i++) {
+		for (int i = 0; i < pregNodo.getLength(); i++) {
 			preguntas.add(i);
 		}
-		
-		
+
 		eRand = random.nextInt(preguntas.size());
-		if(!preguntasRespondidas.contains(eRand)) {
+		if (!preguntasRespondidas.contains(eRand)) {
 			preguntasRespondidas.add(eRand);
 			numPregunta = preguntas.get(eRand);
-//			trivialClass.setId(eRand);
-//			trivialClass.dispose();
-        }
-//		System.out.println(preguntasRespondidas);
-		
-		
-//		eRand = random.nextInt(preguntas.size());
-//		if(!preguntasRespondidas.contains(eRand)) {
-////			for(int i = 0; i<preguntasRespondidas.size();i++) {
-//				preguntasRespondidas.add(new PreguntasRespondidas(eRand));
-//				numPregunta = preguntas.get(eRand);
-//				TrivialClass trivialClass = new TrivialClass();
+		}
+
+//		while (numArray) {
+//			eRand = random.nextInt(preguntas.size());
+//			if (!trivial.getIdPreguntas().equals(eRand)) {
+//				trivial.dispose();
+//				preguntasRespondidas.add(eRand);
+//				numPregunta = eRand;
+//				trivial.setId(eRand);
+//				numArray = false;
 //				
-////	        }
-////			System.out.println(preguntasRespondidas.get(i).getCont());
+//			} else {
+//				frame.revalidate();
+//				frame.repaint();
+//			}
 //		}
 
 		if (pregNodo.item(numPregunta).getNodeType() == Node.ELEMENT_NODE) {
@@ -264,40 +262,40 @@ public class TrivialPreguntas {
 			String pregXml = getNodo("texto", elm);
 			pregunta.setText(pregXml);
 
-            respuestas.add(elm.getElementsByTagName("correcta").item(0).getTextContent());
-            respuestas.add(elm.getElementsByTagName("incorrecta").item(0).getTextContent());
-            respuestas.add(elm.getElementsByTagName("incorrecta").item(1).getTextContent());
-            respuestas.add(elm.getElementsByTagName("incorrecta").item(2).getTextContent());
+			respuestas.add(elm.getElementsByTagName("correcta").item(0).getTextContent());
+			respuestas.add(elm.getElementsByTagName("incorrecta").item(0).getTextContent());
+			respuestas.add(elm.getElementsByTagName("incorrecta").item(1).getTextContent());
+			respuestas.add(elm.getElementsByTagName("incorrecta").item(2).getTextContent());
 
 			System.out.println(respuestas);
-				
-			// Ordena las preguntas aleatoriamente al array de respuestasOrdSorted cogiendolo del array de respuestas
-				for (int i = 0; i < respuestas.size(); i++) {
-					eRand = random.nextInt(respuestas.size());
-					String res = respuestas.get(eRand);
-					if(!respuestasOrdSorted.contains(res)) {
-						respuestasOrdSorted.add(res);
-	                }else {
-	                	i--;
-	                }
+
+			// Ordena las preguntas aleatoriamente al array de respuestasOrdSorted
+			// cogiendolo del array de respuestas
+			for (int i = 0; i < respuestas.size(); i++) {
+				eRand = random.nextInt(respuestas.size());
+				String res = respuestas.get(eRand);
+				if (!respuestasOrdSorted.contains(res)) {
+					respuestasOrdSorted.add(res);
+				} else {
+					i--;
 				}
-			
+			}
+
 			System.out.println(respuestasOrdSorted);
 
 			// Sete
-            respuesta1.setText(respuestasOrdSorted.get(0));
-            respuesta2.setText(respuestasOrdSorted.get(1));
-            respuesta3.setText(respuestasOrdSorted.get(2));
-            respuesta4.setText(respuestasOrdSorted.get(3));
+			respuesta1.setText(respuestasOrdSorted.get(0));
+			respuesta2.setText(respuestasOrdSorted.get(1));
+			respuesta3.setText(respuestasOrdSorted.get(2));
+			respuesta4.setText(respuestasOrdSorted.get(3));
 
 		}
-		
+
 		grupoBtn.add(respuesta1);
 		grupoBtn.add(respuesta2);
 		grupoBtn.add(respuesta3);
 		grupoBtn.add(respuesta4);
-		
-		
+
 		respuesta1.addItemListener(actionListener);
 		respuesta2.addItemListener(actionListener);
 		respuesta3.addItemListener(actionListener);
@@ -316,9 +314,13 @@ public class TrivialPreguntas {
 		frame.repaint();
 
 	}
-	
-	
-	ItemListener actionListener = new ItemListener() {
+
+	public boolean preguntas(ItemEvent ev) {
+
+		return true;
+	}
+
+	public ItemListener actionListener = new ItemListener() {
 		@Override
 		public void itemStateChanged(ItemEvent ev) {
 
@@ -333,10 +335,12 @@ public class TrivialPreguntas {
 	            			mensajeAcierto_Falso.setForeground(Color.decode("#00BB08"));
 	            			mensajeAcierto_Falso.setText("Correcto");
 	            			selected = true;
+	            			acierto=true;
 	            		} else {
 	            			mensajeAcierto_Falso.setForeground(Color.RED);
 	            			mensajeAcierto_Falso.setText("Fallo, la respuesta correcta es: " + respuestas.get(0));
 	            			selected = true;
+	            			acierto=false;
 	            		}
 	            		if(!btn.getText().equals(respuestas.get(0))) {
 		 	            	btn.setBackground(Color.decode("#F2A181"));
@@ -346,56 +350,35 @@ public class TrivialPreguntas {
 	            	
 	            	if(!btn.isSelected()) {
 	            		if(btn.getText().equals(respuestas.get(0))) {
-	            			btn.setBackground(Color.GREEN);
-		 	            } 
+	            			btn.setBackground(Color.GREEN);	            			
+		 	            }
+	            		selected = true;
+	            		noResponse = true;
 	            	}
 	            	
 	            	deshabilitar();
-	            	dormir();
 	            }
 	        }
 		}
 	};
-	
+
 	private void clear() {
 		grupoBtn.clearSelection();
 		enviar.setSelected(false);
 	}
-	
+
 	private void deshabilitar() {
 		btn.setEnabled(false);
 		enviar.setEnabled(false);
 	}
-	
-	private void dormir() {
-//		Timer timer = new Timer();
-//		time = 5;
-//
-//		timer.scheduleAtFixedRate(new TimerTask() {
-//			public void run() {
-//				time--;
-//				if (time < 0) {
-//					timer.cancel();
-//				}
-//
-//			}
-//		}, 0, 1000);
-//		this.dispose();
-		
-//		frame.setVisible(false);
-		
-		frame.dispose();
 
+	private void dormir() {
+		frame.dispose();
 	}
-	
+
 	public void getIds(int array[]) {
-		
-//		for(int i = 0; i <array.size(); i++) {
-//			preguntasRespondidas.add(array.get(i));	
-//		}
-		for(int i = 0; i <array.length; i++) {
-			System.out.println(array);
-			preguntasRespondidas.add(array[i]);	
+		for (int i = 0; i < array.length; i++) {
+			preguntasRespondidas.add(array[i]);
 		}
 	}
 
@@ -404,6 +387,25 @@ public class TrivialPreguntas {
 		Node valNodo = (Node) nodo.item(0);
 		return valNodo.getNodeValue();
 	}
-	
+
+	public boolean isAcierto() {
+		return acierto;
+	}
+
+	public ArrayList<Integer> getPreguntas() {
+		return preguntas;
+	}
+
+	public void setPreguntas(ArrayList<Integer> preguntas) {
+		this.preguntas = preguntas;
+	}
+
+	public int getNumPregunta() {
+		return numPregunta;
+	}
+
+	public void setNumPregunta(int numPregunta) {
+		this.numPregunta = numPregunta;
+	}
 
 }
