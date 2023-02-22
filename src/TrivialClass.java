@@ -10,16 +10,16 @@ import java.awt.GridLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 import java.awt.event.ItemListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
+
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Random;
-
 import javax.imageio.ImageIO;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
@@ -28,17 +28,18 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTextField;
 import javax.swing.border.Border;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.xml.sax.SAXException;
 
 public class TrivialClass extends JFrame {
+
 	private int idPreguntas[] = new int[10];
 	private int turno = 0, posicionJugador1 = 0, posicionJugador2 = 0, puntuacionJugador1 = 0,
 			puntuacionJugador2 = 0;
-	private String nombreJugador1 = "Hector", nombreJugador2 = "Eloy";
+	private String nombreJugador1 = "", nombreJugador2 = "";
+
 	private JPanel tablero = new JPanel();
 	private BufferedImage jugador1 = null;
 	private BufferedImage jugador2 = null;
@@ -47,7 +48,6 @@ public class TrivialClass extends JFrame {
 	private BufferedImage pasto = null;
 	private BufferedImage meta = null;
 	Random random = new Random();
-
 	private JLabel imagenesJugador1[] = new JLabel[8];
 	private JLabel imagenesJugador2[] = new JLabel[8];
 	private JLabel textoJugador = new JLabel(" Jugador: " + nombreJugador1);
@@ -119,7 +119,6 @@ public class TrivialClass extends JFrame {
 
 		JPanel panelTextoJugador = new JPanel();
 		panelTextoJugador.setBackground(Color.decode("#CDFA4A"));
-		panelTextoJugador.repaint();
 
 		Border borde = BorderFactory.createLineBorder(Color.black);
 		panelTextoJugador.setLayout(new GridBagLayout());
@@ -216,37 +215,57 @@ public class TrivialClass extends JFrame {
 				textoJugador.setText("Jugador: " + nombreJugador1);
 
 			}
+			
+			textoPuntuacion.setText("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
+					+ nombreJugador2 + ": " + puntuacionJugador2);
+
+			if (posicionJugador1 == 7) {
+				imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugadorMeta1));
+			}
+
+			if (posicionJugador2 == 7) {
+				imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
+			}
+			if (posicionJugador1 >= 7 && posicionJugador2 >= 7) {
+				FiDeJoc fiDeJoc = new FiDeJoc();
+				posicionJugador1 = 0;
+				posicionJugador2 = 0;
+				turno = 0;
+				fiDeJoc.setText("EMPATE");
+				fiDeJoc.setVisible(true);
+				preguntas.frame.dispose();
+				this.dispose();
+				
+			}
+			if (posicionJugador1 >= 8) {
+				FiDeJoc fiDeJoc = new FiDeJoc();
+				posicionJugador1 = 0;
+				posicionJugador2 = 0;
+				turno = 0;
+				fiDeJoc.setText(nombreJugador1);
+				fiDeJoc.setVisible(true);
+				preguntas.frame.dispose();
+				this.dispose();
+				
+			}
+			if (posicionJugador2 >= 8) {
+				FiDeJoc fiDeJoc = new FiDeJoc();
+				posicionJugador1 = 0;
+				posicionJugador2 = 0;
+				turno = 0;
+				fiDeJoc.setText(nombreJugador2);
+				fiDeJoc.setVisible(true);
+				preguntas.frame.dispose();
+				this.dispose();
+				
+			}
+			turno++;
+			textoTurno.setText("Turno: " + Integer.toString(turno));	
 		} catch (ParserConfigurationException | SAXException | IOException e2) {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();
 		}
-		textoPuntuacion.setText("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
-				+ nombreJugador2 + ": " + puntuacionJugador2);
-
-		if (posicionJugador1 == 7) {
-			imagenesJugador1[posicionJugador1].setIcon(new ImageIcon(jugadorMeta1));
-		}
-
-		if (posicionJugador2 == 7) {
-			imagenesJugador2[posicionJugador2].setIcon(new ImageIcon(jugadorMeta2));
-		}
-		if (posicionJugador1 >= 7 && posicionJugador2 >= 7) {
-			FiDeJoc fiDeJoc = new FiDeJoc();
-			fiDeJoc.setText("EMPATE");
-			fiDeJoc.setVisible(true);
-		}
-		if (posicionJugador1 > 8) {
-			FiDeJoc fiDeJoc = new FiDeJoc();
-			fiDeJoc.setText(nombreJugador1);
-			fiDeJoc.setVisible(true);
-		}
-		if (posicionJugador2 > 8) {
-			FiDeJoc fiDeJoc = new FiDeJoc();
-			fiDeJoc.setText(nombreJugador2);
-			fiDeJoc.setVisible(true);
-		}
-		turno++;
-		textoTurno.setText("Turno: " + Integer.toString(turno));
+		
 	}
 
 	
@@ -302,5 +321,14 @@ public class TrivialClass extends JFrame {
 
 	public void setIdPreguntas(int[] idPreguntas) {
 		this.idPreguntas = idPreguntas;
+	}
+
+	public void setText1(String string) {
+		nombreJugador1 = string;
+		
+	}
+
+	public void setText2(String string) {
+		nombreJugador2 = string;		
 	}
 }
