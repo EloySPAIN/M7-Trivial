@@ -3,11 +3,14 @@ import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
+import java.awt.Frame;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -59,6 +62,7 @@ public class TrivialPreguntas {
 	private ArrayList<Integer> preguntas = new ArrayList<Integer>();
 	private ArrayList<Integer> preguntasRespondidas = new ArrayList<Integer>();
 	TrivialClass trivial = TrivialClass;
+	private Musica musica = new Musica();
 
 //	private ArrayList<PreguntasRespondidas> preguntasRespondidas = new ArrayList<PreguntasRespondidas>();
 
@@ -144,6 +148,8 @@ public class TrivialPreguntas {
 		tiempo.add(tiempoLabel);
 		
 		mensajeAcierto_Falso.setBackground(Color.decode("#EEF9CD"));
+		mensajeAcierto_Falso.setEditable(false);
+		
 
 		Timer timer = new Timer();
 
@@ -151,7 +157,6 @@ public class TrivialPreguntas {
 			public void run() {
 				tiempoLabel.setText("" + time);
 				time--;
-
 				if (time < 0 && selected != true) {
 					for (Enumeration<AbstractButton> buttons = grupoBtn.getElements(); buttons.hasMoreElements();) {
 						btn = buttons.nextElement();
@@ -160,14 +165,16 @@ public class TrivialPreguntas {
 						} else {
 							btn.setBackground(Color.decode("#F2A181"));
 						}
-						
+						musica.player.play();
+						frame.dispose();
 					}
 					deshabilitar();
 					clear();
-					timer.cancel();
 					mensajeAcierto_Falso.setForeground(Color.RED);
 					mensajeAcierto_Falso.setText("Tiempo acabado, la respuesta correcta era: " + respuestas.get(0));
 					tiempoLabel.setText("0");
+					selected = true;
+					
 				}
 
 				if (selected == true) {
@@ -229,7 +236,7 @@ public class TrivialPreguntas {
 
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
-		Document document = builder.parse(new File("preguntesEaltozanoHvallve.xml"));
+		Document document = builder.parse(new File("preguntas.xml"));
 
 		NodeList pregNodo = document.getElementsByTagName("pregunta");
 		for (int i = 0; i < pregNodo.getLength(); i++) {
@@ -350,7 +357,8 @@ public class TrivialPreguntas {
 	            	
 	            	if(!btn.isSelected()) {
 	            		if(btn.getText().equals(respuestas.get(0))) {
-	            			btn.setBackground(Color.GREEN);	            			
+	            			btn.setBackground(Color.GREEN);
+//	            			acierto=false;
 		 	            }
 	            		selected = true;
 	            		noResponse = true;
