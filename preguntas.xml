@@ -1,0 +1,3337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+	<pregunta>
+		<texto>Qui va interpretar per primer cop 'Johnny B Goode'?</texto>
+		<respuestas>
+			<correcta>Chuck Berry</correcta>
+			<incorrecta>Marty McFly</incorrecta>
+			<incorrecta>AC/DC</incorrecta>
+			<incorrecta>Celine Dion</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quants pokemons existeixen en total entre les 7 primeres generacions?</texto>
+		<respuestas>
+			<correcta>802</correcta>
+			<incorrecta>905</incorrecta>
+			<incorrecta>730</incorrecta>
+			<incorrecta>578</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Com es va fer la cicatriu que té el Ruffy a la cara?</texto>
+		<respuestas>
+			<correcta>Es va clavar un ganivet</correcta>
+			<incorrecta>Va saltar d'un vaixell</incorrecta>
+			<incorrecta>Es va barallar contra uns taurons</incorrecta>
+			<incorrecta>L'hi va fer el Shanks</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Acaba la frase: Oshiete oshiete yo ...</texto>
+		<respuestas>
+			<correcta>Sono shikumi wo</correcta>
+			<incorrecta>Sono naki ni</incorrecta>
+			<incorrecta>Sono chi no sadame</incorrecta>
+			<incorrecta>Com? En quin idioma està aixo?</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Qui era el deu Romà de la guerra?</texto>
+		<respuestas>
+			<correcta>Mart</correcta>
+			<incorrecta>Thor</incorrecta>
+			<incorrecta>Jupiter</incorrecta>
+			<incorrecta>Ares</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quants tentacles té un calamar?</texto>
+		<respuestas>
+			<correcta>8</correcta>
+			<incorrecta>4</incorrecta>
+			<incorrecta>10</incorrecta>
+			<incorrecta>20</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin percentatge de la Terra és aigua?</texto>
+		<respuestas>
+			<correcta>70%</correcta>
+			<incorrecta>50%</incorrecta>
+			<incorrecta>10%</incorrecta>
+			<incorrecta>90%</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quina part del cos produeix insulina?</texto>
+		<respuestas>
+			<correcta>El pàncrees</correcta>
+			<incorrecta>El fetge</incorrecta>
+			<incorrecta>La melsa</incorrecta>
+			<incorrecta>El tim</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Com es diu el guitarrista de Queen?</texto>
+		<respuestas>
+			<correcta>Brian May</correcta>
+			<incorrecta>Bryan May</incorrecta>
+			<incorrecta>Bryan Singer</incorrecta>
+			<incorrecta>Brian Singer</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin disciplina del Hockey no existeix?</texto>
+		<respuestas>
+			<correcta>Hockey sobre rodes</correcta>
+			<incorrecta>Hockey sobre patins</incorrecta>
+			<incorrecta>Hockey sobre herba</incorrecta>
+			<incorrecta>Hockey sobre gel</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin es el nom de la mascota de Mickey Mouse?</texto>
+		<respuestas>
+			<correcta>Pluto</correcta>
+			<incorrecta>Goofy</incorrecta>
+			<incorrecta>Donald</incorrecta>
+			<incorrecta>Minnie</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Qui va dir la famosa frase: "Volveré" (I´ll be back)</texto>
+		<respuestas>
+			<correcta>Arnold Schwarzenegger a Terminator</correcta>
+			<incorrecta>Mel Gibson a Arma Letal</incorrecta>
+			<incorrecta>Bruce Willis a Duro de Matar</incorrecta>
+			<incorrecta>Marty McFly a Regreso al Futuro</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>A la mitologia grega Hades és: </texto>
+		<respuestas>
+			<correcta>El deu de l'inframon</correcta>
+			<incorrecta>El rei dels deus</incorrecta>
+			<incorrecta>El deu dels arts</incorrecta>
+			<incorrecta>Un guia esperits cap a l'inframon</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin és el riu mes llarg del mon?</texto>
+		<respuestas>
+			<correcta>Amazones</correcta>
+			<incorrecta>Nil</incorrecta>
+			<incorrecta>Mississipí</incorrecta>
+			<incorrecta>Francolí</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>L'estàtua de la llibertat va ser regalada als EEUU per:</texto>
+		<respuestas>
+			<correcta>França</correcta>
+			<incorrecta>Espanya</incorrecta>
+			<incorrecta>Itàlia</incorrecta>
+			<incorrecta>Rússia</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>En quina dècada es va publicar "El señor dels Anells" ?</texto>
+		<respuestas>
+			<correcta>1950s</correcta>
+			<incorrecta>1960s</incorrecta>
+			<incorrecta>1970s</incorrecta>
+			<incorrecta>1980s</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>En any va morir Michael Jackson?</texto>
+		<respuestas>
+			<correcta>2009</correcta>
+			<incorrecta>2010</incorrecta>
+			<incorrecta>2007</incorrecta>
+			<incorrecta>2011</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>En quin any va acabar la Segona Guerra Mundial?</texto>
+		<respuestas>
+			<correcta>1945</correcta>
+			<incorrecta>1950</incorrecta>
+			<incorrecta>1937</incorrecta>
+			<incorrecta>1936</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+        <texto>Any que va ser per primer cop campió de Formula 1 Fernando Alonso?</texto>
+        <respuestas>
+            <correcta>2005</correcta>
+            <incorrecta>2002</incorrecta>
+            <incorrecta>1999</incorrecta>
+            <incorrecta>2006</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Com es diu la cançó del opening de Evangelion?</texto>
+        <respuestas>
+            <correcta>A cruel Angel Thesis</correcta>
+            <incorrecta>Evangelion Opening theme</incorrecta>
+            <incorrecta>Crossing Field</incorrecta>
+            <incorrecta>Wings of Freedom</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quin és el lloc més fred del planeta?</texto>
+        <respuestas>
+            <correcta>La Antartida</correcta>
+            <incorrecta>Finlandia</incorrecta>
+            <incorrecta>Alaska</incorrecta>
+            <incorrecta>Siberia</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Qui va escriure la Odisea?</texto>
+        <respuestas>
+            <correcta>Homero</correcta>
+            <incorrecta>Ulises</incorrecta>
+            <incorrecta>Dante</incorrecta>
+            <incorrecta>Cervantes</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quants ossos té el cos humà?</texto>
+        <respuestas>
+            <correcta>206</correcta>
+            <incorrecta>210</incorrecta>
+            <incorrecta>198</incorrecta>
+            <incorrecta>205</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>En quin any va Arribar Colon a Amèriaca?</texto>
+        <respuestas>
+            <correcta>1492</correcta>
+            <incorrecta>1493</incorrecta>
+            <incorrecta>1499</incorrecta>
+            <incorrecta>1489</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quants dents tenim?</texto>
+        <respuestas>
+            <correcta>32</correcta>
+            <incorrecta>36</incorrecta>
+            <incorrecta>34</incorrecta>
+            <incorrecta>30</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Amb què es fabricaven els pergamins?</texto>
+        <respuestas>
+            <correcta>Pell d'animal</correcta>
+            <incorrecta>Paper</incorrecta>
+            <incorrecta>Cuir</incorrecta>
+            <incorrecta>Herba premsada</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quina és la nacionalitat de Pablo Neruda?</texto>
+        <respuestas>
+            <correcta>Chilena</correcta>
+            <incorrecta>Espanyola</incorrecta>
+            <incorrecta>Portuguesa</incorrecta>
+            <incorrecta>Cubana</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quants cors tenen els pops?</texto>
+        <respuestas>
+            <correcta>3</correcta>
+            <incorrecta>1</incorrecta>
+            <incorrecta>2</incorrecta>
+            <incorrecta>5</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>En quin any es va fundar Apple?</texto>
+        <respuestas>
+            <correcta>1976</correcta>
+            <incorrecta>1977</incorrecta>
+            <incorrecta>1975</incorrecta>
+            <incorrecta>1972</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quin és l'animal més resistent del planeta?</texto>
+        <respuestas>
+            <correcta>Óssos d'aigua</correcta>
+            <incorrecta>Panerola</incorrecta>
+            <incorrecta>Escarbat</incorrecta>
+            <incorrecta>Paparra</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quant és el zero absolut?</texto>
+        <respuestas>
+            <correcta>-273,15</correcta>
+            <incorrecta>-173,15</incorrecta>
+            <incorrecta>-173,13</incorrecta>
+            <incorrecta>-273,25</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quan ha sigut l'últim any de traspàs?</texto>
+        <respuestas>
+            <correcta>2020</correcta>
+            <incorrecta>2021</incorrecta>
+            <incorrecta>2019</incorrecta>
+            <incorrecta>2018</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quina au no pot volar?</texto>
+        <respuestas>
+            <correcta>Pingüí</correcta>
+            <incorrecta>Emú</incorrecta>
+            <incorrecta>Cap de les anteriors</incorrecta>
+            <incorrecta>Totes les anteriors</incorrecta>
+        </respuestas>
+    </pregunta>
+    	<pregunta>
+		<texto>Como se llama el personaje iconico mas odiado de League of legends?</texto>
+		<respuestas>
+		<correcta>Teemo</correcta>
+		<incorrecta>Yuumi</incorrecta>
+		<incorrecta>Seraphine</incorrecta>
+		<incorrecta>Yasuo</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>De cuantas unidades son los stacks de un bloque basico en Minecraft?</texto>
+		<respuestas>
+		<correcta>64</correcta>
+		<incorrecta>32</incorrecta>
+		<incorrecta>15</incorrecta>
+		<incorrecta>6</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Como se llama la app adaptada para  mobil de League of legends?</texto>
+		<respuestas>
+		<correcta>LoL:Wild Rift</correcta>
+		<incorrecta>Lol:Mobile</incorrecta>
+		<incorrecta>Brawl Stars</incorrecta>
+		<incorrecta>Mobile Legends</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>En que año Fortnite fue publicado como juego oficial?</texto>
+		<respuestas>
+		<correcta>Ninguna de las anteriores</correcta>
+		<incorrecta>2018</incorrecta>
+		<incorrecta>2020</incorrecta>
+		<incorrecta>2019</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Que superpoder tiene Batman?</texto>
+		<respuestas>
+		<correcta>Ninguno,solamente es muy inteligente y tiene mucho dinero</correcta>
+		<incorrecta>Volar</incorrecta>
+		<incorrecta>Vision de Rayos x</incorrecta>
+		<incorrecta>Superfuerza</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Como se llamaba la princesa de Super Mario en los primeros juegos?</texto>
+		<respuestas>
+		<correcta>Toadstool</correcta>
+		<incorrecta>Peach</incorrecta>
+		<incorrecta>Malon</incorrecta>
+		<incorrecta>Zelda</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Que saga de videojuegos clasicos tiene al famoso enemigo conocido como Nemesis?</texto>
+		<respuestas>
+		<correcta>Resident Evil</correcta>
+		<incorrecta>Silent Hill</incorrecta>
+		<incorrecta>Dead by Daylight</incorrecta>
+		<incorrecta>Left 4 Dead</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cual de los siguientes duos no pertenece a Sony?</texto>
+		<respuestas>
+		<correcta>Banjo y Kazooie</correcta>
+		<incorrecta>Jak y Daxter</incorrecta>
+		<incorrecta>Joel y Ellie</incorrecta>
+		<incorrecta>Ratchet y Clank</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Hasta 2020,que plataforma de Pc regala un juego gratis cada jueves?</texto>
+		<respuestas>
+		<correcta>Epic Games</correcta>
+		<incorrecta>Steam</incorrecta>
+		<incorrecta>Origin</incorrecta>
+		<incorrecta>Rockstar Games</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quien es el villano que envidia los poderes de Superman?</texto>
+		<respuestas>
+		<correcta>Lex Luthor</correcta>
+		<incorrecta>Catwoman</incorrecta>
+		<incorrecta>El pinguino</incorrecta>
+		<incorrecta>Enigma</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Que pais europeo tiene prohibido y castigado con pena de carcel la introduccion de microtransacciones(cajas de botin,DLC,Lootboxes)?</texto>
+		<respuestas>
+		<correcta>Belgica</correcta>
+		<incorrecta>Grecia</incorrecta>
+		<incorrecta>Turquia</incorrecta>
+		<incorrecta>Japon</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>En Epic Mickey,como se llama el "hermano" de Mickey Mouse?</texto>
+		<respuestas>
+		<correcta>Oswald</correcta>
+		<incorrecta>Cuphead</incorrecta>
+		<incorrecta>Mugman</incorrecta>
+		<incorrecta>Goofy</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cual de las siguientes curiosidades de los juegos de Nintendo es cierta?</texto>
+		<respuestas>
+		<correcta>La gran mayoria de los protagonistas son zurdos</correcta>
+		<incorrecta>Todos los protagonistas son hombres</incorrecta>
+		<incorrecta>Todos los mundos de los diferentes juegos ocurren en el mismo universo</incorrecta>
+		<incorrecta>Todos los personajes de todos los juegos tienen 4 dedos en cada mano</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuantos juegos de la franquicia Final Fantasy hay hasta febrero de 2021?(remakes y remasters no cuentan)</texto>
+		<respuestas>
+		<correcta>22</correcta>
+		<incorrecta>25</incorrecta>
+		<incorrecta>15</incorrecta>
+		<incorrecta>17</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>En el arco de la Infinity War y EndGame,cuantos chasquidos se producen en total con las gemas del infinito?</texto>
+		<respuestas>
+		<correcta>3</correcta>
+		<incorrecta>2</incorrecta>
+		<incorrecta>1</incorrecta>
+		<incorrecta>Ninguno</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Qui va donar mort al deu Thor en el ragnarok?</texto>
+		<respuestas>
+			<correcta>Jörmungandr</correcta>
+			<incorrecta>Loki</incorrecta>
+			<incorrecta>Heimdall</incorrecta> 
+			<incorrecta>Fenrir</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quina és actualment en l'any 2021 la criptomoneda més cara del mercat?</texto>
+		<respuestas>
+			<correcta>Bitcoin</correcta>
+			<incorrecta>Ethereum</incorrecta>
+			<incorrecta>Dogecoin</incorrecta> 
+			<incorrecta>Litecoin</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quantes temporades té en 2021 la famosa sèrie de televisió de "The Simpsons"?</texto>
+		<respuestas>
+			<correcta>32</correcta>
+			<incorrecta>28</incorrecta>
+			<incorrecta>46</incorrecta> 
+			<incorrecta>12</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quin any va arribar l'humà a la lluna?</texto>
+		<respuestas>
+			<correcta>1969</correcta>
+			<incorrecta>1973</incorrecta>
+			<incorrecta>1965</incorrecta> 
+			<incorrecta>1957</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quantes dents té un humà adult?</texto>
+		<respuestas>
+			<correcta>32</correcta>
+			<incorrecta>28</incorrecta>
+			<incorrecta>24</incorrecta> 
+			<incorrecta>36</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿En quin any va ser fundat Google?</texto>
+		<respuestas>
+			<correcta>1998</correcta>
+			<incorrecta>1995</incorrecta>
+			<incorrecta>1999</incorrecta> 
+			<incorrecta>2002</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quina és a dia d'avui en l'any 2021 la pel·lícula més taquillera de la història?</texto>
+		<respuestas>
+			<correcta>Avengers: Endgame</correcta>
+			<incorrecta>Avatar</incorrecta>
+			<incorrecta>Titanic</incorrecta> 
+			<incorrecta>Avengers: Infinity War</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quants minuts té un any?</texto>
+		<respuestas>
+			<correcta>525600</correcta>
+			<incorrecta>460400</incorrecta>
+			<incorrecta>690420</incorrecta> 
+			<incorrecta>385250</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quants bytes té un megabyte?</texto>
+		<respuestas>
+			<correcta>1000000</correcta>
+			<incorrecta>100000000</incorrecta>
+			<incorrecta>10000</incorrecta> 
+			<incorrecta>1024</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quin any va morir Freddie Mercury?</texto>
+		<respuestas>
+			<correcta>1991</correcta>
+			<incorrecta>1995</incorrecta>
+			<incorrecta>1989</incorrecta> 
+			<incorrecta>2001</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quant dura l'embaràs d'un elefant?</texto>
+		<respuestas>
+			<correcta>22 mesos</correcta>
+			<incorrecta>9 mesos</incorrecta>
+			<incorrecta>16 mesos</incorrecta> 
+			<incorrecta>3 mesos</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quants litres de sang conte el cos humà?</texto>
+		<respuestas>
+			<correcta>6</correcta>
+			<incorrecta>8</incorrecta>
+			<incorrecta>3</incorrecta> 
+			<incorrecta>12</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quants estómacs té una vaca?</texto>
+		<respuestas>
+			<correcta>4</correcta>
+			<incorrecta>1</incorrecta>
+			<incorrecta>12</incorrecta> 
+			<incorrecta>cap de les anteriors</incorrecta>
+		</respuestas>
+	</pregunta>
+	   <pregunta>
+      <texto>¿Qué edad tiene la tierra?</texto>
+      <respuestas>
+        <correcta>4,543 millones de años</correcta>
+        <incorrecta>3,453 millones de años</incorrecta>
+        <incorrecta>4,374 millones de años</incorrecta>
+        <incorrecta>2,578 millones de años</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cuál fue la primera película de Disney?</texto>
+      <respuestas>
+        <correcta>Blancanieves</correcta>
+        <incorrecta>La Sirenita</incorrecta>
+        <incorrecta>Cenicienta</incorrecta>
+        <incorrecta>Aladín</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿En qué ciudad vive el mago de Oz?</texto>
+      <respuestas>
+        <correcta>En la ciudad Esmeralda</correcta>
+        <incorrecta>En la ciudad Baker</incorrecta>
+        <incorrecta>En la ciudad Diamante</incorrecta>
+        <incorrecta>En la ciudad Metálica</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cómo se llama el perro de Tintín?</texto>
+      <respuestas>
+        <correcta>Milú</correcta>
+        <incorrecta>Chuck</incorrecta>
+        <incorrecta>Jessie</incorrecta>
+        <incorrecta>Spark</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Dónde se inventó el Ping-Pong?</texto>
+      <respuestas>
+        <correcta>En Inglaterra</correcta>
+        <incorrecta>En California -USA</incorrecta>
+        <incorrecta>En Nueva Zelanda</incorrecta>
+        <incorrecta>En Alemania</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cómo se llamaba Muhammad Ali antes de adoptar ese nombre?</texto>
+      <respuestas>
+        <correcta>Cassius Clay</correcta>
+        <incorrecta>Jake Smith</incorrecta>
+        <incorrecta>Ian Williams</incorrecta>
+        <incorrecta>Anthony Johnson</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Qué pintor pintó "El grito"?</texto>
+      <respuestas>
+        <correcta>Edvard Munch</correcta>
+        <incorrecta>Van Gogh</incorrecta>
+        <incorrecta>Diego Velázquez</incorrecta>
+        <incorrecta>Picasso</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Qué número viene después del 14 en los decimales del Pi?</texto>
+      <respuestas>
+        <correcta>El 1</correcta>
+        <incorrecta>El 3</incorrecta>
+        <incorrecta>El 5</incorrecta>
+        <incorrecta>El 8</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cuántos elementos tiene la tabla periódica?</texto>
+      <respuestas>
+        <correcta>Un total de 118</correcta>
+        <incorrecta>Un total de 124</incorrecta>
+        <incorrecta>Un total de 116</incorrecta>
+        <incorrecta>Un total de 132</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cuál es la velocidad de la luz?</texto>
+      <respuestas>
+        <correcta>300,000 km/s</correcta>
+        <incorrecta>250,000 km/s</incorrecta>
+        <incorrecta>350,000 km/s</incorrecta>
+        <incorrecta>325,000 km/s</incorrecta>
+      </respuestas>
+    </pregunta>
+    	<pregunta>
+		<texto> ¿Qué es una supernova? </texto>
+    <respuestas>
+      <correcta> Unas nuve de gas que colapsan formando una explosión. </correcta>
+			<incorrecta> Un superheroe. </incorrecta>
+			<incorrecta> Una obra de arte. </incorrecta>
+			<incorrecta> Una explosión estelar. </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Cual es el país más pequeño del mundo? </texto>
+		<respuestas>
+			<correcta> El Baticano. </correcta>
+			<incorrecta> Andorra. </incorrecta>
+			<incorrecta> Mónaco. </incorrecta>
+			<incorrecta> Nauru. </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Cual es el continente con más habitantes del mundo? </texto>
+		<respuestas>
+			<correcta> Asia. </correcta>
+			<incorrecta> Europa. </incorrecta>
+			<incorrecta> America del Norte. </incorrecta>
+			<incorrecta> America del Sud. </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Cual es el animal más grande? </texto>
+    <respuestas>
+      <correcta> Ballena azul antàrtica. </correcta>
+			<incorrecta> Jirafa. </incorrecta>
+			<incorrecta> Ballena blanca. </incorrecta>
+			<incorrecta> Todas son incorrectas. </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Cual es el animal más pequeño? </texto>
+		<respuestas>
+			<correcta> Paedocypris progenetica. </correcta>
+			<incorrecta> Plancton. </incorrecta>
+			<incorrecta> Hormiga. </incorrecta>
+			<incorrecta> Paedocy smethetica. </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Cual es el planeta más grande del sistema solar? </texto>
+		<respuestas>
+			<correcta> Jupiter. </correcta>
+			<incorrecta> Saturno. </incorrecta>
+			<incorrecta> Ceres. </incorrecta>
+			<incorrecta> Neptuno. </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Cual es la altura promedia de las mujeres en china?  </texto>
+		<respuestas>
+			<correcta> 1,57-1,59 </correcta>
+			<incorrecta> 1,52-1,55 </incorrecta>
+			<incorrecta> 1,57-1,67 </incorrecta>
+			<incorrecta> 1,48-1,52 </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Cuanto mide el hombre más alto del mundo en la actualidad? </texto>
+		<respuestas>
+			<correcta> 2,43 metros. </correcta>
+			<incorrecta> 2,22 metros. </incorrecta>
+			<incorrecta> 2 metros. </incorrecta>
+			<incorrecta> 2,17 metros. </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Que es considerado el Universo? </texto>
+		<respuestas>
+			<correcta> El Universo es todo lo que podemos tocar, sentir, percibir, medir o detectar. Abarca los cosas vivas, los planetas, las estrellas, las galaxias, las nubes de polvo, la luz e incluso el tiempo. </correcta>
+			<incorrecta> El Universo abarca los cosas vivas, los planetas, las estrellas, las galaxias, las nubes de polvo, la luz e incluso el tiempo. </incorrecta>
+			<incorrecta> El Universo son todas las cosas vivas, los planetas, las estrellas y las galaxias.</incorrecta>
+			<incorrecta> Todas son incorrectas. </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Cual es la profundidad de la cueva más produnda hecha por el hombre? </texto>
+		<respuestas>
+			<correcta> 2.197 metros bajo tierra. </correcta>
+			<incorrecta> 1.567 metros bajo tierra. </incorrecta>
+			<incorrecta> 3.560 metros bajo tierra. </incorrecta>
+			<incorrecta> A 3.678 metros por encima del núcleo. </incorrecta>
+		</respuestas>
+	</pregunta>
+		<pregunta>
+		<texto>En la pelicula "Matrix", ¿Qué significaba tomarse la pastilla roja?</texto>
+		<respuestas>
+			<correcta>Permite liberarse de la realidad virtual de Matrix y conducir al mundo real</correcta>
+			<incorrecta>Permite olvidar todo lo sucedido y permanecer en la realidad virtual de Matrix</incorrecta>
+			<incorrecta>Permitia darte un subidon percibiendo todo a cámara lenta</incorrecta>
+			<incorrecta>Permitia viajar entre dimensiones alternativas</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quién fue Cobi?</texto>
+		<respuestas>
+			<correcta>Una mascota de las Juegos Olímpicos de Barcelona</correcta>
+			<incorrecta>Un jugador de Baloncesto</incorrecta>
+			<incorrecta>La mascota de Elon Musk</incorrecta>
+			<incorrecta>El primer buey de Japón de raza negra de Tajima-ushi</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Qué serie se estrenó en 1994?</texto>
+		<respuestas>
+			<correcta>FRIENDS</correcta>
+			<incorrecta>El principe de Bel-Air</incorrecta>
+			<incorrecta>Los Simpsons</incorrecta>
+			<incorrecta>Tom y Jerry</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál fue la película más taquillera de la década de los 90?</texto>
+		<respuestas>
+			<correcta>Titanic</correcta>
+			<incorrecta>Pretty Woman</incorrecta>
+			<incorrecta>Star Wars Episodio 1</incorrecta>
+			<incorrecta>Misión imposible 2</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>En que año dió comienzo la Presidencia de Barack Obama en EEUU</texto>
+		<respuestas>
+			<correcta>2009</correcta>
+			<incorrecta>2011</incorrecta>
+			<incorrecta>2013</incorrecta>
+			<incorrecta>2015</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>La fórmula E=mc2, ¿en qué teoría científica aparece?</texto>
+		<respuestas>
+			<correcta>En la teoria de la relatividad general</correcta>
+			<incorrecta>En la teoria clasica de Einstein</incorrecta>
+			<incorrecta>En la teoria de la energia explosiva</incorrecta>
+			<incorrecta>En la teoria de Rick y Morty</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Por qué fue famosa Marie Curie?</texto>
+		<respuestas>
+			<correcta>Por el descubrimiento de la radiactividad</correcta>
+			<incorrecta>Por conseguir dos premios Nobel de Física</incorrecta>
+			<incorrecta>Por inventar la bombilla</incorrecta>
+			<incorrecta>Por ser la primera mujer en conseguir una medalla olímpica</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuáles son las bases nitrogenadas del ADN?</texto>
+		<respuestas>
+			<correcta>Guanina, Adenina, Timina y Citosina</correcta>
+			<incorrecta>Adeina, Dopamina y Noexistilina</incorrecta>
+			<incorrecta>Aneurino, Dactilina, Níquel y Timina</incorrecta>
+			<incorrecta>Adeina, Ditosina, y Neurogen</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cada cuántos años se celebran los Juegos Olímpicos?</texto>
+		<respuestas>
+			<correcta>Cada 4 años</correcta>
+			<incorrecta>Cada 2 años</incorrecta>
+			<incorrecta>Cada año</incorrecta>
+			<incorrecta>Cada 3 años</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cómo se llama el protagonista de "The Legend of Zelda"?</texto>
+		<respuestas>
+			<correcta>Link</correcta>
+			<incorrecta>Zelda</incorrecta>
+			<incorrecta>Mario</incorrecta>
+			<incorrecta>Elfo</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>En la serie "Como conocí a vuestra madre", ¿cómo se llama la madre?</texto>
+		<respuestas>
+			<correcta>Tracy McConnell</correcta>
+			<incorrecta>Robin Scherbatsky</incorrecta>
+			<incorrecta>Penny Mosby</incorrecta>
+			<incorrecta>Lily Aldrin</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Dónde se celebra la "Comic-Con"?</texto>
+		<respuestas>
+			<correcta>En San Diego</correcta>
+			<incorrecta>En Los Ángeles</incorrecta>
+			<incorrecta>En santa Mónica</incorrecta>
+			<incorrecta>En Tijuana</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿En la serie "The Big Bang Theory", ¿cómo se llama el compañero de piso de sheldon?</texto>
+		<respuestas>
+			<correcta>Leonard Hofstadter</correcta>
+			<incorrecta>Rajesh Koothrappali</incorrecta>
+			<incorrecta>Howard Wolowitz</incorrecta>
+			<incorrecta>Leonard Nimoy</incorrecta>
+		</respuestas>
+	</pregunta>
+		<pregunta>
+		<texto>¿ Quién fue el primer presidente de la democracia española tras el franquismo?</texto>
+		<respuestas>
+			<correcta> Adolfo Suárez </correcta>
+			<incorrecta> Willyrex </incorrecta>
+			<incorrecta>Carlos Sobera</incorrecta>
+			<incorrecta> Mariano Rajoy</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál de las siguientes opciones no es una casa de Hogwarts?</texto>
+		<respuestas>
+			<correcta> Pepoclown</correcta>
+			<incorrecta>Hufflepuff </incorrecta>
+			<incorrecta> Slytherin</incorrecta>
+			<incorrecta>Ravenclaw </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cómo se llama el filósofo español conocido por su desarrollo de la teoría del cierre categorial?</texto>
+		<respuestas>
+			<correcta>Gustavo Bueno Martínez </correcta>
+			<incorrecta> Gustavo Adolfo Bécquer </incorrecta>
+			<incorrecta> Juan Alberto </incorrecta>
+			<incorrecta> Lil Boqueron </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cómo se apellidaban los dos exploradores que dieron la primera vuelta al mundo?</texto>
+		<respuestas>
+			<correcta> Magallanes-Elcano </correcta>
+			<incorrecta> Wigetta </incorrecta>
+			<incorrecta> Weasly </incorrecta>
+			<incorrecta> Cubero </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál es el monte más alto del mundo?</texto>
+		<respuestas>
+			<correcta> Everest </correcta>
+			<incorrecta> Alban </incorrecta>
+			<incorrecta> Tibidabo </incorrecta>
+			<incorrecta> Olimpo </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál es el país europeo del que provienen las familias de la mayor parte de los habitantes de Argentina?</texto>
+		<respuestas>
+			<correcta>  Italia </correcta>
+			<incorrecta> España </incorrecta>
+			<incorrecta> Alemania </incorrecta>
+			<incorrecta> Andorra </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Qué conocido cómico imitó a Hitler en la película “El Gran Dictador”? </texto>
+		<respuestas>
+			<correcta>  Charles Chaplin </correcta>
+			<incorrecta> louis C.K. </incorrecta>
+			<incorrecta> Dave Chappelle </incorrecta>
+			<incorrecta> Bill Burr </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quién fue el director y a la vez protagonista de la película “Ciudadano Kane”?</texto>
+		<respuestas>
+			<correcta> Orson Welles  </correcta>
+			<incorrecta> Ricky Gervais </incorrecta>
+			<incorrecta> Jerry Seinfeld </incorrecta>
+			<incorrecta> Patton Oswalt </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿A qué banda de música metal pertenece el disco Master of Puppets?</texto>
+		<respuestas>
+			<correcta> Metallica </correcta>
+			<incorrecta> AC/DC </incorrecta>
+			<incorrecta> Led Zeppelin</incorrecta>
+			<incorrecta> Guns N' Roses </incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Cómo se llama el libro en el que se basa la película "Blade Runner"? </texto>
+		<respuestas>
+			<correcta> ¿Sueñan los androides con ovejas eléctricas? </correcta>
+			<incorrecta>Harry Potter y la piedra filosofal </incorrecta>
+			<incorrecta> La Piel Fria</incorrecta>
+			<incorrecta>Wigetta: un viaje mágico</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+        <texto>¿Cuál fue el primer largometraje de Pixar?</texto>
+        <respuestas>
+            <correcta>Toy Story</correcta>
+            <incorrecta>Buscando a Nemo</incorrecta>
+            <incorrecta>Cars</incorrecta>
+            <incorrecta>WALL·E</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cómo se llama la icónica cafetería de Friends?</texto>
+        <respuestas>
+            <correcta>Central Perk</correcta>
+            <incorrecta>Central Park</incorrecta>
+            <incorrecta>Perk Central</incorrecta>
+            <incorrecta>Park Central</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuál fue la primer película de Disney?</texto>
+        <respuestas>
+            <correcta>Blanca Nieves</correcta>
+            <incorrecta>La bella i la bestia</incorrecta>
+            <incorrecta>La bella durmiente</incorrecta>
+            <incorrecta>La sirenita</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuál es el país más pequeño del mundo?</texto>
+        <respuestas>
+            <correcta>El Vaticano</correcta>
+            <incorrecta>Monaco</incorrecta>
+            <incorrecta>Andorra</incorrecta>
+            <incorrecta>Maldivas</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuál es el animal nacional de Australia?</texto>
+        <respuestas>
+            <correcta>Canguro</correcta>
+            <incorrecta>Koala</incorrecta>
+            <incorrecta>Dingo</incorrecta>
+            <incorrecta>Demonio de Tasmania</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cómo se llama el protagonista de la saga de videojuegos ‘The Legend of Zelda’?</texto>
+        <respuestas>
+            <correcta>Link</correcta>
+            <incorrecta>Zelda</incorrecta>
+            <incorrecta>Epona</incorrecta>
+            <incorrecta>Ash</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿En qué año llegó el hombre a la Luna</texto>
+        <respuestas>
+            <correcta>1969</correcta>
+            <incorrecta>1970</incorrecta>
+            <incorrecta>1971</incorrecta>
+            <incorrecta>1972</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuántos anillos tiene la bandera olímpica?</texto>
+        <respuestas>
+            <correcta>Cinco</correcta>
+            <incorrecta>Seis</incorrecta>
+            <incorrecta>Cuatro</incorrecta>
+            <incorrecta>Siete</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuál de los Teletubbies era verde?</texto>
+        <respuestas>
+            <correcta>Dipsy</correcta>
+            <incorrecta>Laa-Laa</incorrecta>
+            <incorrecta>Po</incorrecta>
+            <incorrecta>Tinky Winky</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Qué país inventó el té?</texto>
+        <respuestas>
+            <correcta>China</correcta>
+            <incorrecta>Japon</incorrecta>
+            <incorrecta>Reino Unido</incorrecta>
+            <incorrecta>Turquía</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+    	<texto>¿Cuál es el país del mundo con mayor población?</texto>
+    	<respuestas>
+    		<correcta>China</correcta>
+    		<incorrecta>India</incorrecta>
+    		<incorrecta>Estados Unidos</incorrecta>
+    		<incorrecta>Indonesia</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+    	<texto>¿Cuál es la lengua más hablada del mundo?</texto>
+    	<respuestas>
+    		<correcta>Chino mandarín</correcta>
+    		<incorrecta>Inglés</incorrecta>
+    		<incorrecta>Español</incorrecta>
+    		<incorrecta>Francés</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+    	<texto>¿Qué digito viene después del 3,14 en los decimales del Pi?</texto>
+    	<respuestas>
+    		<correcta>1</correcta>
+    		<incorrecta>5</incorrecta>
+    		<incorrecta>3</incorrecta>
+    		<incorrecta>4</incorrecta>
+        </respuestas>
+    </pregunta>
+	<pregunta>
+		<texto>¿Con qué nombre se conoció a Mario Bros por primera vez?</texto>
+		<respuestas>
+			<correcta>Jumpman</correcta>
+			<incorrecta>Mario</incorrecta>
+			<incorrecta>Hero</incorrecta>
+			<incorrecta>Plumber Man</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál es la consola más vendida de la historia?</texto>
+		<respuestas>
+			<correcta>PlayStation 2</correcta>
+			<incorrecta>Nintendo DS</incorrecta>
+			<incorrecta>PlayStation 1</incorrecta>
+			<incorrecta>Game Boy</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Como se llama el dios del vino en la mitología Romana?</texto>
+		<respuestas>
+			<correcta>Baco</correcta>
+			<incorrecta>Zeus</incorrecta>
+			<incorrecta>Kukulkan</incorrecta>
+			<incorrecta>Ares</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quiénes eran los enemigos en la serie original de Star Trek?</texto>
+		<respuestas>
+			<correcta>Los Kilngon</correcta>
+			<incorrecta>Los Volcano</incorrecta>
+			<incorrecta>Los Bajoran</incorrecta>
+			<incorrecta>Los Cardasianos</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál es la unidad básica de Longitud según el Sistema Internacional de Unidades?</texto>
+		<respuestas>
+			<correcta>Metro</correcta>
+			<incorrecta>Kelvin</incorrecta>
+			<incorrecta>Mol</incorrecta>
+			<incorrecta>Candela</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quién era el dios de la belleza masculina según la mitología griega?</texto>
+		<respuestas>
+			<correcta>Apolo</correcta>
+			<incorrecta>Ares</incorrecta>
+			<incorrecta>Dioniso</incorrecta>
+			<incorrecta>Poseidón</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cómo se llama el protagonista de God Of War?</texto>
+		<respuestas>
+			<correcta>Kratos</correcta>
+			<incorrecta>Teseo</incorrecta>
+			<incorrecta>Icaro</incorrecta>
+			<incorrecta>Perseo</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Qué marca de coches fabrica todoterrenos basados en vehículos militares?</texto>
+		<respuestas>
+			<correcta>Hammer</correcta>
+			<incorrecta>Honda</incorrecta>
+			<incorrecta>Dodge</incorrecta>
+			<incorrecta>Dacia</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Dónde es típico el Kimono?</texto>
+		<respuestas>
+			<correcta>Japón</correcta>
+			<incorrecta>Marruecos</incorrecta>
+			<incorrecta>Tanzania</incorrecta>
+			<incorrecta>China</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuales son los palos de la Baraja Española?</texto>
+		<respuestas>
+			<correcta>Oros, copas, espadas y bastos</correcta>
+			<incorrecta>Corazones, diamantes, picas y tréboles</incorrecta>
+			<incorrecta>Oros, copas, inciensos y mirras</incorrecta>
+			<incorrecta>Oros, copas y tréboles</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quants jugadors estan al mateix moment a pista en un partit de basket?</texto>
+		<respuestas>
+			<correcta>10</correcta>
+			<incorrecta>8</incorrecta>
+			<incorrecta>12</incorrecta>
+			<incorrecta>44</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quina cantitat de ossos contenim  aproximadament els humans?</texto>
+		<respuestas>
+			<correcta>206</correcta>
+			<incorrecta>198</incorrecta>
+			<incorrecta>1300</incorrecta>
+			<incorrecta>257</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin es el pais mes gran del planeta en extensió?</texto>
+		<respuestas>
+			<correcta>Russia</correcta>
+			<incorrecta>Espanya</incorrecta>
+			<incorrecta>Italia</incorrecta>
+			<incorrecta>India</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Qui es la reina de Inglaterra?</texto>
+		<respuestas>
+			<correcta>Isabel II</correcta>
+			<incorrecta>Isabel III</incorrecta>
+			<incorrecta>Isabel IV</incorrecta>
+			<incorrecta>Isabel</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin es el 5è planeta en el sistema solar?</texto>
+		<respuestas>
+			<correcta>Júpiter</correcta>
+			<incorrecta>Espanya</incorrecta>
+			<incorrecta>Mars</incorrecta>
+			<incorrecta>Saturn</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin es l'animal terrestre més rapid del mon?</texto>
+		<respuestas>
+			<correcta>guepard</correcta>
+			<incorrecta>lleo</incorrecta>
+			<incorrecta>pantera</incorrecta>
+			<incorrecta>tortuga</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cada quan es celebren els jocs olimpics?</texto>
+		<respuestas>
+			<correcta>4 anys</correcta>
+			<incorrecta>5 anys</incorrecta>
+			<incorrecta>3 anys</incorrecta>
+			<incorrecta>2 anys</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Qui va pintar el quadre de Las Meninas?</texto>
+		<respuestas>
+			<correcta>Diego Velàzquez</correcta>
+			<incorrecta>Pablo Picasso</incorrecta>
+			<incorrecta>Francisco de Goya </incorrecta>
+			<incorrecta>Salvador Dalí</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Qui va ser el primer home en trepitjar la lluna?</texto>
+		<respuestas>
+			<correcta>Neil Armstrong</correcta>
+			<incorrecta>Louis Armstrong</incorrecta>
+			<incorrecta>Michael Armstrong</incorrecta>
+			<incorrecta>Paco</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Qui es conegut com el rei del Rock And Roll als Estats Units?</texto>
+		<respuestas>
+			<correcta>Elvis Presley </correcta>
+			<incorrecta>Michael Jackson</incorrecta>
+			<incorrecta>Bruce Springsteen</incorrecta>
+			<incorrecta>Raphael</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>2+2</texto>
+		<respuestas>
+			<correcta>4</correcta>
+			<incorrecta>6</incorrecta>
+			<incorrecta>0</incorrecta>
+			<incorrecta>1</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿El mejor club de fútbol de Barcelona?</texto>
+		<respuestas>
+			<correcta>RCD ESPANYOL</correcta>
+			<incorrecta>fc barcelona</incorrecta>
+			<incorrecta>PSG</incorrecta>
+			<incorrecta>Getafe CF</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuando el arrendamiento de un cliente DHCPv4 está por caducar, ¿cuál es el mensaje que el cliente envía al servidor DHCP?</texto>
+		<respuestas>
+			<correcta>DHCPREQUEST </correcta>
+			<incorrecta>DHCPOFFER</incorrecta>
+			<incorrecta>DHCPDISCOVER</incorrecta>
+			<incorrecta>DHCPACK</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cual es el satélite de la Tierra?</texto>
+		<respuestas>
+			<correcta>Luna</correcta>
+			<incorrecta>Juan</incorrecta>
+			<incorrecta>R789</incorrecta>
+			<incorrecta>Lebron James</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quién tiene antenas parabòlicas?</texto>
+		<respuestas>
+			<correcta>Sartabunte</correcta>
+			<incorrecta>Escapatrajo</incorrecta>
+			<incorrecta>Marciano pequenhito</incorrecta>
+			<incorrecta>Gangster</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuantas champions tiene el Real Madrid CF?</texto>
+		<respuestas>
+			<correcta>13</correcta>
+			<incorrecta>3</incorrecta>
+			<incorrecta>11</incorrecta>
+			<incorrecta>Trompeta</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuantas preguntas he tenio que escribir?</texto>
+		<respuestas>
+			<correcta>10</correcta>
+			<incorrecta>6</incorrecta>
+			<incorrecta>2</incorrecta>
+			<incorrecta>7</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿MVP NBA Finals 2020?</texto>
+		<respuestas>
+			<correcta>Lebron James</correcta>
+			<incorrecta>Brow Davies</incorrecta>
+			<incorrecta>Carusso</incorrecta>
+			<incorrecta>J.Butler</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿A que se dedica Rafa Nadal?</texto>
+		<respuestas>
+			<correcta>Tenista</correcta>
+			<incorrecta>Astronauta</incorrecta>
+			<incorrecta>Broker</incorrecta>
+			<incorrecta>Santa Claus</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quién es CR7?</texto>
+		<respuestas>
+			<correcta>Cristiano Ronaldo</correcta>
+			<incorrecta>Carlos Ramón VII</incorrecta>
+			<incorrecta>Cecilio R</incorrecta>
+			<incorrecta>Conaldo Ristiano</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuantos habitantes tiene Getafe?</texto>
+		<respuestas>
+			<correcta>180.000</correcta>
+			<incorrecta>5.000</incorrecta>
+			<incorrecta>500.000</incorrecta>
+			<incorrecta>280.000</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Streamer Español de Twitch con más subs?</texto>
+		<respuestas>
+			<correcta>Ibai</correcta>
+			<incorrecta>Auronplay</incorrecta>
+			<incorrecta>danke_panke</incorrecta>
+			<incorrecta>alexelcapo</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Que marca de coche es japonesa?</texto>
+		<respuestas>
+			<correcta>Toyota</correcta>
+			<incorrecta>Seat</incorrecta>
+			<incorrecta>Audi</incorrecta>
+			<incorrecta>Tesla</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quién descubrio América?</texto>
+		<respuestas>
+			<correcta>Cristobal Colon</correcta>
+			<incorrecta>Cristobal Soria</incorrecta>
+			<incorrecta>Paulo Coelho</incorrecta>
+			<incorrecta>Leo Messi</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Propietario de Space-X?</texto>
+		<respuestas>
+			<correcta>Elon Musk</correcta>
+			<incorrecta>Elon Tusk</incorrecta>
+			<incorrecta>Jeff Bezos</incorrecta>
+			<incorrecta>RDT</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Como solucionar un gimball en animación 3D?</texto>
+		<respuestas>
+			<correcta>Euler Filtre</correcta>
+			<incorrecta>Gimball Solver</incorrecta>
+			<incorrecta>Dirección direccionalmente direccionada</incorrecta>
+			<incorrecta>Reiniciar el programa</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Colores de la camiseta del AC Milan?</texto>
+		<respuestas>
+			<correcta>Rojo Negro</correcta>
+			<incorrecta>Amarillo Negro</incorrecta>
+			<incorrecta>Rojo Blanco</incorrecta>
+			<incorrecta>ZLATAN DECIDES</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cual es el Pokemon?</texto>
+		<respuestas>
+			<correcta>Arrokuda</correcta>
+			<incorrecta>Tutankamon</incorrecta>
+			<incorrecta>Varrakuda</incorrecta>
+			<incorrecta>Warchiwar</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cual es una Cryptomoneda?</texto>
+		<respuestas>
+			<correcta>Todas lo son</correcta>
+			<incorrecta>Dogecoin</incorrecta>
+			<incorrecta>Atletico De Madrid Fan Token</incorrecta>
+			<incorrecta>PancakeSwap</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Como quedo el FCBarcelona en el partido que le eliminó de la champions contra el FCBayern?</texto>
+		<respuestas>
+			<correcta>2-8</correcta>
+			<incorrecta>1-4</incorrecta>
+			<incorrecta>0-4</incorrecta>
+			<incorrecta>Le marcan tantos que no me acuerdo :S</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+        <texto>¿Cuántos minutos se juega un partido de rugby?</texto>
+        <respuestas>
+            <correcta>80 minutos</correcta>
+            <incorrecta>60 minutos</incorrecta>
+            <incorrecta>85 minutos</incorrecta>
+            <incorrecta>120 minutos</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿En qué mes está la Tierra más cerca del sol?</texto>
+        <respuestas>
+            <correcta>Enero</correcta>
+            <incorrecta>Junio</incorrecta>
+            <incorrecta>Julio</incorrecta>
+            <incorrecta>Agosto</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Qué personaje de dibujos animados vive en una piña bajo el mar?</texto>
+        <respuestas>
+            <correcta>Bob Esponja</correcta>
+            <incorrecta>Simba</incorrecta>
+            <incorrecta>Calamardo</incorrecta>
+            <incorrecta>La Sirenita</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Con qué color fue originalmente asociado el día de San Patricio?</texto>
+        <respuestas>
+            <correcta>Azul</correcta>
+            <incorrecta>Verde</incorrecta>
+            <incorrecta>Morado</incorrecta>
+            <incorrecta>Amarillo</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Quién era el dios griego de la guerra?</texto>
+        <respuestas>
+            <correcta>Ares</correcta>
+            <incorrecta>Hefesto</incorrecta>
+            <incorrecta>Apolo</incorrecta>
+            <incorrecta>Dioniso</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuáles son los dos idiomas oficiales del Camerún?</texto>
+        <respuestas>
+            <correcta>Francés e Inglés</correcta>
+            <incorrecta>Francés y Camerunés</incorrecta>
+            <incorrecta>Inglés y Camerunés</incorrecta>
+            <incorrecta>Francés y Singalès</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Qué edad tenía la canadiense Avril Lavigne cuando firmó su primer contrato de grabación?</texto>
+        <respuestas>
+            <correcta>16</correcta>
+            <incorrecta>17</incorrecta>
+            <incorrecta>15</incorrecta>
+            <incorrecta>20</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿En qué década se publicó »El Señor de los Anillos« por primera vez?</texto>
+        <respuestas>
+            <correcta>1950</correcta>
+            <incorrecta>1990</incorrecta>
+            <incorrecta>2000</incorrecta>
+            <incorrecta>1980</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Qué órgano es el más grande en el cuerpo humano? </texto>
+        <respuestas>
+            <correcta>La piel</correcta>
+            <incorrecta>Corazon</incorrecta>
+            <incorrecta>Pulmones</incorrecta>
+            <incorrecta>Hígado</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuántas zonas horarias tiene en Rusia?</texto>
+        <respuestas>
+            <correcta>11</correcta>
+            <incorrecta>8</incorrecta>
+            <incorrecta>9</incorrecta>
+            <incorrecta>10</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+		<texto>¿Cuál título ha sido proclamado como el ‘peor videojuego de la historia’?</texto>
+		<respuestas>
+			<correcta>‘ET, el extraterrestre’</correcta>
+			<incorrecta>‘Batman: Arkham Knight’ para PC</incorrecta>
+			<incorrecta>‘Superman 64’</incorrecta>
+			<incorrecta>‘Big Rigs: Over the Road Racing’</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál de estos videojuegos fue creado por Satoru Iwata, expresidente de Nintendo?</texto>
+		<respuestas>
+			<correcta>‘Balloon Fight’</correcta>
+			<incorrecta>‘Mario Bros’</incorrecta>
+			<incorrecta>‘Pokemon Stadium’</incorrecta>
+			<incorrecta>‘Brain Training’</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto> ¿Para qué compañía de videojuegos trabajó Steve Jobs de Apple?</texto>
+		<respuestas>
+			<correcta>Atari</correcta>
+			<incorrecta>Pixar</incorrecta>
+			<incorrecta>Nintendo</incorrecta>
+			<incorrecta>Sega</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Qué es Raccoon City?</texto>
+		<respuestas>
+			<correcta>La ciudad origen de Resident Evil</correcta>
+			<incorrecta>La ciudad mayor de Sim City</incorrecta>
+			<incorrecta>La ciudad de Batman Arkham City</incorrecta>
+			<incorrecta>La ciudad donde arranca Lego City</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿En qué juego apareció por primera vez Mario Bros?</texto>
+		<respuestas>
+			<correcta>Donkey Kong</correcta>
+			<incorrecta>Super Mario Bros</incorrecta>
+			<incorrecta>Nintendo All-Stars</incorrecta>
+			<incorrecta>Super Mario Land</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿En qué año fue fundado Nintendo?</texto>
+		<respuestas>
+			<correcta>1889</correcta>
+			<incorrecta>1931</incorrecta>
+			<incorrecta>1945</incorrecta>
+			<incorrecta>1970</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿El efecto de sonido ‘Wololo’ a qué juego hace referencia?</texto>
+		<respuestas>
+			<correcta>Age of Empires</correcta>
+			<incorrecta>Warcraft 3</incorrecta>
+			<incorrecta>League of Legends</incorrecta>
+			<incorrecta>Rise of nations</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿En qué país se inventaron el ‘Tetris’?</texto>
+		<respuestas>
+			<correcta>Unión Soviética</correcta>
+			<incorrecta>China</incorrecta>
+			<incorrecta>Estados Unidos</incorrecta>
+			<incorrecta>Japón</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál de estas marcas tuvo un juego propio en Need for Speed?</texto>
+		<respuestas>
+			<correcta>Porsche</correcta>
+			<incorrecta>Ford</incorrecta>
+			<incorrecta>BWM</incorrecta>
+			<incorrecta>Ferrari</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuáles juegos son exclusivos de Playstation</texto>
+		<respuestas>
+			<correcta>Little Big Planet, God of War, The Last of Us.</correcta>
+			<incorrecta>Uncharted, PES, Metal Gear Solid.</incorrecta>
+			<incorrecta>Gran Turismo, Assasins Creed, Infamous.</incorrecta>
+			<incorrecta>God of War, Gran Turismo, Resident Evil.</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+    <texto>Hefesto es el dios de:</texto>
+    <respuestas>
+      <correcta>El fuego y la forja</correcta>
+      <incorrecta>El comercio</incorrecta>
+      <incorrecta>Los pastores y rebaños</incorrecta>
+      <incorrecta>Los Ladrones</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>La civilización minoica de la isla de Creta debe su nombre al legendario rey Minos. Entre otras cosas ¿por qué es famoso este monarca?</texto>
+    <respuestas>
+      <correcta>Por mandar construir un laberinto</correcta>
+      <incorrecta>Por robar las manzanas de las Hespérides</incorrecta>
+      <incorrecta>Por luchar en la guerra de Troya</incorrecta>
+      <incorrecta>Por vencer al león de Esparta</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>En la antigua Grecia hubo muchos oráculos famosos, a los que la gente acudía para consultar su futuro. ¿Sabes cuál era el más famoso e influyente?</texto>
+    <respuestas>
+      <correcta>El de Apolo en Delfos</correcta>
+      <incorrecta>El de Afrodita en Pafos</incorrecta>
+      <incorrecta>El de Zeus en Dodona</incorrecta>
+      <incorrecta>El de Trofonio en Lebadea</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Además de los oráculos, los cultos mistéricos también eran importantes ¿Conoces el más famoso de estos cultos?</texto>
+    <respuestas>
+      <correcta>Los misterios de Eleusis</correcta>
+      <incorrecta>Los misterios órficos</incorrecta>
+      <incorrecta>Los misterios samotrácicos</incorrecta>
+      <incorrecta>Los misterios oníricos</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>El teatro trágico griego nació como un arte relacionado con la religión. Pero aunque casi siempre se representaban tragedias, el público también disfrutaba de las comedias, ¿sabes cuál de estos autores es un comediógrafo?</texto>
+    <respuestas>
+      <correcta>Aristófanes</correcta>
+      <incorrecta>Eurípides</incorrecta>
+      <incorrecta>Sófocles</incorrecta>
+      <incorrecta>Hipócrates</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Además de autores teatrales, en Grecia surgieron grandes escultores y artistas. Uno de los arquitectos y escultores más famosos de Grecia fue el autor de obras tan emblemáticas como los frisos del Partenón, ¿sabes de quién hablamos?
+</texto>
+    <respuestas>
+      <correcta>Fidias</correcta>
+      <incorrecta>Praxiteles</incorrecta>
+      <incorrecta>Lisímaco</incorrecta>
+      <incorrecta>Heródoto</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿Sabes qué es una estatua criselefantina?</texto>
+    <respuestas>
+      <correcta>Una estatua hecha de marfil y oro</correcta>
+      <incorrecta>Una estatua hecha de marfil y mármol</incorrecta>
+      <incorrecta>Una estatua hecha de mármol y oro</incorrecta>
+      <incorrecta>Una estatua de marfil y bronce</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿Cuál de estas estatuas es una estatua criselefantina</texto>
+    <respuestas>
+      <correcta>La de Zeus en Olimpia</correcta>
+      <incorrecta>La de Artemisa en Éfeso</incorrecta>
+      <incorrecta>La de Atenea Polias</incorrecta>
+      <incorrecta>Doríforo de Policleto</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Griegos y persas lucharon en varias ocasiones. A estos conflictos se los conoce con el nombre de guerras médicas, ¿sabes cuántas hubo?</texto>
+    <respuestas>
+      <correcta>Tres</correcta>
+      <incorrecta>Dos</incorrecta>
+      <incorrecta>Cuatro</incorrecta>
+      <incorrecta>Seis</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Sabemos que los Juegos Olímpicos son un invento griego, pero ¿sabes en qué año tuvo lugar la primera olimpiada?</texto>
+    <respuestas>
+      <correcta>776 a.C.</correcta>
+      <incorrecta>630 a.C.</incorrecta>
+      <incorrecta>550 a.C.</incorrecta>
+      <incorrecta>330 d.C.</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Atenas fue en el siglo V a.C. la potencia más importante de Grecia, líder de una alianza que se llamaba...</texto>
+    <respuestas>
+      <correcta>La Liga de Delos</correcta>
+      <incorrecta>La liga de Kos</incorrecta>
+      <incorrecta>La Liga de Delfos</incorrecta>
+      <incorrecta>Liga Beocia</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿Cuál fue el resultado final de la Batalla de Corinto?</texto>
+    <respuestas>
+      <correcta>La conquista romana de Grecia</correcta>
+      <incorrecta>La anexión de Grecia con Alejandría</incorrecta>
+      <incorrecta>El derrocamiento del tirano Pisístrato</incorrecta>
+      <incorrecta>La victoria de los griegos frente a los persas</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿Como se conocía antiguamente la región que actualmente se denomina Grecia?</texto>
+    <respuestas>
+      <correcta>Hélade</correcta>
+      <incorrecta>Cicládica</incorrecta>
+      <incorrecta>Minoica</incorrecta>
+      <incorrecta>Egea</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿Que dos civilizaciones se consideran como el origen de la posterior y poderosa civilización griega?</texto>
+    <respuestas>
+      <correcta>Cretense y Micénica</correcta>
+      <incorrecta>Peloponeso y Espartana</incorrecta>
+      <incorrecta>Micénica y Bizantina</incorrecta>
+      <incorrecta>Bizantina y Cretense</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿A qué gobernante ateniense debemos la instauración de la democracia, considerada como poder del pueblo?</texto>
+    <respuestas>
+      <correcta>Pericles</correcta>
+      <incorrecta>Heródoto</incorrecta>
+      <incorrecta>Alejandro Magno</incorrecta>
+      <incorrecta>Tucídides</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Hefesto es el dios de:</texto>
+    <respuestas>
+      <correcta>El fuego y la forja</correcta>
+      <incorrecta>El comercio</incorrecta>
+      <incorrecta>Los pastores y rebaños</incorrecta>
+      <incorrecta>Los Ladrones</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>La civilización minoica de la isla de Creta debe su nombre al legendario rey Minos. Entre otras cosas ¿por qué es famoso este monarca?</texto>
+    <respuestas>
+      <correcta>Por mandar construir un laberinto</correcta>
+      <incorrecta>Por robar las manzanas de las Hespérides</incorrecta>
+      <incorrecta>Por luchar en la guerra de Troya</incorrecta>
+      <incorrecta>Por vencer al león de Esparta</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>En la antigua Grecia hubo muchos oráculos famosos, a los que la gente acudía para consultar su futuro. ¿Sabes cuál era el más famoso e influyente?</texto>
+    <respuestas>
+      <correcta>El de Apolo en Delfos</correcta>
+      <incorrecta>El de Afrodita en Pafos</incorrecta>
+      <incorrecta>El de Zeus en Dodona</incorrecta>
+      <incorrecta>El de Trofonio en Lebadea</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Además de los oráculos, los cultos mistéricos también eran importantes ¿Conoces el más famoso de estos cultos?</texto>
+    <respuestas>
+      <correcta>Los misterios de Eleusis</correcta>
+      <incorrecta>Los misterios órficos</incorrecta>
+      <incorrecta>Los misterios samotrácicos</incorrecta>
+      <incorrecta>Los misterios oníricos</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>El teatro trágico griego nació como un arte relacionado con la religión. Pero aunque casi siempre se representaban tragedias, el público también disfrutaba de las comedias, ¿sabes cuál de estos autores es un comediógrafo?</texto>
+    <respuestas>
+      <correcta>Aristófanes</correcta>
+      <incorrecta>Eurípides</incorrecta>
+      <incorrecta>Sófocles</incorrecta>
+      <incorrecta>Hipócrates</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Además de autores teatrales, en Grecia surgieron grandes escultores y artistas. Uno de los arquitectos y escultores más famosos de Grecia fue el autor de obras tan emblemáticas como los frisos del Partenón, ¿sabes de quién hablamos?
+</texto>
+    <respuestas>
+      <correcta>Fidias</correcta>
+      <incorrecta>Praxiteles</incorrecta>
+      <incorrecta>Lisímaco</incorrecta>
+      <incorrecta>Heródoto</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿Sabes qué es una estatua criselefantina?</texto>
+    <respuestas>
+      <correcta>Una estatua hecha de marfil y oro</correcta>
+      <incorrecta>Una estatua hecha de marfil y mármol</incorrecta>
+      <incorrecta>Una estatua hecha de mármol y oro</incorrecta>
+      <incorrecta>Una estatua de marfil y bronce</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿Cuál de estas estatuas es una estatua criselefantina</texto>
+    <respuestas>
+      <correcta>La de Zeus en Olimpia</correcta>
+      <incorrecta>La de Artemisa en Éfeso</incorrecta>
+      <incorrecta>La de Atenea Polias</incorrecta>
+      <incorrecta>Doríforo de Policleto</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Griegos y persas lucharon en varias ocasiones. A estos conflictos se los conoce con el nombre de guerras médicas, ¿sabes cuántas hubo?</texto>
+    <respuestas>
+      <correcta>Tres</correcta>
+      <incorrecta>Dos</incorrecta>
+      <incorrecta>Cuatro</incorrecta>
+      <incorrecta>Seis</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Sabemos que los Juegos Olímpicos son un invento griego, pero ¿sabes en qué año tuvo lugar la primera olimpiada?</texto>
+    <respuestas>
+      <correcta>776 a.C.</correcta>
+      <incorrecta>630 a.C.</incorrecta>
+      <incorrecta>550 a.C.</incorrecta>
+      <incorrecta>330 d.C.</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+		<texto>On es troba el "Palacio de westminster?"</texto>
+			<respuestas>
+				<correcta>Londres</correcta>
+				<incorrecta>París</incorrecta>
+				<incorrecta>Roma</incorrecta>
+				<incorrecta>Florencia</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Com es diu en tennis un punt de servei directe?</texto>
+			<respuestas>
+				<correcta>Ace</correcta>
+				<incorrecta>Love</incorrecta>
+				<incorrecta>Revés</incorrecta>
+				<incorrecta>Net</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>A quina distància està el punt de penal de la porteria en futbol?</texto>
+			<respuestas>
+				<correcta>11m</correcta>
+				<incorrecta>12m</incorrecta>
+				<incorrecta>7m</incorrecta>
+				<incorrecta>10m</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Si parlem de jugador boia, estem parlant de ...</texto>
+			<respuestas>
+				<correcta>waterpolo</correcta>
+				<incorrecta>voleibol</incorrecta>
+				<incorrecta>hockey</incorrecta>
+				<incorrecta>surf</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>A quina altura està l'aro de basquet?</texto>
+			<respuestas>
+				<correcta>3,05m</correcta>
+				<incorrecta>3,09m</incorrecta>
+				<incorrecta>3,10m</incorrecta>
+				<incorrecta>3,15m</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quants jugadors en pista hi ha en un equip de voleibol?</texto>
+			<respuestas>
+				<correcta>6</correcta>
+				<incorrecta>4</incorrecta>
+				<incorrecta>5</incorrecta>
+				<incorrecta>9</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quant fa de llargada una piscina olimpica?</texto>
+			<respuestas>
+				<correcta>50m</correcta>
+				<incorrecta>45m</incorrecta>
+				<incorrecta>30m</incorrecta>
+				<incorrecta>35m</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quants kilometres es corre en una marató?</texto>
+			<respuestas>
+				<correcta>42km</correcta>
+				<incorrecta>52km</incorrecta>
+				<incorrecta>65km</incorrecta>
+				<incorrecta>50km</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quants anells de la NBA té Shaquille O’Neal</texto>
+			<respuestas>
+				<correcta>4</correcta>
+				<incorrecta>3</incorrecta>
+				<incorrecta>5</incorrecta>
+				<incorrecta>CAP</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin és l'esport nacional a Japó?</texto>
+			<respuestas>
+				<correcta>Sumo</correcta>
+				<incorrecta>Karate</incorrecta>
+				<incorrecta>E-Sports</incorrecta>
+				<incorrecta>Les 3 son correctes</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuando se juntaron Ford y Shelby?</texto>
+		<respuestas>
+			<correcta>1965</correcta>
+			<incorrecta>1966</incorrecta>
+			<incorrecta>1970</incorrecta>
+			<incorrecta>1969</incorrecta>
+			</respuestas>
+		
+	</pregunta>
+	<pregunta>
+		<texto>Como se llamaba el fundador de ferrari?</texto>
+		<respuestas>
+			<correcta>Enzo</correcta>
+			<incorrecta>Corleone</incorrecta>
+			<incorrecta>Giuseppe</incorrecta>
+			<incorrecta>Nicola</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuantos aros tiene el logo de Audi?</texto>
+		<respuestas>
+			<correcta>4</correcta>
+			<incorrecta>3</incorrecta>
+			<incorrecta>5</incorrecta>
+			<incorrecta>1</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Que nombre de un Lamborghini comparte con un circuito Español?</texto>
+		<respuestas>
+			<correcta>Jarama</correcta>
+			<incorrecta>Urraco</incorrecta>
+			<incorrecta>Countach</incorrecta>
+			<incorrecta>Jalpa</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuál es el circuito más largo del mundo?</texto>
+		<respuestas>
+			<correcta>Nürburgring</correcta>
+			<incorrecta>Jarama</incorrecta>
+			<incorrecta>Yas Marina</incorrecta>
+			<incorrecta>Indianápolis</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuál es el circuito con más público del mundo?</texto>
+		<respuestas>
+			<correcta>Indianápolis</correcta>
+			<incorrecta>Silverstone </incorrecta>
+			<incorrecta>Mónaco</incorrecta>
+			<incorrecta>Interlagos</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuál es el coche más rápido del mundo?</texto>
+		<respuestas>
+			<correcta>SSC Tuatara</correcta>
+			<incorrecta>Bugatti Chiron</incorrecta>
+			<incorrecta>Lamborghini Veneno</incorrecta>
+			<incorrecta>Koenigsegg One:1</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuál es el piloto con más victorias del Rally?</texto>
+		<respuestas>
+			<correcta>Sébastien Loeb</correcta>
+			<incorrecta>Carlos Sainz</incorrecta>
+			<incorrecta>Dani Sordo</incorrecta>
+			<incorrecta>Colin McRae</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuál es la velocidad máxima que alcanza un F1 (2021)?</texto>
+		<respuestas>
+			<correcta>378 km/h</correcta>
+			<incorrecta>388 km/h</incorrecta>
+			<incorrecta>368 km/h</incorrecta>
+			<incorrecta>398 km/h</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Como se les llama a los vehículos con una sola plaza?</texto>
+		<respuestas>
+			<correcta>Monoplaza</correcta>
+			<incorrecta>Biplaza</incorrecta>
+			<incorrecta>Compacto</incorrecta>
+			<incorrecta>Berlina</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quina és la capital d'Estonia?</texto>
+		<respuestas>
+			<correcta>Tallinn</correcta>
+			<incorrecta>Bogotà</incorrecta>
+			<incorrecta>Singapur</incorrecta>
+			<incorrecta>Riga</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin és el riu més llarg del planeta?</texto>
+		<respuestas>
+			<correcta>Nil</correcta>
+			<incorrecta>Amazones</incorrecta>
+			<incorrecta>Mississippi</incorrecta>
+			<incorrecta>Danubi</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin és el continent més fred de la Terra?</texto>
+		<respuestas>
+			<correcta>Antàrtida</correcta>
+			<incorrecta>Àfrica</incorrecta>
+			<incorrecta>Europa</incorrecta>
+			<incorrecta>Asia</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quin és el país més petit del món?</texto>
+		<respuestas>
+			<correcta>Ciutat del Vatica</correcta>
+			<incorrecta>Liechenstein</incorrecta>
+			<incorrecta>Andorra</incorrecta>
+			<incorrecta>Monaco</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quina és la capital de Sud-àfrica?</texto>
+		<respuestas>
+			<correcta>Totes les respostes anteriors</correcta>
+			<incorrecta>Pretoria</incorrecta>
+			<incorrecta>Bloemfontein</incorrecta>
+			<incorrecta>Ciutat del Cap</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quina és la capital de l'estat de Nova York</texto>
+		<respuestas>
+			<correcta>Albany</correcta>
+			<incorrecta>Buffalo</incorrecta>
+			<incorrecta>Nova York</incorrecta>
+			<incorrecta>Washington</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quines són les cascades amb més caudal d'aigua del món?</texto>
+		<respuestas>
+			<correcta>Cascades Inga</correcta>
+			<incorrecta>Cascades del Niagara</incorrecta>
+			<incorrecta>Cascades Livingstone</incorrecta>
+			<incorrecta>Cscades Boyoma</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>En quin continent és troba el lloc més càlid del planeta?</texto>
+		<respuestas>
+			<correcta>Amèrica del Nord</correcta>
+			<incorrecta>Amèrica del Sud</incorrecta>
+			<incorrecta>Àfrica</incorrecta>
+			<incorrecta>Asia</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quina és la capital d'Hongria?</texto>
+		<respuestas>
+			<correcta>Budapest</correcta>
+			<incorrecta>Bucarest</incorrecta>
+			<incorrecta>Bratislava</incorrecta>
+			<incorrecta>Belgrad</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quina és la montanya més alta del món?</texto>
+		<respuestas>
+			<correcta>Everest</correcta>
+			<incorrecta>K2</incorrecta>
+			<incorrecta>Lhotse</incorrecta>
+			<incorrecta>Kilimanjaro</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+        <texto>¿Quien es el equipo de futbol con mas champions?</texto>
+        <respuestas>
+            <correcta>Real Madrid</correcta>
+            <incorrecta>Bayern de Munich</incorrecta>
+            <incorrecta>Fc Barcelona</incorrecta>
+            <incorrecta>AC Milan</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuál es el verdadero nombre de goku?</texto>
+        <respuestas>
+            <correcta>Kakaroto</correcta>
+            <incorrecta>Luffy</incorrecta>
+            <incorrecta>Lechuga</incorrecta>
+            <incorrecta>Cor Petit</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cual es el estadio de futbol español con mas aforo?</texto>
+        <respuestas>
+            <correcta>Camp Nou</correcta>
+            <incorrecta>Santiago Bernabeu</incorrecta>
+            <incorrecta>San Mames</incorrecta>
+            <incorrecta>Benito Villamarin</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cual es el pais mas grande del mundo?</texto>
+        <respuestas>
+            <correcta>Rusia</correcta>
+            <incorrecta>China</incorrecta>
+            <incorrecta>Estados Unidos</incorrecta>
+            <incorrecta>Brazil</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuantas veces a muerto krilin personaje de Dragon Ball?</texto>
+        <respuestas>
+            <correcta>3</correcta>
+            <incorrecta>2</incorrecta>
+            <incorrecta>5</incorrecta>
+            <incorrecta>10</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cual es el primero de la lista de los numeros primos?</texto>
+        <respuestas>
+            <correcta>2</correcta>
+            <incorrecta>0</incorrecta>
+            <incorrecta>1</incorrecta>
+            <incorrecta>4</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cual es el personaje mas fuerte en el anime de Bleach?</texto>
+        <respuestas>
+            <correcta>Ywatch</correcta>
+            <incorrecta>Ichigo</incorrecta>
+            <incorrecta>Kenpachi</incorrecta>
+            <incorrecta>Urahara</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cual es el jugador de tenis con mas titulos?</texto>
+        <respuestas>
+            <correcta>Jimmy Connors</correcta>
+            <incorrecta>Roger Federer</incorrecta>
+            <incorrecta>Rafa Nadal</incorrecta>
+            <incorrecta>Novak Dokovic</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cual es el personaje mas poderoso del universo 7 en Dragon Ball?</texto>
+        <respuestas>
+            <correcta>Beerus</correcta>
+            <incorrecta>Goku</incorrecta>
+            <incorrecta>Bulma</incorrecta>
+            <incorrecta>Broly</incorrecta>
+        </respuestas>
+    </pregunta>	
+    <pregunta>
+		<texto>¿En qué año empieza la Segunda Guerra Mundial?</texto>
+		<respuestas>
+			<correcta>1939</correcta>
+			<incorrecta>1936</incorrecta>
+			<incorrecta>1945</incorrecta>
+			<incorrecta>1941</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+    <texto>¿En qué año cayó el Imperio Romano de occidente?</texto>
+    <respuestas>
+      <correcta>476</correcta>
+      <incorrecta>1453</incorrecta>
+      <incorrecta>1120</incorrecta>
+      <incorrecta>523</incorrecta>
+    </respuestas>
+   </pregunta>
+  <pregunta>
+    <texto>¿Qué reyes reinaban en España cuando se descubrió América?</texto>
+    <respuestas>
+      <correcta>Fernando e Isabel</correcta>
+      <incorrecta>Felipe y Letizia</incorrecta>
+      <incorrecta>Fernando y Maria Cristina</incorrecta>
+      <incorrecta>Isabel y Francisco de Asís</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿De qué estilo arquitectónico es la catedral de Notre Dame?</texto>
+    <respuestas>
+      <correcta>Gótico</correcta>
+      <incorrecta>Románico</incorrecta>
+      <incorrecta>Neoclásico</incorrecta>
+      <incorrecta>Barroco</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿En qué año comienza la conquista musulmana de la península ibérica?</texto>
+    <respuestas>
+      <correcta>711</correcta>
+      <incorrecta>726</incorrecta>
+      <incorrecta>1492</incorrecta>
+      <incorrecta>1100</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿Cuándo entró en vigor la actual Constitución en España?</texto>
+    <respuestas>
+      <correcta>1978</correcta>
+      <incorrecta>1975</incorrecta>
+      <incorrecta>1980</incorrecta>
+      <incorrecta>1976</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿Cuál es el órgano de poder principal en España?</texto>
+    <respuestas>
+      <correcta>Tribunal supremo</correcta>
+      <incorrecta>Congreso de los Diputados</incorrecta>
+      <incorrecta>Tribunal constitucional</incorrecta>
+      <incorrecta>Senado</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿En qué año empieza la Guerra Civil Española?</texto>
+    <respuestas>
+      <correcta>1936</correcta>
+      <incorrecta>1939</incorrecta>
+      <incorrecta>1945</incorrecta>
+      <incorrecta>1937</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué acontecimiento histórico sucedió en España entre 1923 y 1930?</texto>
+    <respuestas>
+      <correcta>Dictadura de Primo de Rivera</correcta>
+      <incorrecta>Guerra Civil Española</incorrecta>
+      <incorrecta>Regéncia de Maria Cristina</incorrecta>
+      <incorrecta>Primera república española</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>¿En qué año fue descubierta América?</texto>
+    <respuestas>
+      <correcta>1492</correcta>
+      <incorrecta>1460</incorrecta>
+      <incorrecta>1542</incorrecta>
+      <incorrecta>976</incorrecta>
+    </respuestas>
+  </pregunta>		
+ <pregunta>
+    <texto>Qui va inventar el primer ordinador?</texto>
+    <respuestas>
+      <correcta>Konrad Zuse</correcta>
+      <incorrecta>Alva John Fisher</incorrecta>
+      <incorrecta>Percy Spencer</incorrecta>
+      <incorrecta>Alexander Graham Bell</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>A quina edat va debutar Ansu Fati al primer equip del FCB?</texto>
+    <respuestas>
+      <correcta>16 anys</correcta>
+      <incorrecta>17 anys</incorrecta>
+      <incorrecta>18 anys</incorrecta>
+      <incorrecta>19 anys</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Quina companyia desarrolla de GTA V?</texto>
+    <respuestas>
+      <correcta>RockStar Games</correcta>
+      <incorrecta>Steam</incorrecta>
+      <incorrecta>Nintendo</incorrecta>
+      <incorrecta>Electronic Arts</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Quina selecció va guanyar el mundial de Qatar del 2022?</texto>
+    <respuestas>
+      <correcta>Selecció Argentina</correcta>
+      <incorrecta>Selecció Espanyola</incorrecta>
+      <incorrecta>Selecció Francesa</incorrecta>
+      <incorrecta>Selecció de Portugal</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Quin riu es el més cabalós del mon?</texto>
+    <respuestas>
+      <correcta>Amazones</correcta>
+      <incorrecta>Ebre</incorrecta>
+      <incorrecta>Tajo</incorrecta>
+      <incorrecta>Francolí</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>Quantes capitals hi han a Espanya?</texto>
+    <respuestas>
+      <correcta>52</correcta>
+      <incorrecta>60</incorrecta>
+      <incorrecta>48</incorrecta>
+      <incorrecta>56</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>A on trobem la Torre Eiffel?</texto>
+    <respuestas>
+      <correcta>París</correcta>
+      <incorrecta>Madrid</incorrecta>
+      <incorrecta>Berlín</incorrecta>
+      <incorrecta>Roma</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>De quina rassa és Goku?</texto>
+    <respuestas>
+      <correcta>Saiyajin</correcta>
+      <incorrecta>Humà</incorrecta>
+      <incorrecta>Androide</incorrecta>
+      <incorrecta>Namekiano</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>A quin monestir van ser enterrats Jaume I el Conqueridor i set monarques més?</texto>
+    <respuestas>
+      <correcta>Reial Monestir de Santa Maria de Poblet</correcta>
+      <incorrecta>Reial Monestir de Santes Creus</incorrecta>
+      <incorrecta>Monestir de Santa Maria de Ripoll</incorrecta>
+      <incorrecta>Monestir de Montserrat</incorrecta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <texto>A quin any es va fundar el Barça?</texto>
+    <respuestas>
+      <correcta>1899</correcta>
+      <incorrecta>1783</incorrecta>
+      <incorrecta>1852</incorrecta>
+      <incorrecta>1756</incorrecta>
+    </respuestas>
+  </pregunta>
+   <pregunta>
+        <texto>¿Qué juego de Wii trata sobre deportes?</texto>
+        <respuestas>
+            <correcta>Wii Sports</correcta>
+            <incorrecta>Super Mario 64</incorrecta>
+            <incorrecta>Tetris DS</incorrecta>
+            <incorrecta>Cthulhu Saves the World: Super Hyper Enhanced Championship Edition Alpha Diamond DX Plus Alpha FES HD Premium Enhanced Game of the Year Collector's Edition (without Avatars!)</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuál de estos es un nombre real de un lugar del mundo?</texto>
+        <respuestas>
+            <correcta>Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch</correcta>
+            <incorrecta>Musulmania</incorrecta>
+            <incorrecta>Islamistán</incorrecta>
+            <incorrecta>Kostenlosestelefonkaufen</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿En qué estado se encuentra Massachusetts?</texto>
+        <respuestas>
+            <correcta>Massachusetts es un estado</correcta>
+            <incorrecta>En Florida</incorrecta>
+            <incorrecta>En Dakota del Norte</incorrecta>
+            <incorrecta>En Dakota del Sur</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuáles son los tres estados principales de la materia?</texto>
+        <respuestas>
+            <correcta>Sólido, líquido y gaseoso</correcta>
+            <incorrecta>Sólido, efímero y gaseoso</incorrecta>
+            <incorrecta>Efímero, lúcido e islámico</incorrecta>
+            <incorrecta>La UF1, UF2 y UF3 de la materia M05</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Qué significan las siglas de USB?</texto>
+        <respuestas>
+            <correcta>Universal Serial Bus</correcta>
+            <incorrecta>Ultimate Standalone Bus</incorrecta>
+            <incorrecta>Unusually Sexual Breastfeeding</incorrecta>
+            <incorrecta>Ultimate Salad Breakfast</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>El padre de Juan tiene 4 hijos. Uno se llama Ernesto, el segundo Raymundo y el tercero Efímero. ¿Cómo se llama el cuarto hijo?</texto>
+        <respuestas>
+            <correcta>Juan</correcta>
+            <incorrecta>Pablo</incorrecta>
+            <incorrecta>Wolfgang Amadeus Mozart</incorrecta>
+            <incorrecta>No se puede saber</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>En Dragon Ball, ¿Cuántas de las 7 esferas del dragón necesitas reunir para invocar a Shenlong?</texto>
+        <respuestas>
+            <correcta>7</correcta>
+            <incorrecta>4</incorrecta>
+            <incorrecta>Goku</incorrecta>
+            <incorrecta>8 por si acaso</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cómo se llama el protagonista de Avatar?</texto>
+        <respuestas>
+            <correcta>Jake Sully</correcta>
+            <incorrecta>Chop Suey</incorrecta>
+            <incorrecta>James Blowjob</incorrecta>
+            <incorrecta>Jack Blue</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Como norma general, ¿Cuántas veces puedes doblar una hoja de papel por la mitad?</texto>
+        <respuestas>
+            <correcta>7 veces</correcta>
+            <incorrecta>4 veces</incorrecta>
+            <incorrecta>12 veces</incorrecta>
+            <incorrecta>Más de 12 veces</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuál de estos es un nombre de pez real?</texto>
+        <respuestas>
+            <correcta>Wahoo</correcta>
+            <incorrecta>El comepiedras volador</incorrecta>
+            <incorrecta>Webos</incorrecta>
+            <incorrecta>Chapaluca</incorrecta>
+        </respuestas>
+    </pregunta>
+   <pregunta>
+      <texto> Qué año murió la Reina Isabel II:</texto>
+      <respuestas>
+        <correcta>2022</correcta>
+        <incorrecta>1939</incorrecta>
+        <incorrecta>2021</incorrecta>
+        <incorrecta>No ha muerto, es un reptiliano</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Donde está ubicado el instituto Jaume Huguet?</texto>
+      <respuestas>
+        <correcta>Valls</correcta>
+        <incorrecta>Tarragona</incorrecta>
+        <incorrecta>Afganistan</incorrecta>
+        <incorrecta>Alcover</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cuál es el videojuego más vendido de la historia?</texto>
+      <respuestas>
+        <correcta>Minecraft</correcta>
+        <incorrecta>Tetris</incorrecta>
+        <incorrecta>Grand Theft Auto V</incorrecta>
+        <incorrecta>Wii Sports</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Qué elemento de la tabla periódica tiene como símbolo He?</texto>
+      <respuestas>
+        <correcta>Helio</correcta>
+        <incorrecta>Oxígeno</incorrecta>
+        <incorrecta>Oro</incorrecta>
+        <incorrecta>Ese elemento no existe</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cuál es el órgano más grande del ser humano?</texto>
+      <respuestas>
+        <correcta>La piel</correcta>
+        <incorrecta>El hígado</incorrecta>
+        <incorrecta>El cerebro</incorrecta>
+        <incorrecta>El intestino delgado</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Qué significa "Google"?</texto>
+      <respuestas>
+        <correcta>Es el número 10 elevado a la potencia de 100</correcta>
+        <incorrecta>Se refiere a la palabra gafas</incorrecta>
+        <incorrecta>No tiene significado</incorrecta>
+        <incorrecta>En honor a su creador</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>¿Cual es el país mas endeudado de Europa?</texto>
+      <respuestas>
+        <correcta>España</correcta>
+        <incorrecta>Italia</incorrecta>
+        <incorrecta>Alemania</incorrecta>
+        <incorrecta>Países Bajos</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>Cuantas combinaciones se puede hacer con un cubo de rubik de 3x3?</texto>
+      <respuestas>
+        <correcta>43.252.003.274.489.856.000</correcta>
+        <incorrecta>324.234</incorrecta>
+        <incorrecta>564.345.312.006</incorrecta>
+        <incorrecta>10</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>En que año salio Android?</texto>
+      <respuestas>
+        <correcta>2003</correcta>
+        <incorrecta>2069</incorrecta>
+        <incorrecta>2011</incorrecta>
+        <incorrecta>1680</incorrecta>
+      </respuestas>
+    </pregunta>
+    <pregunta>
+      <texto>Quien fundó Twitter?</texto>
+      <respuestas>
+        <correcta>Jack Dorsey</correcta>
+        <incorrecta>Elon Musk</incorrecta>
+        <incorrecta>Steve Jobs</incorrecta>
+        <incorrecta>Jeff Bezos</incorrecta>
+      </respuestas>
+    </pregunta>
+   <pregunta>
+        <texto>¿A que grado de FP responden las siglas CAI?</texto>
+        <respuestas>
+            <correcta>Cuidados Auxiliares d'Infermeria</correcta>
+            <incorrecta>Cultura Anti Inmigrantes</incorrecta>
+            <incorrecta>Cancer Avanzado Incurable</incorrecta>
+            <incorrecta>Calvicie Alopecica Incurable</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿De que color es el caballo Blanco de Santiago?</texto>
+        <respuestas>
+            <correcta>Blanco</correcta>
+            <incorrecta>Negro</incorrecta>
+            <incorrecta>Rojo</incorrecta>
+            <incorrecta>Amarrillo</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Si recorro 2 metros hacia el sud, 2 metros hacia al este, 2 metros hacia el norte, y me encuentro en el sitio inicial. ¿Donde estoy?</texto>
+        <respuestas>
+            <correcta>Polo Norte</correcta>
+            <incorrecta>Murcia</incorrecta>
+            <incorrecta>La olla de la feria del pueblo</incorrecta>
+            <incorrecta>En alguna fiesta mayor</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuales són los materiales minimos necesarios para hacer un portal al nether (minecraft)?</texto>
+        <respuestas>
+            <correcta>10 obsidiana + 1 lingote de hierro + 1 de pedernal</correcta>
+            <incorrecta>14 obsidianas + 1 lingote de hierro + 1 de pedernal</incorrecta>
+            <incorrecta>12 perlas de end</incorrecta>
+            <incorrecta>besar un creeper cerca de tu casa</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿En que tipo de triangulo se basa la aplicacion del teorema de pitagoras?</texto>
+        <respuestas>
+            <correcta>triangulo rectangulo</correcta>
+            <incorrecta>triangulo equilatero</incorrecta>
+            <incorrecta>triangulo isosceles</incorrecta>
+            <incorrecta>triangulo escaleno</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Si juntas amarillo y azul. ¿Que color sale?</texto>
+        <respuestas>
+            <correcta>Verde</correcta>
+            <incorrecta>Rojo</incorrecta>
+            <incorrecta>Lila</incorrecta>
+            <incorrecta>Purpura</incorrecta>
+        </respuestas>
+    </pregunta>
+	<pregunta>
+		<texto>Cual es el libro mas vendido de la historia</texto>
+		<respuestas>
+			<correcta>La biblia</correcta>
+			<incorrecta>Don Quijote de la Mancha</incorrecta>
+			<incorrecta>Citas del Presidente Mao Tse-Tung</incorrecta>
+			<incorrecta>Harry Potter</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuántos litros de sangre tiene una persona adulta</texto>
+		<respuestas>
+			<correcta>Tiene entre 4 y 6 litros</correcta>
+			<incorrecta>Tiene entre 2 y 4 litros</incorrecta>
+			<incorrecta>Tiene 7 litros</incorrecta>
+			<incorrecta>Tiene 9 litros</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>A que país pertenece Gibraltar</texto>
+		<respuestas>
+			<correcta>Reino Unido</correcta>
+			<incorrecta>España</incorrecta>
+			<incorrecta>Portugal</incorrecta>
+			<incorrecta>Marruecos</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cual el pais mas poblado del mundo</texto>
+		<respuestas>
+			<correcta>China</correcta>
+			<incorrecta>India</incorrecta>
+			<incorrecta>Estados Unidos</incorrecta>
+			<incorrecta>Pakistan</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Quién pintó la bóveda de la capilla sixtina</texto>
+		<respuestas>
+			<correcta>Miguel Angel</correcta>
+			<incorrecta>Leonardo da Vinci</incorrecta>
+			<incorrecta>Rafael</incorrecta>
+			<incorrecta>Donatello</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Con que nombre se fundó el municipio de Valls</texto>
+		<respuestas>
+			<correcta>Vilar-Gros</correcta>
+			<incorrecta>Rocabruna</incorrecta>
+			<incorrecta>La Vall</incorrecta>
+			<incorrecta>Vilavall</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuántos decimales tiene el número pi</texto>
+		<respuestas>
+			<correcta>Infinitos</correcta>
+			<incorrecta>2</incorrecta>
+			<incorrecta>100</incorrecta>
+			<incorrecta>1000</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuántos jugadores pueden participar por equipo en el basquetbol?</texto>
+		<respuestas>
+			<correcta>5</correcta>
+			<incorrecta>4</incorrecta>
+			<incorrecta>6</incorrecta>
+			<incorrecta>7</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuál es el planeta más grande del sistema solar?</texto>
+		<respuestas>
+			<correcta>Jupiter</correcta>
+			<incorrecta>Saturno</incorrecta>
+			<incorrecta>Urano</incorrecta>
+			<incorrecta>Neptuno</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Marca la respuesta correcta de la siguiente operacion matematica: 3x(1+1+1+1)</texto>
+		<respuestas>
+			<correcta>12</correcta>
+			<incorrecta>1</incorrecta>
+			<incorrecta>3</incorrecta>
+			<incorrecta>4</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+        <texto>En quin any es va crear el primer Smartphone?</texto>
+        <respuestas>
+            <correcta>1999</correcta>
+            <incorrecta>2007</incorrecta>
+            <incorrecta>2004</incorrecta>
+            <incorrecta>1997</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Qui va crear la formula E=mc²?</texto>
+        <respuestas>
+            <correcta>Albert Einstein</correcta>
+            <incorrecta>Isaac Newton</incorrecta>
+            <incorrecta>Arquimedes</incorrecta>
+            <incorrecta>Niels Bohr</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Com es diu el primer àlbum de Kanye West?</texto>
+        <respuestas>
+            <correcta>The College Dropout</correcta>
+            <incorrecta>Graduation</incorrecta>
+            <incorrecta>My Beautiful Dark Twisted Fantasy</incorrecta>
+            <incorrecta>Jesus Is King</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Sobre quants paisos passa el riu més llarg del món</texto>
+        <respuestas>
+            <correcta>11</correcta>
+            <incorrecta>9</incorrecta>
+            <incorrecta>4</incorrecta>
+            <incorrecta>7</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quantes Champions té el Recreativo de Huelva</texto>
+        <respuestas>
+            <correcta>0</correcta>
+            <incorrecta>2</incorrecta>
+            <incorrecta>1</incorrecta>
+            <incorrecta>4</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Qui va pintar la Mona Lisa?</texto>
+        <respuestas>
+            <correcta>Leonardo Da Vinci</correcta>
+            <incorrecta>Karl Marx</incorrecta>
+            <incorrecta>Adolf Hitler</incorrecta>
+            <incorrecta>Pablo Picasso</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quina és la formula per a calcular el radi d'una circunferència?</texto>
+        <respuestas>
+            <correcta>Perimetre / 2π</correcta>
+            <incorrecta>(Base * Altura) / 2</incorrecta>
+            <incorrecta>(Sin * Cos) / Tan</incorrecta>
+            <incorrecta>4πr²</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>En quin any es va publicar la pel·licula "Titanic"?</texto>
+        <respuestas>
+            <correcta>1998</correcta>
+            <incorrecta>2001</incorrecta>
+            <incorrecta>1995</incorrecta>
+            <incorrecta>1996</incorrecta>
+        </respuestas>
+    </pregunta>
+      <pregunta>
+              <texto>¿Cual era la moneda que se usaba en España antes del Euro?</texto>
+              <respuestas>
+                    <correcta>Peseta</correcta>
+                    <incorrecta>Dolar</incorrecta>
+                    <incorrecta>Ling</incorrecta>
+                    <incorrecta>Libra</incorrecta>
+              </respuestas>
+      </pregunta>
+      <pregunta>
+              <texto>¿Como se llama la crisis del 1929?</texto>
+              <respuestas>
+                    <correcta>El Crack del 29</correcta>
+                    <incorrecta>La Gran Crisis</incorrecta>
+                    <incorrecta>El Año de la Seca</incorrecta>
+                    <incorrecta>Viladrau</incorrecta>
+              </respuestas>
+      </pregunta>
+      <pregunta>
+              <texto>¿De donde proviene la lengua del Castellano?</texto>
+              <respuestas>
+                    <correcta>Latin</correcta>
+                    <incorrecta>Español</incorrecta>
+                    <incorrecta>Valenciano</incorrecta>
+                    <incorrecta>Ingles</incorrecta>
+              </respuestas>
+      </pregunta>
+      <pregunta>
+              <texto>¿Quien dijo  " Solo se que no se nada" ?</texto>
+              <respuestas>
+                    <correcta>Socrates</correcta>
+                    <incorrecta>Napoleón</incorrecta>
+                    <incorrecta>Kanye West</incorrecta>
+                    <incorrecta>Ladybug</incorrecta>
+              </respuestas>
+      </pregunta>
+      <pregunta>
+              <texto>¿A que velocidad viaja la luz?</texto>
+              <respuestas>
+                    <correcta>300.000  Km/s</correcta>
+                    <incorrecta>300.000 M/s</incorrecta>
+                    <incorrecta>300.000 Km/m</incorrecta>
+                    <incorrecta>300.000 Km/h</incorrecta>
+              </respuestas>
+      </pregunta>
+      <pregunta>
+              <texto>¿Cual es nombre del perro de Tintin?</texto>
+              <respuestas>
+                    <correcta>Milu</correcta>
+                    <incorrecta>Tinta</incorrecta>
+                    <incorrecta>Borrador</incorrecta>
+                    <incorrecta>Rantamplan</incorrecta>
+              </respuestas>
+      </pregunta>
+      <pregunta>
+              <texto>¿Como se llamaba el cantante de QUEEN?</texto>
+              <respuestas>
+                    <correcta>Freddie Mercury</correcta>
+                    <incorrecta>Bon Jovi</incorrecta>
+                    <incorrecta>Lady Gaga</incorrecta>
+                    <incorrecta>Harry Potter</incorrecta>
+              </respuestas>
+      </pregunta>
+      
+	<pregunta>
+		<texto>¿Que usan los mudos para comunicarse?</texto>
+		<respuestas>
+			<correcta>Lenguaje de Signos</correcta>
+			<incorrecta>Código Morse</incorrecta>
+			<incorrecta>Lenguaje Java</incorrecta>
+			<incorrecta>Su idioma nativo</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quién creó la teoria de la información de Shannon?</texto>
+		<respuestas>
+			<correcta>Claude E. Shannon</correcta>
+			<incorrecta>Warren Weaver</incorrecta>
+			<incorrecta>Alber Einstein</incorrecta>
+			<incorrecta>Nikola Tesla</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál es el animal mas letal?</texto>
+		<respuestas>
+			<correcta>Avispa de mar</correcta>
+			<incorrecta>Pez Globo</incorrecta>
+			<incorrecta>Pulpo</incorrecta>
+			<incorrecta>Pez Payaso</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Que significan las siglas de CIA?</texto>
+		<respuestas>
+			<correcta>Central Intelligence Agency</correcta>
+			<incorrecta>Cocaine Importers of America</incorrecta>
+			<incorrecta>Club Inventado Anónimo</incorrecta>
+			<incorrecta>Centro Izquierda Arriba</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quién era 'El Sombrerero?</texto>
+		<respuestas>
+			<correcta>Un Personaje del libro "Alicia en el pais de las maravillas"</correcta>
+			<incorrecta>Un Artesano de Sombreros</incorrecta>
+			<incorrecta>Johnny Depp</incorrecta>
+			<incorrecta>El Gerente de un Hotel, de nombre 'La Playa'</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿El fuego quema?</texto>
+		<respuestas>
+			<correcta>Sí</correcta>
+			<incorrecta>No</incorrecta>
+			<incorrecta>Solo emite luz</incorrecta>
+			<incorrecta>Emite luz y calor</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Que es Bangkok?</texto>
+		<respuestas>
+			<correcta>Una Ciudad</correcta>
+			<incorrecta>Un Pintor</incorrecta>
+			<incorrecta>No existe</incorrecta>
+			<incorrecta>Una Maquina</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quién pintó "La última cena"?</texto>
+		<respuestas>
+			<correcta>Leonardo Da Vinci</correcta>
+			<incorrecta>Donatello</incorrecta>
+			<incorrecta>Rafael</incorrecta>
+			<incorrecta>Michelangelo</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿En que planeta vivimos?</texto>
+		<respuestas>
+			<correcta>La Tierra</correcta>
+			<incorrecta>Urano</incorrecta>
+			<incorrecta>Saturno</incorrecta>
+			<incorrecta>Mercurio</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿En qué año se estrenó la primera película de Iron Man, que lanzó el Marvel Cinematic Universe?</texto>
+			<respuestas>
+				<correcta>2008</correcta>
+				<incorrecta>2005</incorrecta>
+				<incorrecta>2010</incorrecta>
+				<incorrecta>2012</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cómo se llama el martillo de Thor?</texto>
+			<respuestas>
+				<correcta>Mjolnir</correcta>
+				<incorrecta>Vanir</incorrecta>
+				<incorrecta>Aesir</incorrecta>
+				<incorrecta>Norn</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>En The Incredible Hulk, ¿qué le dice Tony a Thaddeus Ross al final de la película?</texto>
+			<respuestas>
+				<correcta>Que están formando un equipo</correcta>
+				<incorrecta>Que quiere estudiar The Hulk</incorrecta>
+				<incorrecta>Que él sabe sobre SHIELD</incorrecta>
+				<incorrecta>Que Thaddeus le debe dinero</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿De qué está hecho el escudo del Capitán América?</texto>
+			<respuestas>
+				<correcta>Vibranio</correcta>
+				<incorrecta>Adamantium</incorrecta>
+				<incorrecta>prometeo</incorrecta>
+				<incorrecta>Carbonadio</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Los Flerkens son una raza de alienígenas extremadamente peligrosos que se parece a qué.</texto>
+			<respuestas>
+				<correcta>Gatos</correcta>
+				<incorrecta>Patos</incorrecta>
+				<incorrecta>reptiles</incorrecta>
+				<incorrecta>Mapaches</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Antes de convertirse en Visión, ¿cómo se llama el mayordomo de inteligencia artificial de Iron Man?</texto>
+			<respuestas>
+				<correcta>JARVIS</correcta>
+				<incorrecta>HOMERO</incorrecta>
+				<incorrecta>ALFREDO</incorrecta>
+				<incorrecta>MARVIN</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál es el verdadero nombre de la Pantera Negra?</texto>
+			<respuestas>
+				<correcta>T'Challa</correcta>
+				<incorrecta>M'Baku</incorrecta>
+				<incorrecta>N'Jadaka</incorrecta>
+				<incorrecta>N'Jobu</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuál es la raza alienígena que Loki envía para invadir la Tierra en The Avengers?</texto>
+			<respuestas>
+				<correcta>El chitauri</correcta>
+				<incorrecta>Los skrulls</incorrecta>
+				<incorrecta>El kree</incorrecta>
+				<incorrecta>Los flerkens</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Quién fue el último titular de la Piedra espacial antes de que Thanos lo reclame por su Infinity Gauntlet?</texto>
+			<respuestas>
+				<correcta>Loki</correcta>
+				<incorrecta>Thor</incorrecta>
+				<incorrecta>El coleccionista</incorrecta>
+				<incorrecta>Tony Stark</incorrecta>
+			</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Qué nombre falso usa Natasha cuando conoce a Tony por primera vez?</texto>
+			<respuestas>
+				<correcta>Natalie Rushman</correcta>
+				<incorrecta>Natalia Romanoff</incorrecta>
+				<incorrecta>nicole rohan</incorrecta>
+				<incorrecta>naya rabe</incorrecta>
+			</respuestas>
+	</pregunta>
+   <pregunta>
+        <texto>De que raza es Son Goku?</texto>
+        <respuestas>
+            <correcta>Saiyajin</correcta>
+            <incorrecta>Namekiano</incorrecta>
+            <incorrecta>Androide</incorrecta>
+            <incorrecta>Humano</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Cual es el primer hijo de Son Goku?</texto>
+        <respuestas>
+            <correcta>Gohan</correcta>
+            <incorrecta>Goten</incorrecta>
+            <incorrecta>Trunks</incorrecta>
+            <incorrecta>Pan</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Como se llama el dragon del planeta Namek?</texto>
+        <respuestas>
+            <correcta>Polunga</correcta>
+            <incorrecta>Shenlong</incorrecta>
+            <incorrecta>Shenlong Maligno</incorrecta>
+            <incorrecta>Super Shenlong</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Como se llama la mujer de Vegeta?</texto>
+        <respuestas>
+            <correcta>Bulma</correcta>
+            <incorrecta>Chi-Chi</incorrecta>
+            <incorrecta>Androide 18</incorrecta>
+            <incorrecta>Uranai Baba</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Con que tranformacion derroto Gohan a Cell?</texto>
+        <respuestas>
+            <correcta>Super Saiyajin 2</correcta>
+            <incorrecta>Super Saiyajin 4</incorrecta>
+            <incorrecta>Kaioken</incorrecta>
+            <incorrecta>Ultra Instinto Dominado</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quien mato a Raditz?</texto>
+        <respuestas>
+            <correcta>Piccolo</correcta>
+            <incorrecta>Son Goku</incorrecta>
+            <incorrecta>Yamcha</incorrecta>
+            <incorrecta>Ten Shin-Han</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>En que universo pertenece Son Goku?</texto>
+        <respuestas>
+            <correcta>Universo 7</correcta>
+            <incorrecta>Universo 6</incorrecta>
+            <incorrecta>Universo 11</incorrecta>
+            <incorrecta>Universo 4</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quien gano el torneo del poder?</texto>
+        <respuestas>
+            <correcta>Androide 17</correcta>
+            <incorrecta>Jiren</incorrecta>
+            <incorrecta>Son Goku</incorrecta>
+            <incorrecta>Maestro Roshi</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quien es el Super Saiyajin Legendario?</texto>
+        <respuestas>
+            <correcta>Broly</correcta>
+            <incorrecta>Bardock</incorrecta>
+            <incorrecta>Rey Vegeta</incorrecta>
+            <incorrecta>Paragus</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>Quien destruyo el planeta Vegeta?</texto>
+        <respuestas>
+            <correcta>Freezer</correcta>
+            <incorrecta>Majin Boo</incorrecta>
+            <incorrecta>Lord Bills</incorrecta>
+            <incorrecta>Omega Shenron</incorrecta>
+        </respuestas>
+    </pregunta>
+   <pregunta>
+        <texto>¿MVP NBA Finals 2016?</texto>
+        <respuestas>
+            <correcta>Lebron James</correcta>
+            <incorrecta>Stephen Curry</incorrecta>
+            <incorrecta>Kevin Durant</incorrecta>
+            <incorrecta>Kyrie Irving</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Quien era el presidente de ESPAÑA en el año 2010?</texto>
+        <respuestas>
+			<correcta>José Luis Rodríguez Zapatero</correcta>
+            <incorrecta>José María Aznar</incorrecta>
+            <incorrecta>Mariano Rajoy Brey</incorrecta>
+            <incorrecta>Carles Puigdemont</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Quien gano el Mundial del 2010 que se jugo en Sud Africa?</texto>
+        <respuestas>
+			<correcta>España</correcta>
+            <incorrecta>Francia</incorrecta>
+            <incorrecta>Holanda</incorrecta>
+            <incorrecta>Italia</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cual a sido la pelicula mas taquillera de la historia?</texto>
+        <respuestas>
+            <correcta>Avatar</correcta>
+            <incorrecta>Avengers:End Game</incorrecta>
+            <incorrecta>Avengers: Infinity War</incorrecta>
+            <incorrecta>Titanic</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Que años fue la segunda guerra mundial?</texto>
+        <respuestas>
+			<correcta>1939-1945</correcta>
+            <incorrecta>1910-1920</incorrecta>
+            <incorrecta>1943-1950</incorrecta>
+            <incorrecta>1920-1925</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Dónde se encuentra la Sagrada Familia?</texto>
+        <respuestas>
+            <correcta>Barcelona</correcta>
+            <incorrecta>Madrid</incorrecta>
+            <incorrecta>Pamlpona</incorrecta>
+            <incorrecta>Sevilla</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿En qué año viajó al espacio el primer ser humano?</texto>
+        <respuestas>
+            <correcta>1961</correcta>
+            <incorrecta>1950</incorrecta>
+            <incorrecta>1967</incorrecta>
+            <incorrecta>1958</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuál es el río más largo del mundo?</texto>
+        <respuestas>
+			<correcta>Nilo</correcta>
+            <incorrecta>Congo</incorrecta>
+            <incorrecta>Ebro</incorrecta>            
+            <incorrecta>Amazonas</incorrecta>
+        </respuestas>
+    </pregunta>
+    <pregunta>
+        <texto>¿Cuál es la montaña más alta del planeta?</texto>
+        <respuestas>
+			<correcta>Everest</correcta>
+            <incorrecta>Kangchenjunga</incorrecta>            
+            <incorrecta>Miramar</incorrecta>
+            <incorrecta>Manaslu</incorrecta>
+        </respuestas>
+    </pregunta> 
+   	<pregunta>
+		<texto>Qué nota musical hay entre re y fa?</texto>
+		<respuestas>
+			<correcta>Mi</correcta>
+			<incorrecta>Do</incorrecta>
+			<incorrecta>Sol</incorrecta>
+			<incorrecta>Fa</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuál es el río más largo de España?</texto>
+		<respuestas>
+			<correcta>Ebro</correcta>
+			<incorrecta>Tajo</incorrecta>
+			<incorrecta>Guadiana</incorrecta>
+			<incorrecta>Segura</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Cuál es la ciudad anfitriona de las Olimpiadas de 2020?</texto>
+		<respuestas>
+			<correcta>Tokio</correcta>
+			<incorrecta>Japón</incorrecta>
+			<incorrecta>Estados Unidos</incorrecta>
+			<incorrecta>Buenos aires</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Dónde nació Rafael Nadal?</texto>
+		<respuestas>
+			<correcta>España</correcta>
+			<incorrecta>Africa</incorrecta>
+			<incorrecta>Alemania</incorrecta>
+			<incorrecta>Noruega</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>Com s'anomena el text on apareix el nom d'usuari en una terminal?</texto>
+		<respuestas>
+			<correcta>Prompt</correcta>
+			<incorrecta>Bash</incorrecta>
+			<incorrecta>Shell</incorrecta>
+			<incorrecta>Zsh</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>Com s'anomena la part del desenvolupament que es centra interfícies i la part gràfica?</texto>
+		<respuestas>
+			<correcta>UX/UI</correcta>
+			<incorrecta>Backend</incorrecta>
+			<incorrecta>Frontend</incorrecta>
+			<incorrecta>Devops</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>Quants patrimonis de la humanitat té Espanya?</texto>
+		<respuestas>
+			<correcta>49</correcta>
+			<incorrecta>33</incorrecta>
+			<incorrecta>12</incorrecta>
+			<incorrecta>65</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>Què significa URL?</texto>
+		<respuestas>
+			<correcta>Uniform Resource Locator</correcta>
+			<incorrecta>Uniform Roll Landing</incorrecta>
+			<incorrecta>Under Real Laziness</incorrecta>
+			<incorrecta>Uniform Rescue Leader</incorrecta>
+		</respuestas>
+	</pregunta> 
+    <pregunta>
+		<texto>¿En qué país se encuentra el estadio de Wembley?</texto>
+		<respuestas>
+			<correcta>Inglaterra</correcta>
+			<incorrecta>España</incorrecta>
+			<incorrecta>Australia</incorrecta>
+			<incorrecta>Mozambique</incorrecta>
+		</respuestas>
+	</pregunta>
+	<pregunta>
+		<texto>¿Cuántos corazones tienen los pulpos?</texto>
+		<respuestas>
+			<correcta>3</correcta>
+			<incorrecta>5</incorrecta>
+			<incorrecta>2</incorrecta>
+			<incorrecta>4</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>¿Cuál es el continente más pequeño en extensión?</texto>
+		<respuestas>
+			<correcta>Oceania</correcta>
+			<incorrecta>Amarica</incorrecta>
+			<incorrecta>Africa</incorrecta>
+			<incorrecta>Asia</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>¿Quién fue Magic Johnson?</texto>
+		<respuestas>
+			<correcta>Un Jugador de Baloncesto</correcta>
+			<incorrecta>Un Jugador de Futbol</incorrecta>
+			<incorrecta>Un Narcotraficante</incorrecta>
+			<incorrecta>Un Jugador de Padel</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>¿En qué año se aprobó la actual Constitución española?</texto>
+		<respuestas>
+			<correcta>En 1978</correcta>
+			<incorrecta>En 1972</incorrecta>
+			<incorrecta>En 1974</incorrecta>
+			<incorrecta>En 1899</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>¿Cuántos años tiene un lustro?</texto>
+		<respuestas>
+			<correcta>5</correcta>
+			<incorrecta>8</incorrecta>
+			<incorrecta>500</incorrecta>
+			<incorrecta>10</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>¿Cuál es la capital de Croacia?</texto>
+		<respuestas>
+			<correcta>Zagreb</correcta>
+			<incorrecta>Praga</incorrecta>
+			<incorrecta>Bogota</incorrecta>
+			<incorrecta>Dinamo</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>¿Quién traicionó a Jesús?</texto>
+		<respuestas>
+			<correcta>Judas</correcta>
+			<incorrecta>Alberto</incorrecta>
+			<incorrecta>Pedro</incorrecta>
+			<incorrecta>Cain</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto> Si 50 es el 100%, ¿cuánto es el 90%?</texto>
+		<respuestas>
+			<correcta>45%</correcta>
+			<incorrecta>35%</incorrecta>
+			<incorrecta>25%</incorrecta>
+			<incorrecta>10%</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>¿Quién pintó “la última cena”?</texto>
+		<respuestas>
+			<correcta>Leonardo da Vinci</correcta>
+			<incorrecta>Miguel Angel</incorrecta>
+			<incorrecta>Dante Aligieri</incorrecta>
+			<incorrecta>Picasso</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>¿Quién escribió La Odisea?</texto>
+		<respuestas>
+			<correcta>Homero</correcta>
+			<incorrecta>Dante</incorrecta>
+			<incorrecta>J.K Rowlin</incorrecta>
+			<incorrecta>Picasso</incorrecta>
+		</respuestas>
+	</pregunta>
+    <pregunta>
+		<texto>¿Quién forma parte de la tripulacion de Luffy?</texto>
+		<respuestas>
+			<correcta>Sanji</correcta>
+			<incorrecta>Kaido</incorrecta>
+			<incorrecta>Shanks</incorrecta>
+			<incorrecta>Crocodile</incorrecta>
+		</respuestas>
+	</pregunta>
+</preguntas> 
