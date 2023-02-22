@@ -10,8 +10,11 @@ public class TrivialMain {
 //		TrivialClass trivial = new TrivialClass();
 //		trivial.setVisible(true);
 		
-		PantallaInicio inicio = new PantallaInicio();
-		inicio.setVisible(true);
+//		PantallaInicio inicio = new PantallaInicio();
+//		inicio.setVisible(true);
+		
+		FiDeJoc fi = new  FiDeJoc();
+		fi.setVisible(true);
 	}
   
 }

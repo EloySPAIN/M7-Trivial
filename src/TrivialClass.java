@@ -27,7 +27,6 @@ import javax.swing.border.Border;
 public class TrivialClass extends JFrame {
 	private int turno = 0, posicionJugador1 = 0, posicionJugador2 = 0, puntuacionJugador1 = 0, puntuacionJugador2 = 0;
 	private String nombreJugador1 = "", nombreJugador2 = "";
-	private JLabel labelNombre1 = new JLabel(nombreJugador2);
 	private JPanel tablero = new JPanel();
 	private BufferedImage jugador1 = null;
 	private BufferedImage jugador2 = null;
@@ -40,7 +39,7 @@ public class TrivialClass extends JFrame {
 	private JLabel imagenesJugador1[] = new JLabel[8];
 	private JLabel imagenesJugador2[] = new JLabel[8];
 
-	private JLabel textoJugador = new JLabel(" Jugador: " + labelNombre1.getText().toString());
+	private JLabel textoJugador = new JLabel(" Jugador: " + nombreJugador2);
 	private JLabel textoTurno = new JLabel("Turno: " + turno);
 	private JLabel textoPuntuacion = new JLabel("Puntuacion: " + nombreJugador1 + ": " + puntuacionJugador1 + " vs "
 			+ nombreJugador2 + ": " + puntuacionJugador2);
@@ -104,7 +103,6 @@ public class TrivialClass extends JFrame {
 
 		JPanel panelTextoJugador = new JPanel();
 		panelTextoJugador.setBackground(Color.decode("#CDFA4A"));
-		panelTextoJugador.repaint();
 
 		Border borde = BorderFactory.createLineBorder(Color.black);
 		panelTextoJugador.setLayout(new GridBagLayout());

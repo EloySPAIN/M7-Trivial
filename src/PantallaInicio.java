@@ -23,6 +23,7 @@ public class PantallaInicio extends JFrame {
 	private JLabel tituloJugador1 = new JLabel("Nombre Jugador 1");
 	private JLabel tituloJugador2 = new JLabel("Nombre Jugador 2");
 	private JButton boton = new JButton("Empezar");
+	
 
 	public PantallaInicio() {
 
@@ -40,22 +41,22 @@ public class PantallaInicio extends JFrame {
 		GridBagConstraints posicionNombre1 = new GridBagConstraints();
 		posicionNombre1.gridx = 0;
 		posicionNombre1.gridy = 0;
-		posicionNombre1.insets = new Insets(10, 0, 0, 500);
+		posicionNombre1.insets = new Insets(45, 0, 0, 500);
 
 		GridBagConstraints posicionNombre2 = new GridBagConstraints();
 		posicionNombre2.gridx = 0;
 		posicionNombre2.gridy = 0;
-		posicionNombre2.insets = new Insets(10, 500, 0, 0);
+		posicionNombre2.insets = new Insets(45, 500, 0, 0);
 
 		GridBagConstraints posicionTituloNombre1 = new GridBagConstraints();
 		posicionTituloNombre1.gridx = 0;
 		posicionTituloNombre1.gridy = 0;
-		posicionTituloNombre1.insets = new Insets(0, 0, 40, 500);
+		posicionTituloNombre1.insets = new Insets(0, 0, 30, 500);
 
 		GridBagConstraints posicionTituloNombre2 = new GridBagConstraints();
 		posicionTituloNombre2.gridx = 0;
 		posicionTituloNombre2.gridy = 0;
-		posicionTituloNombre2.insets = new Insets(0, 500, 40, 0);
+		posicionTituloNombre2.insets = new Insets(0, 500, 30, 0);
 
 		GridBagConstraints posicionTitulo = new GridBagConstraints();
 		posicionTitulo.gridx = 0;
@@ -80,21 +81,21 @@ public class PantallaInicio extends JFrame {
 		panelTitulo.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 		panelTitulo.setBackground(Color.decode("#CDFA4A"));
 		
-		panelTituloJugador1.setPreferredSize(new Dimension(500, 40));
+		panelTituloJugador1.setPreferredSize(new Dimension(500, 30));
 		tituloJugador1.setFont(new Font("Sans-Serif", Font.BOLD, 18));
 		panelTituloJugador1.setBackground(Color.decode("#CDFA4A"));
 		
-		panelTituloJugador2.setPreferredSize(new Dimension(500, 40));
+		panelTituloJugador2.setPreferredSize(new Dimension(500, 30));
 		tituloJugador2.setFont(new Font("Sans-Serif", Font.BOLD, 18));
 		panelTituloJugador2.setBackground(Color.decode("#CDFA4A"));
 
 		panelJugador1.setBackground(Color.decode("#CDFA4A"));
-		panelJugador1.setPreferredSize(new Dimension(500, 40));
-//		nombre1.setFont(new Font("Sans-Serif", Font.ITALIC, 18));
+		panelJugador1.setPreferredSize(new Dimension(500, 45));
+		nombre1.setFont(new Font("Sans-Serif", Font.ITALIC, 17));
 		
 		panelJugador2.setBackground(Color.decode("#CDFA4A"));
-		panelJugador2.setPreferredSize(new Dimension(500, 40));
-//		nombre2.setFont(new Font("Sans-Serif", Font.ITALIC, 18));
+		panelJugador2.setPreferredSize(new Dimension(500, 45));
+		nombre2.setFont(new Font("Sans-Serif", Font.ITALIC, 17));
 		
 		boton.setPreferredSize(new Dimension(200, 50));
 		boton.setBackground(Color.decode("#CDFA4A"));
@@ -130,7 +131,6 @@ public class PantallaInicio extends JFrame {
 
 		public void test2() {
 			TrivialClass trivial = new TrivialClass();
-
 			trivial.setText1(nombre1.getText().toString());
 			trivial.setText2(nombre2.getText().toString());
 			trivial.setVisible(true);
